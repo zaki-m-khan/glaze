@@ -61,7 +61,7 @@ export function RankScatter({ points, compact = false, highlight = [] }: { point
             rank by Clay traffic →
           </text>
           <text x={12} y={height / 2} textAnchor="middle" transform={`rotate(-90 12 ${height / 2})`} style={{ ...ink3, fontSize: 9 }}>
-            rank by Tranco →
+            public rank →
           </text>
         </>
       )}
@@ -95,7 +95,7 @@ export function CostStrip({ costs, labels }: { costs: number[]; labels: string[]
         0
       </text>
       <text x={x(median)} y="50" textAnchor="middle" style={{ ...ink3, fontSize: 9 }}>
-        median {median}
+        typical {median}
       </text>
       <text x={width - 10} y="50" textAnchor="end" style={{ ...ink3, fontSize: 9 }}>
         {max} credits

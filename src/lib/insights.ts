@@ -10,7 +10,7 @@ export function findings(run: RunRecord): string[] {
   const m = run.metrics;
   const truth = m.truth;
 
-  if (m.failed > 0) out.push(`${m.failed} of ${m.rows} rows failed in Clay.`);
+  if (m.failed > 0) out.push(`Clay returned an error for ${m.failed} of ${m.rows} companies.`);
 
   if (truth?.kind === "html-signatures") {
     const misses = run.rows.flatMap((r) =>
@@ -21,24 +21,22 @@ export function findings(run: RunRecord): string[] {
     const scored = truth.scoredDomains;
     out.push(
       misses.length === 0
-        ? `Clay listed every technology Glaze detected on all ${scored} verifiable sites.`
-        : `Clay listed every technology Glaze detected on ${scored - misses.length} of ${scored} verifiable sites (missed ${misses.join("; ")}).`,
+        ? `It found every tool we saw, on all ${scored} sites.`
+        : `It found every tool we saw on ${scored - misses.length} of ${scored} sites. Missed: ${misses.join("; ")}.`,
     );
     const unconfirmed = [...truth.perTech].filter((t) => t.fp > 0).sort((a, b) => b.fp - a.fp).slice(0, 3);
     if (unconfirmed.length > 0) {
-      out.push(`Most-reported but not seen on the homepage: ${unconfirmed.map((t) => `${t.tech} (${t.fp} sites)`).join(", ")}. Likely from other pages, subdomains or history.`);
+      out.push(`Listed often, but not on the live site: ${unconfirmed.map((t) => `${t.tech} (${t.fp} sites)`).join(", ")}. Probably from other pages or the past.`);
     }
-    if (truth.unverifiable.length > 0) out.push(`Not scored (couldn't verify): ${truth.unverifiable.map((u) => u.domain).join(", ")}.`);
+    if (truth.unverifiable.length > 0) out.push(`Skipped ${truth.unverifiable.map((u) => u.domain).join(", ")}: the site blocked our browser.`);
   }
 
   if (truth?.kind === "tranco") {
     const top = truth.outliers[0];
-    if (top) {
-      out.push(`Biggest disagreement: ${top.domain} is #${top.clayPosition} by Clay traffic but #${top.trancoPosition} by Tranco among these ${truth.pairs}.`);
-    }
+    if (top) out.push(`Biggest mismatch: ${top.domain}. Clay ranks it #${top.clayPosition} of ${truth.pairs}; public data ranks it #${top.trancoPosition}.`);
     for (const domain of truth.unranked) {
       const value = run.rows.find((r) => r.domain === domain)?.result?.siteTraffic;
-      out.push(`${domain} is outside Tranco's top 1M${typeof value === "number" ? `; Clay reports ${value.toLocaleString("en-US")} visits` : ""}.`);
+      out.push(`${domain} is too small for the public top-1M list${typeof value === "number" ? `. Clay says ${value.toLocaleString("en-US")} visits` : ""}.`);
     }
   }
 
@@ -49,12 +47,13 @@ export function findings(run: RunRecord): string[] {
       failing.set(check.check, [...(failing.get(check.check) ?? []), row.domain]);
     }
   }
-  for (const [check, domains] of failing) out.push(`"${check}" failed on ${domains.length} row${domains.length === 1 ? "" : "s"}: ${domains.join(", ")}.`);
+  for (const [check, domains] of failing) out.push(`Failed "${check}": ${domains.join(", ")}.`);
 
   const costs = run.rows.flatMap((r) => (r.credits === undefined ? [] : [r.credits]));
   if (costs.length > 1 && Math.max(...costs) !== Math.min(...costs)) {
-    const mean = costs.reduce((s, c) => s + c, 0) / costs.length;
-    out.push(`Credits per row ranged ${Math.min(...costs)}–${Math.max(...costs)}: median ${percentile(costs, 50)}, mean ${mean.toFixed(2)}.`);
+    const max = Math.max(...costs);
+    const priciest = run.rows.filter((r) => r.credits === max).map((r) => r.domain);
+    out.push(`Cost per company ranged ${Math.min(...costs)} to ${max} credits (typical: ${percentile(costs, 50)}). Most expensive: ${priciest.join(", ")}.`);
   }
   return out;
 }

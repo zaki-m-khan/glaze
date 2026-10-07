@@ -2,110 +2,85 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { REPO_URL, demoPrUrl, spend } from "@/lib/data";
 
-export const metadata: Metadata = { title: "About" };
+export const metadata: Metadata = { title: "Why" };
 
-export default function About() {
+export default function Why() {
   const ledger = spend();
   const pr = demoPrUrl();
   return (
     <div className="prose">
-      <div className="eyebrow">About</div>
+      <Link href="/" className="backlink">
+        ← Home
+      </Link>
       <h1>Why test a Clay function?</h1>
-      <p className="lede">
-        GTM teams wire Clay functions into tables, workflows and agents, and then nobody tests them. When a provider&apos;s coverage drops, a waterfall
-        returns junk, or someone edits a Claygent prompt, the damage shows up weeks later as bounced emails, bad routing and wasted credits.
+      <p className="pull">Because a function can quietly start giving bad answers, and nobody looks until it costs money.</p>
+
+      <h2>The problem</h2>
+      <p>
+        A Clay function is a reusable step, like &quot;find this company&apos;s funding.&quot; Teams plug one function into many tables, workflows and
+        AI agents.
       </p>
-      <p>Glaze treats a function like code: a fixed test set, checks that run on every change, and a diff against the last known-good run.</p>
+      <p>Then things change underneath it:</p>
+      <ul>
+        <li>A data provider gets worse or goes down.</li>
+        <li>Someone edits a prompt to fix one case and breaks five others.</li>
+        <li>A lookup starts costing more credits than it used to.</li>
+      </ul>
+      <p>
+        When a person looks at a table, they might spot it. When an agent calls the function through the API, nobody looks. The bad data flows straight
+        into emails, routing and reports.
+      </p>
 
-      <h2>How it works</h2>
-      <ol className="steps">
-        <li>
-          <span>
-            <strong>Suite.</strong> A YAML file names a function, a fixed list of companies, and the checks its output must pass: required fields, types,
-            enums, ranges, dates, and custom checks like &quot;not a placeholder&quot;.
-          </span>
-        </li>
-        <li>
-          <span>
-            <strong>Run.</strong> Glaze calls the function through Clay&apos;s Public API, one row per run, and reads the workspace balance before and
-            after to meter the exact credits and actions each row spends. Every output is cached, so re-running costs nothing.
-          </span>
-        </li>
-        <li>
-          <span>
-            <strong>Score.</strong> Outputs are checked against ground truth Clay didn&apos;t produce: technologies Glaze detects itself by rendering
-            each homepage in Chromium, and the public Tranco top-1M ranking. Free-text fields can be scored by an LLM judge against a rubric.
-          </span>
-        </li>
-        <li>
-          <span>
-            <strong>Diff.</strong> Each run is compared to a saved baseline. Coverage or accuracy drops, cost-per-row increases, and rows that used to
-            pass and now fail are flagged as regressions.
-          </span>
-        </li>
-        <li>
-          <span>
-            <strong>Report.</strong> In the terminal, as JSON, on this dashboard, and as a sticky comment on every pull request that touches a suite.{" "}
-            {pr ? <a href={pr}>See the demo PR.</a> : null}
-          </span>
-        </li>
-      </ol>
+      <h2>A real example</h2>
+      <p>
+        In our live run, Clay&apos;s funding function returned <code>&quot;2.1&quot;</code> for BILL and <code>&quot;5&quot;</code> for HubSpot. Those
+        were the two most expensive lookups, at 26 credits each, and the numbers look like they lost their unit. Nothing errored, so nothing flagged it.
+      </p>
 
-      <h2>What the numbers mean</h2>
+      <h2>What Glaze does</h2>
       <ul>
         <li>
-          <strong>Coverage:</strong> the share of companies where Clay completed and every required field has a value. It says nothing about whether
-          the value is right.
+          <strong>Runs</strong> a function on a fixed list of real companies, and counts the exact credits each one costs.
         </li>
         <li>
-          <strong>Tech stack precision:</strong> of the technologies Clay reports that Glaze can detect (20 signatures), the share Glaze also saw on
-          the live homepage. <strong>Recall</strong> is the share of what Glaze saw that Clay also reported.
+          <strong>Checks</strong> every answer against public data Clay didn&apos;t make, plus simple rules (&quot;funding can&apos;t be $0&quot;).
         </li>
         <li>
-          <strong>Traffic ρ:</strong> Spearman rank correlation between Clay&apos;s monthly visits and Tranco popularity rank across the same companies.
-          +1 means identical ordering.
-        </li>
-        <li>
-          <strong>Funding pass rate:</strong> the share of sanity checks that pass. There&apos;s no free source of true funding data, so Glaze never
-          claims a funding value is correct, only that it&apos;s well-formed and plausible.
+          <strong>Catches</strong> changes. When someone edits a function or its rules, Glaze compares against the last good run and comments on the pull
+          request. {pr ? <a href={pr}>See it happen.</a> : null}
         </li>
       </ul>
+      <p>It&apos;s the same idea as tests for code, or evals for AI prompts.</p>
 
-      <h2>Limitations</h2>
+      <h2>Who needs it</h2>
       <ul>
-        <li>
-          Twenty companies is a demo-sized test set, chosen because they spoke at Sculpt, not at random. Large, well-known sites are easier than the
-          long tail most GTM teams enrich.
-        </li>
-        <li>
-          Tech-stack ground truth only sees the homepage, as a first-time US visitor, in one 6-second window. Clay&apos;s data is domain-wide and
-          historical, so a tech Glaze didn&apos;t see may still be correct (checkout pages, subdomains, tags behind cookie consent). Treat precision as a
-          lower bound. Recall is only measured over the 20 technologies Glaze can detect.
-        </li>
-        <li>Tranco measures popularity rank, not visits, so only the ordering is compared. One company (gonimbly.com) isn&apos;t in the top 1M.</li>
-        <li>
-          Credits are measured from balance deltas, so they&apos;re only exact if nothing else in the workspace spends during a run. Glaze waits for
-          the balance to settle and runs rows one at a time.
-        </li>
-        <li>Provider data drifts. A live re-run can differ from the recorded baseline without anything being broken; CI replays recorded outputs so PR checks stay deterministic.</li>
-        <li>The LLM judge wasn&apos;t enabled for the Oct 7 runs (no Anthropic key was configured), so no row here has a judge score.</li>
+        <li>Teams running Clay functions inside AI agents or apps, where no human reviews the output.</li>
+        <li>Anyone editing AI research prompts who wants proof the new version is better before switching.</li>
+        <li>Ops teams who want to know which lookups burn the most credits.</li>
+      </ul>
+      <p>If you run one table and read every row yourself, you probably don&apos;t need this.</p>
+
+      <h2>Honest limits</h2>
+      <ul>
+        <li>20 big, well-known companies. Small companies are harder, and this set doesn&apos;t test them.</li>
+        <li>For tech stack, we only look at each homepage, once. Clay may know about tools used on other pages or in the past.</li>
+        <li>Funding has no free public source, so we only check that answers make sense.</li>
+        <li>The AI judge was off for these runs.</li>
       </ul>
 
       <h2>Cost</h2>
       <p>
-        {ledger
-          ? `The whole benchmark, including the one-row smoke tests, spent ${ledger.credits} data credits and ${ledger.actions} actions, against hard budgets of 250 and 150 that the CLI refuses to cross.`
-          : "Live runs need an explicit --live flag and stay under hard credit and action budgets."}{" "}
-        Re-scoring, CI checks and this site use recorded outputs and spend nothing.
+        {ledger ? `The full test used ${ledger.credits} credits and ${ledger.actions} actions. ` : ""}Re-checking it, and every pull request check,
+        is free, because Glaze reuses saved answers.
       </p>
 
       <div className="actions">
-        <a className="btn primary" href={REPO_URL}>
-          Source on GitHub
-        </a>
-        <Link className="btn" href="/">
-          Back to the benchmark
+        <Link className="btn primary" href="/#results">
+          See the results
         </Link>
+        <a className="btn" href={REPO_URL}>
+          Code on GitHub
+        </a>
       </div>
     </div>
   );
