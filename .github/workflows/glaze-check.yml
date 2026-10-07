@@ -28,7 +28,7 @@ jobs:
         id: diff
         run: |
           set +e
-          npx glaze diff --replay --fail-on regressions --format markdown --out glaze-report.md
+          npm run --silent glaze -- diff --replay --fail-on regressions --format markdown --out glaze-report.md
           echo "exit=$?" >> "$GITHUB_OUTPUT"
       - name: Post or update the sticky comment
         env:
@@ -36,6 +36,7 @@ jobs:
           PR: ${{ github.event.pull_request.number }}
           REPO: ${{ github.repository }}
         run: |
+          test -s glaze-report.md || { echo "::error::glaze diff produced no report"; exit 1; }
           marker='<!-- glaze-report -->'
           id=$(gh api "repos/$REPO/issues/$PR/comments" --paginate --jq ".[] | select(.body | startswith(\"$marker\")) | .id" | head -n1)
           if [ -n "$id" ]; then

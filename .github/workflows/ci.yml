@@ -23,4 +23,4 @@ jobs:
       - run: npm test
       - run: npm run build
       - name: Replay smoke test (fresh clone, no secrets)
-        run: npx glaze run suites/tech-stack.yaml
+        run: npm run --silent glaze -- run suites/tech-stack.yaml
