@@ -87,7 +87,8 @@ function newFailures(baseline: RunRecord, current: RunRecord): Finding[] {
       if (check.pass || check.severity === "warn") continue;
       if (passedBefore.has(check.check) || !knownBefore.has(check.check)) {
         const why = knownBefore.has(check.check) ? "now fails" : "new check fails";
-        findings.push({ kind: "new-failure", severity: "medium", rowId: row.id, message: `${row.label}: ${check.check} ${why}: ${check.message}` });
+        const cost = row.credits === undefined ? "" : ` (row cost ${row.credits} credits)`;
+        findings.push({ kind: "new-failure", severity: "medium", rowId: row.id, message: `${row.label}: ${check.check} ${why}: ${check.message}${cost}` });
       }
     }
   }

@@ -34,7 +34,7 @@ describe("diffRuns", () => {
     const now = good();
     now[0] = row("a", { amount: "0" });
     const d = diffRuns(scored("1", good()), scored("2", now), thresholds);
-    expect(d.regressions.find((r) => r.kind === "new-failure")?.message).toBe("a: positive now fails: 0 ≤ 0");
+    expect(d.regressions.find((r) => r.kind === "new-failure")?.message).toBe("a: positive now fails: 0 ≤ 0 (row cost 2 credits)");
     expect(d.regressions.some((r) => r.kind === "accuracy")).toBe(true);
   });
 
