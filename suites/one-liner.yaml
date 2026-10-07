@@ -1,0 +1,26 @@
+name: one-liner
+title: Company One-Liner
+description: >
+  Head-to-head suite for two versions of a custom Claygent function that writes a
+  one-sentence description of each company. Used with `glaze compare`, which takes the
+  two routine ids from --a / --b. Pending: no versions were set up for the Oct 7 run
+  (CLAY_FN_A / CLAY_FN_B unset), so there is no live result yet.
+function:
+  name: Company One-Liner (set version ids with --a / --b)
+  # Placeholder: compare always overrides this with --a and --b.
+  routineId: function:t_SET_WITH_A_AND_B
+rows: golden-companies.yaml
+inputs:
+  Company Domain: $domain
+estimate: { creditsPerRow: 5, actionsPerRow: 2 }
+checks:
+  - { type: required, field: One Liner }
+  - { type: type, field: One Liner, is: string }
+  - { type: regex, field: One Liner, pattern: "^[^.!?]+[.!?]?$", name: one sentence, severity: warn }
+judge:
+  - field: One Liner
+    rubric: >
+      Accurately states what the company sells in one sentence; names the buyer;
+      no hallucinated products.
+truth: none
+targets: { coverage: 0.9, accuracy: 0.8 }
