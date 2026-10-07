@@ -1,0 +1,8 @@
+.env*
+.glaze/
+node_modules/
+.next/
+out/
+BUILD_PROMPT.md
+test-results/
+playwright-report/
