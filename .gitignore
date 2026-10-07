@@ -1,0 +1,12 @@
+.env*
+!.env.example
+.glaze/
+node_modules/
+.next/
+.vercel/
+out/
+next-env.d.ts
+*.tsbuildinfo
+test-results/
+playwright-report/
+BUILD_PROMPT.md
