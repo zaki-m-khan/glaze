@@ -1,0 +1,23 @@
+name: golden-companies
+description: The 20 companies speaking at Clay's Sculpt conference, Oct 8 2026. Companies only; no people.
+companies:
+  - { id: clay, name: Clay, domain: clay.com }
+  - { id: sierra, name: Sierra, domain: sierra.ai }
+  - { id: anthropic, name: Anthropic, domain: anthropic.com }
+  - { id: openai, name: OpenAI, domain: openai.com }
+  - { id: cursor, name: Cursor, domain: cursor.com }
+  - { id: vanta, name: Vanta, domain: vanta.com }
+  - { id: intercom, name: Intercom, domain: intercom.com }
+  - { id: canva, name: Canva, domain: canva.com }
+  - { id: figma, name: Figma, domain: figma.com }
+  - { id: reddit, name: Reddit, domain: reddit.com }
+  - { id: airbnb, name: Airbnb, domain: airbnb.com }
+  - { id: affirm, name: Affirm, domain: affirm.com }
+  - { id: bill, name: BILL, domain: bill.com }
+  - { id: lucid, name: Lucid, domain: lucid.co }
+  - { id: sigma, name: Sigma Computing, domain: sigmacomputing.com }
+  - { id: hubspot, name: HubSpot, domain: hubspot.com }
+  - { id: nvidia, name: NVIDIA, domain: nvidia.com }
+  - { id: reforge, name: Reforge, domain: reforge.com }
+  - { id: gonimbly, name: Go Nimbly, domain: gonimbly.com }
+  - { id: xai, name: xAI, domain: x.ai }

@@ -1,0 +1,35 @@
+{
+  "recordedAt": "2026-10-07T06:54:20.854Z",
+  "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+  "inputs": {
+    "domain": "clay.com"
+  },
+  "clayRunId": "run_0tmiz5v8RFUdaqY7SnB",
+  "latencyMs": 8470,
+  "creditsSpent": 2,
+  "actionsSpent": 1,
+  "balanceBefore": {
+    "balance": 19913.5,
+    "action_execution_balance": 481
+  },
+  "balanceAfter": {
+    "balance": 19911.5,
+    "action_execution_balance": 480
+  },
+  "response": {
+    "routine_run_id": "run_0tmiz5v8RFUdaqY7SnB",
+    "status": "complete",
+    "total": 1,
+    "finished": 1,
+    "data": [
+      {
+        "id": "row-1",
+        "status": "complete",
+        "result": {
+          "siteTraffic": 1574681,
+          "siteTrafficDataProvider": "Semrush"
+        }
+      }
+    ]
+  }
+}

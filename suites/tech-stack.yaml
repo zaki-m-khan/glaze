@@ -1,0 +1,22 @@
+name: tech-stack
+title: Website Technology Stack
+description: >
+  Clay's tech-stack function, scored against technologies Glaze detects itself
+  from each homepage's HTML and response headers.
+function:
+  name: Website Technology Stack
+  routineId: function:t_0tj9gb2twxEB8ngq822
+rows: golden-companies.yaml
+inputs:
+  Company Domain: $domain
+# Measured in the M1 smoke test (balance delta on clay.com).
+estimate: { creditsPerRow: 1, actionsPerRow: 1 }
+checks:
+  - { type: required, field: Website Tech Stack }
+  - { type: type, field: Website Tech Stack, is: string }
+  - { type: custom, fn: list-length, field: Website Tech Stack, args: { min: 3 }, name: at least 3 technologies }
+  - { type: custom, fn: list-unique, field: Website Tech Stack, severity: warn }
+truth: html-signatures
+truthField: Website Tech Stack
+targets: { coverage: 0.9, accuracy: 0.7 }
+regressions: { coverageDrop: 0.05, accuracyDrop: 0.05, costIncrease: 0.1 }

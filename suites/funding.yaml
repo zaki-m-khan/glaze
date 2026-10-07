@@ -1,0 +1,27 @@
+name: funding
+title: Company Latest Funding
+description: >
+  Clay's latest-funding function. There's no free ground truth for funding, so
+  this suite only checks that outputs are well-formed and plausible. It never
+  claims a value is correct.
+function:
+  name: Company Latest Funding
+  routineId: function:t_0tj9gawg8qYAXCtMVdZ
+rows: golden-companies.yaml
+inputs:
+  Company Domain: $domain
+estimate: { creditsPerRow: 7, actionsPerRow: 2 }
+checks:
+  - { type: required, field: Latest Funding }
+  - { type: custom, fn: no-placeholder, field: Latest Funding, name: not a placeholder }
+  - { type: range, parse: money, field: Latest Funding, min: 0, exclusiveMin: true, name: positive money amount }
+  - { type: range, parse: money, field: Latest Funding, max: 50000000000, name: under $50B per round }
+judge:
+  - field: Latest Funding
+    rubric: >
+      The value is internally consistent and usable as "this company's most recent
+      funding round": a single plausible amount (and stage/date if given) with no
+      contradictions, placeholders, or text that isn't about funding.
+truth: none
+targets: { coverage: 0.9, accuracy: 0.8 }
+regressions: { coverageDrop: 0.05, accuracyDrop: 0.05, costIncrease: 0.1 }

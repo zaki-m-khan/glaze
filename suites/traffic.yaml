@@ -1,0 +1,21 @@
+name: traffic
+title: Website Traffic
+description: >
+  Clay's traffic function, checked for rank agreement with the public Tranco
+  top-1M list (Spearman correlation between Clay's visits and Tranco popularity).
+function:
+  name: Website Traffic
+  routineId: function:t_0tj9gb2a2btZNpMekhV
+rows: golden-companies.yaml
+inputs:
+  domain: $domain
+estimate: { creditsPerRow: 2, actionsPerRow: 1 }
+checks:
+  - { type: required, field: siteTraffic }
+  - { type: type, field: siteTraffic, is: number }
+  - { type: range, field: siteTraffic, min: 0, exclusiveMin: true, name: traffic is positive }
+  - { type: required, field: siteTrafficDataProvider, severity: warn }
+truth: tranco
+truthField: siteTraffic
+targets: { coverage: 0.9, accuracy: 0.6 }
+regressions: { coverageDrop: 0.05, accuracyDrop: 0.1, costIncrease: 0.1 }

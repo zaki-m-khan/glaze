@@ -1,0 +1,34 @@
+{
+  "recordedAt": "2026-10-07T06:54:38.843Z",
+  "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+  "inputs": {
+    "Company Domain": "clay.com"
+  },
+  "clayRunId": "run_0tmiz6kVacV6z7RPyVB",
+  "latencyMs": 2173,
+  "creditsSpent": 7,
+  "actionsSpent": 2,
+  "balanceBefore": {
+    "balance": 19911.5,
+    "action_execution_balance": 480
+  },
+  "balanceAfter": {
+    "balance": 19904.5,
+    "action_execution_balance": 478
+  },
+  "response": {
+    "routine_run_id": "run_0tmiz6kVacV6z7RPyVB",
+    "status": "complete",
+    "total": 1,
+    "finished": 1,
+    "data": [
+      {
+        "id": "row-1",
+        "status": "complete",
+        "result": {
+          "Latest Funding": "0"
+        }
+      }
+    ]
+  }
+}
