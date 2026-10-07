@@ -1,5 +1,6 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
+import { renderSiteTruths } from "./browser";
 import { fetchSiteTruth, type SiteTruth, type TruthSnapshot } from "./html-signatures";
 import { TRUTH_FILES } from "./score";
 import { buildTrancoSnapshot, type TrancoSnapshot } from "./tranco";
@@ -22,17 +23,32 @@ function save(file: string, data: unknown): void {
   writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`);
 }
 
-export async function refreshHtmlTruth(domains: readonly string[], log: (line: string) => void): Promise<TruthSnapshot<SiteTruth>> {
-  const entries = await mapLimit(domains, 4, async (domain) => {
-    const site = await fetchSiteTruth(domain);
-    log(`  ${domain}: ${site.verdict === "verified" ? `${site.detected.length} techs` : `unverifiable (${site.reason})`}`);
-    return site;
-  });
+const METHODS = {
+  rendered:
+    "Each homepage is loaded in headless Chromium (desktop Chrome user agent, en-US, 30s timeout), then left running 6s more so tag managers can inject their tags. " +
+    "Technologies are matched against the final DOM, every network request URL, and the document's response headers (src/lib/truth/html-signatures.ts). " +
+    "Only the homepage is checked, as a first-time US visitor who hasn't answered a cookie banner. Tags that load only after consent, on other pages, or on other subdomains are invisible, so a missing tag here is weaker evidence than a detected one.",
+  static:
+    "GET https://<domain>/ with a desktop Chrome user agent, 10s timeout, redirects followed. Technologies are matched by script URLs, inline globals and server headers (src/lib/truth/html-signatures.ts). " +
+    "Only server-rendered HTML is seen, so tags injected later by a tag manager are invisible.",
+};
+
+export async function refreshHtmlTruth(
+  domains: readonly string[],
+  log: (line: string) => void,
+  method: SiteTruth["method"] = "rendered",
+): Promise<TruthSnapshot<SiteTruth>> {
+  const entries =
+    method === "rendered"
+      ? await renderSiteTruths(domains, log)
+      : await mapLimit(domains, 4, async (domain) => {
+          const site = await fetchSiteTruth(domain);
+          log(`  ${domain}: ${site.verdict === "verified" ? `${site.detected.length} techs` : `unverifiable (${site.reason})`}`);
+          return site;
+        });
   const snapshot: TruthSnapshot<SiteTruth> = {
-    source: "Homepage HTML and response headers fetched directly by Glaze",
-    method:
-      "GET https://<domain>/ with a desktop Chrome user agent, 10s timeout, redirects followed. Technologies are matched by script URLs, inline globals and server headers (src/lib/truth/html-signatures.ts). " +
-      "Only the homepage is checked and only server-rendered HTML is seen, so tags injected later by a tag manager are invisible: absence here is weaker evidence than presence.",
+    source: `Homepages ${method === "rendered" ? "rendered" : "fetched"} directly by Glaze (independent of Clay and BuiltWith)`,
+    method: METHODS[method],
     generatedAt: new Date().toISOString(),
     entries,
   };

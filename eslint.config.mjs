@@ -4,7 +4,12 @@ import nextTs from "eslint-config-next/typescript";
 const config = [
   ...next,
   ...nextTs,
-  { ignores: [".next/**", "out/**", "node_modules/**", "next-env.d.ts", "playwright-report/**"] },
+  {
+    rules: {
+      "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_", varsIgnorePattern: "^_", ignoreRestSiblings: true }],
+    },
+  },
+  { ignores: [".next/**", "out/**", "node_modules/**", "next-env.d.ts", "playwright-report/**", "test-results/**"] },
 ];
 
 export default config;

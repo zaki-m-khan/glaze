@@ -71,6 +71,8 @@ export interface RunRecord {
   sample: boolean;
   startedAt: string;
   finishedAt: string;
+  /** Set when checks/truth were re-applied to the recorded outputs after the run. */
+  rescoredAt?: string;
   spend: {
     credits: number;
     actions: number;

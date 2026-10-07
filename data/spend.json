@@ -1,0 +1,546 @@
+{
+  "credits": 210,
+  "actions": 68,
+  "entries": [
+    {
+      "at": "2026-10-07T06:53:47.940Z",
+      "suite": "smoke:techstack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmiz55MW4eEk5aUkJt"
+    },
+    {
+      "at": "2026-10-07T06:54:20.854Z",
+      "suite": "smoke:traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmiz5v8RFUdaqY7SnB"
+    },
+    {
+      "at": "2026-10-07T06:54:38.843Z",
+      "suite": "smoke:funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 7,
+      "actions": 2,
+      "clayRunId": "run_0tmiz6kVacV6z7RPyVB"
+    },
+    {
+      "at": "2026-10-07T07:10:06.960Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizwmsPVPnyz9RxPm"
+    },
+    {
+      "at": "2026-10-07T07:10:18.997Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizwuCF9vbkxJhw4x"
+    },
+    {
+      "at": "2026-10-07T07:10:31.236Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizx7VCo6r7dUUznA"
+    },
+    {
+      "at": "2026-10-07T07:10:46.674Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizxiDt7WR9rMwSWi"
+    },
+    {
+      "at": "2026-10-07T07:11:06.016Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizxy7RY5U82wcCRx"
+    },
+    {
+      "at": "2026-10-07T07:11:23.581Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizyhX6oDudjfbzSy"
+    },
+    {
+      "at": "2026-10-07T07:11:39.903Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizyzPxa7fHwoau58"
+    },
+    {
+      "at": "2026-10-07T07:11:51.626Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizzfWj4azhMk97xu"
+    },
+    {
+      "at": "2026-10-07T07:12:07.962Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizzrc69gNkmoxzsq"
+    },
+    {
+      "at": "2026-10-07T07:12:30.620Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj0073PGsmZsBtKjR"
+    },
+    {
+      "at": "2026-10-07T07:12:48.889Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj00uCdbdKmJx22Wo"
+    },
+    {
+      "at": "2026-10-07T07:13:05.316Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj01cWc4GopVz2mcg"
+    },
+    {
+      "at": "2026-10-07T07:13:21.374Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj01s8tkXMPqmMa3X"
+    },
+    {
+      "at": "2026-10-07T07:13:36.700Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj029sGT9h5UQi6tN"
+    },
+    {
+      "at": "2026-10-07T07:13:47.966Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj02o5sGgKD5f3htq"
+    },
+    {
+      "at": "2026-10-07T07:14:15.751Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj02zsyKYN7bbuvZp"
+    },
+    {
+      "at": "2026-10-07T07:14:30.761Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj03rgSSMbASoTu7R"
+    },
+    {
+      "at": "2026-10-07T07:14:42.568Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj046bF4BM4Zj5UDA"
+    },
+    {
+      "at": "2026-10-07T07:15:00.935Z",
+      "suite": "tech-stack",
+      "routineId": "function:t_0tj9gb2twxEB8ngq822",
+      "rows": 1,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj04igaeyWbm9jTe6"
+    },
+    {
+      "at": "2026-10-07T07:26:44.438Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0obKPC4P5KGQKx2"
+    },
+    {
+      "at": "2026-10-07T07:27:07.002Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0ojDthCZXVCPSSj"
+    },
+    {
+      "at": "2026-10-07T07:27:25.234Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0p6777iryAzW2mo"
+    },
+    {
+      "at": "2026-10-07T07:27:40.260Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0po7fcpWn22q9Tp"
+    },
+    {
+      "at": "2026-10-07T07:27:56.116Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0q4VhnXa6XhXXrW"
+    },
+    {
+      "at": "2026-10-07T07:28:16.648Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0qjARFoYD3nZ8Zw"
+    },
+    {
+      "at": "2026-10-07T07:28:31.571Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0r4osDWEgZddTy2"
+    },
+    {
+      "at": "2026-10-07T07:28:47.568Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0rjzPPd7oH9qGAH"
+    },
+    {
+      "at": "2026-10-07T07:29:03.653Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0rzK6axPAwBQJux"
+    },
+    {
+      "at": "2026-10-07T07:29:24.012Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0sfqnFBUCZtU92V"
+    },
+    {
+      "at": "2026-10-07T07:29:40.931Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0szcmRtomrf5G6h"
+    },
+    {
+      "at": "2026-10-07T07:29:58.208Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0tgonF6beNeH92g"
+    },
+    {
+      "at": "2026-10-07T07:30:14.209Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0txiojHRRUX7FhY"
+    },
+    {
+      "at": "2026-10-07T07:30:37.903Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0udCUFZdsDJ5p2D"
+    },
+    {
+      "at": "2026-10-07T07:30:48.608Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0v1S6weEdUY3vrZ"
+    },
+    {
+      "at": "2026-10-07T07:31:03.575Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0vcG4kqjDN3VPPd"
+    },
+    {
+      "at": "2026-10-07T07:31:24.929Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0vreXcjEKNodXkG"
+    },
+    {
+      "at": "2026-10-07T07:31:47.507Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0wcUC3M7ATQky6t"
+    },
+    {
+      "at": "2026-10-07T07:32:03.965Z",
+      "suite": "traffic",
+      "routineId": "function:t_0tj9gb2a2btZNpMekhV",
+      "rows": 1,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0wzb3ZZyZyw57Ky"
+    },
+    {
+      "at": "2026-10-07T07:32:23.526Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj0xpgEk4rD288mUx"
+    },
+    {
+      "at": "2026-10-07T07:32:38.060Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj0xzCE4G2s8HKBnG"
+    },
+    {
+      "at": "2026-10-07T07:32:54.156Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj0ydeCtb7jbBHjMe"
+    },
+    {
+      "at": "2026-10-07T07:33:10.243Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj0ytqAKeB2DkvDog"
+    },
+    {
+      "at": "2026-10-07T07:33:26.330Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 7,
+      "actions": 2,
+      "clayRunId": "run_0tmj0z9B5bysrYKrYAA"
+    },
+    {
+      "at": "2026-10-07T07:33:46.810Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 22,
+      "actions": 2,
+      "clayRunId": "run_0tmj0zpZJMcMKoC4DZ6"
+    },
+    {
+      "at": "2026-10-07T07:34:20.608Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 14,
+      "actions": 2,
+      "clayRunId": "run_0tmj10av7oGWt73BFsF"
+    },
+    {
+      "at": "2026-10-07T07:34:38.093Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj118o8vmc4o7F9PN"
+    },
+    {
+      "at": "2026-10-07T07:34:54.291Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 4,
+      "actions": 1,
+      "clayRunId": "run_0tmj11p22bbjM3r6ECn"
+    },
+    {
+      "at": "2026-10-07T07:35:11.906Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 4,
+      "actions": 1,
+      "clayRunId": "run_0tmj125JPgSb3K5WVmq"
+    },
+    {
+      "at": "2026-10-07T07:35:34.396Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 4,
+      "actions": 1,
+      "clayRunId": "run_0tmj12nJj4a3qxHPKM7"
+    },
+    {
+      "at": "2026-10-07T07:36:43.004Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 26,
+      "actions": 3,
+      "clayRunId": "run_0tmj1392Wy3PX55Gay7"
+    },
+    {
+      "at": "2026-10-07T07:37:11.133Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 4,
+      "actions": 1,
+      "clayRunId": "run_0tmj156HqQUG8AhWwbM"
+    },
+    {
+      "at": "2026-10-07T07:37:28.377Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj15yeHyoz55DEnSv"
+    },
+    {
+      "at": "2026-10-07T07:37:56.438Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 26,
+      "actions": 3,
+      "clayRunId": "run_0tmj16fuxRroXrF6jE7"
+    },
+    {
+      "at": "2026-10-07T07:38:13.626Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 4,
+      "actions": 1,
+      "clayRunId": "run_0tmj1789cpmu2iGcSFu"
+    },
+    {
+      "at": "2026-10-07T07:38:30.876Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj17pzJ9JpYRpXEbW"
+    },
+    {
+      "at": "2026-10-07T07:38:52.142Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 4,
+      "actions": 1,
+      "clayRunId": "run_0tmj186Rr4hxJ36NQm3"
+    },
+    {
+      "at": "2026-10-07T07:39:10.497Z",
+      "suite": "funding",
+      "routineId": "function:t_0tj9gawg8qYAXCtMVdZ",
+      "rows": 1,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj18rSCwwfnrm8wrm"
+    }
+  ]
+}

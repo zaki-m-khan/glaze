@@ -4,7 +4,7 @@ import { CallCache, Recordings } from "@/lib/cache";
 import type { ClayClient } from "@/lib/clay";
 import { inputHash } from "@/lib/hash";
 import { Judge } from "@/lib/judge";
-import { runSuite } from "@/lib/runner";
+import { rescoreRun, runSuite } from "@/lib/runner";
 import { makeRun, makeSuite, row, tempDir } from "./helpers";
 
 /** Fake Clay: each run debits `cost` per item; results come from `answers` (null = failed row). */
@@ -117,6 +117,19 @@ describe("runSuite (live)", () => {
     expect(runs).toEqual([["a", "b", "c"]]);
     expect(run.rows.every((r) => r.credits === 2 && r.latencyMs === undefined)).toBe(true);
     expect(run.metrics.latencyP50Ms).toBe(1100);
+  });
+});
+
+describe("rescoreRun", () => {
+  it("re-applies current checks to recorded outputs, keeping id, spend and sources", async () => {
+    const stale = makeRun("20261007T000000Z-demo", [row("a", { amount: "0" }, { source: "live" })]);
+    stale.spend = { credits: 2, actions: 1 };
+    expect(stale.rows[0]!.checks).toEqual([]);
+    const fresh = await rescoreRun(stale, makeSuite(), { truth: null, now: () => new Date("2026-10-07T08:00:00Z") });
+    expect(fresh).toMatchObject({ id: stale.id, spend: stale.spend, rescoredAt: "2026-10-07T08:00:00.000Z" });
+    expect(fresh.rows[0]).toMatchObject({ source: "live", credits: 2 });
+    expect(fresh.rows[0]!.checks.map((c) => c.pass)).toEqual([true, false]);
+    expect(fresh.metrics.assertionPassRate).toBe(0.5);
   });
 });
 

@@ -20,7 +20,7 @@ import {
   type RunRecord,
 } from "../lib/record";
 import { markdownDiff, terminalCompare, terminalDiff, terminalRun } from "../lib/report";
-import { runSuite, type RunOptions } from "../lib/runner";
+import { rescoreRun, runSuite, type RunOptions } from "../lib/runner";
 import { loadCompanies, loadSuite, suiteSchema } from "../lib/suite";
 import { refreshHtmlTruth, refreshTranco } from "../lib/truth/refresh";
 
@@ -105,6 +105,18 @@ program
   });
 
 program
+  .command("rescore")
+  .description("Re-apply the suite's current checks and ground truth to a committed run (no Clay calls)")
+  .argument("<run-id>")
+  .action(async (id: string) => {
+    const run = findRun(id, [RUNS_DIR]);
+    if (!run) throw new GlazeError(`No committed run ${id} in ${RUNS_DIR}`);
+    const rescored = await rescoreRun(run, loadSuite(run.suiteFile), { log, ...makeJudge() });
+    console.log(terminalRun(rescored));
+    log(`\nrewrote ${writeRun(rescored, RUNS_DIR)}`);
+  });
+
+program
   .command("diff")
   .description("Diff each suite's latest run against its baseline")
   .option("--suite <name>", "only this suite")
@@ -180,10 +192,11 @@ program
   .command("refresh")
   .description("Rebuild HTML-signature and Tranco snapshots for the golden companies (free, no Clay credits)")
   .option("--companies <file>", "company list", GOLDEN)
-  .action(async (opts: { companies: string }) => {
+  .option("--static", "fetch raw HTML instead of rendering in Chromium (faster, misses runtime-injected tags)")
+  .action(async (opts: { companies: string; static?: boolean }) => {
     const domains = loadCompanies(opts.companies).map((c) => c.domain);
-    log(`HTML signatures for ${domains.length} domains`);
-    const html = await refreshHtmlTruth(domains, log);
+    log(`HTML signatures for ${domains.length} domains (${opts.static ? "static" : "rendered"})`);
+    const html = await refreshHtmlTruth(domains, log, opts.static ? "static" : "rendered");
     log("Tranco ranks");
     const tranco = await refreshTranco(domains);
     const ranked = tranco.entries.filter((e) => e.rank !== null).length;

@@ -8,7 +8,7 @@ import type { Judge } from "./judge";
 import { runId, type RowRecord, type RunRecord } from "./record";
 import { computeMetrics } from "./score";
 import type { Suite, SuiteRow } from "./suite";
-import { loadTruth, scoreTruth, type LoadedTruth } from "./truth/score";
+import { loadTruth, scoreTruth, type LoadedTruth, type TruthMetrics } from "./truth/score";
 
 export interface LiveDeps {
   clay: ClayClient;
@@ -153,10 +153,10 @@ export async function runSuite(suite: Suite, options: RunOptions): Promise<RunRe
     log(`${suite.name}: ${pending.length} rows have no recording; marked missing (use --live to run them)`);
   }
 
-  const records: RowRecord[] = rows.map((row) => {
+  const unscored: RowRecord[] = rows.map((row) => {
     const { call, source } = resolved.get(row.id)!;
-    const base = { id: row.id, label: row.label, domain: row.domain, inputs: row.inputs, inputHash: inputHash(routineId, row.inputs), source, judge: [] };
-    if (!call) return { ...base, status: "missing", checks: [] };
+    const base = { id: row.id, label: row.label, domain: row.domain, inputs: row.inputs, inputHash: inputHash(routineId, row.inputs), source, checks: [], judge: [] };
+    if (!call) return { ...base, status: "missing" };
     return {
       ...base,
       status: call.status,
@@ -167,34 +167,10 @@ export async function runSuite(suite: Suite, options: RunOptions): Promise<RunRe
       ...(call.actions !== undefined ? { actions: call.actions } : {}),
       ...(call.clayRunId ? { clayRunId: call.clayRunId } : {}),
       recordedAt: call.recordedAt,
-      checks: call.status === "complete" && call.result ? runChecks(suite.checks, call.result, now()) : [],
     };
   });
 
-  const truth = options.truth === null ? undefined : (options.truth ?? loadTruth(suite.truth));
-  let truthMetrics;
-  if (truth && suite.truthField) {
-    const scored = scoreTruth(
-      truth,
-      records.map((r) => ({ domain: r.domain, status: r.status, value: r.result?.[suite.truthField!] })),
-    );
-    scored.rows.forEach((t, i) => {
-      if (t) records[i]!.truth = t;
-    });
-    truthMetrics = scored.metrics;
-  } else if (suite.truth !== "none") {
-    log(`${suite.name}: no ${suite.truth} snapshot found; run \`glaze truth refresh\`. Accuracy falls back to assertions.`);
-  }
-
-  if (options.judge && suite.judge.length > 0) {
-    for (const record of records) {
-      if (record.status !== "complete" || !record.result) continue;
-      for (const spec of suite.judge) {
-        record.judge.push(await options.judge.judge({ spec, value: record.result[spec.field], context: { company: record.label, domain: record.domain } }));
-      }
-    }
-  }
-
+  const scored = await scoreRows(suite, unscored, options);
   const finishedAt = now();
   return {
     version: 1,
@@ -203,17 +179,85 @@ export async function runSuite(suite: Suite, options: RunOptions): Promise<RunRe
     suiteTitle: suite.title,
     suiteFile: suite.file.replace(/\\/g, "/"),
     function: { name: suite.function.name, routineId },
-    mode: records.some((r) => r.source === "live") ? "live" : "replay",
+    mode: unscored.some((r) => r.source === "live") ? "live" : "replay",
     sample: false,
     startedAt: startedAt.toISOString(),
     finishedAt: finishedAt.toISOString(),
     spend,
+    judge: scored.judge,
+    ...(scored.truthSource ? { truthSource: scored.truthSource } : {}),
+    rows: scored.rows,
+    metrics: computeMetrics(suite, scored.rows, scored.truthMetrics, latencySamples),
+  };
+}
+
+type ScoreOptions = Pick<RunOptions, "judge" | "judgeNote" | "truth" | "log" | "now">;
+
+interface Scored {
+  rows: RowRecord[];
+  truthMetrics?: TruthMetrics;
+  truthSource?: RunRecord["truthSource"];
+  judge: RunRecord["judge"];
+}
+
+/** Applies the suite's checks, ground truth and judge to recorded rows. Never calls Clay. */
+export async function scoreRows(suite: Suite, unscored: readonly RowRecord[], options: ScoreOptions): Promise<Scored> {
+  const now = options.now ?? (() => new Date());
+  const rows: RowRecord[] = unscored.map(({ truth: _stale, ...row }) => ({
+    ...row,
+    judge: [],
+    checks: row.status === "complete" && row.result ? runChecks(suite.checks, row.result, now()) : [],
+  }));
+
+  const truth = options.truth === null ? undefined : (options.truth ?? loadTruth(suite.truth));
+  const field = suite.truthField;
+  let truthMetrics: TruthMetrics | undefined;
+  if (truth && field) {
+    const scored = scoreTruth(
+      truth,
+      rows.map((r) => ({ domain: r.domain, status: r.status, value: r.result?.[field] })),
+    );
+    scored.rows.forEach((t, i) => {
+      if (t) rows[i]!.truth = t;
+    });
+    truthMetrics = scored.metrics;
+  } else if (suite.truth !== "none") {
+    options.log?.(`${suite.name}: no ${suite.truth} snapshot found; run \`glaze truth refresh\`. Accuracy falls back to assertions.`);
+  }
+
+  if (options.judge && suite.judge.length > 0) {
+    for (const row of rows) {
+      if (row.status !== "complete" || !row.result) continue;
+      for (const spec of suite.judge) {
+        row.judge.push(await options.judge.judge({ spec, value: row.result[spec.field], context: { company: row.label, domain: row.domain } }));
+      }
+    }
+  }
+
+  return {
+    rows,
+    ...(truthMetrics ? { truthMetrics } : {}),
+    ...(truth ? { truthSource: { kind: truth.kind, source: truth.snapshot.source, generatedAt: truth.snapshot.generatedAt } } : {}),
     judge: options.judge
       ? { enabled: true, model: options.judge.model }
       : { enabled: false, note: suite.judge.length > 0 ? (options.judgeNote ?? "judge disabled") : "suite has no judge rubric" },
-    ...(truth ? { truthSource: { kind: truth.kind, source: truth.snapshot.source, generatedAt: truth.snapshot.generatedAt } } : {}),
-    rows: records,
-    metrics: computeMetrics(suite, records, truthMetrics, latencySamples),
+  };
+}
+
+/**
+ * Re-scores a committed run in place: same recorded outputs, spend and id; current checks and
+ * ground truth. Used after a truth refresh so the record reflects the best available truth.
+ */
+export async function rescoreRun(run: RunRecord, suite: Suite, options: ScoreOptions): Promise<RunRecord> {
+  const scored = await scoreRows(suite, run.rows, options);
+  const { truthSource: _stale, ...rest } = run;
+  return {
+    ...rest,
+    judge: scored.judge,
+    ...(scored.truthSource ? { truthSource: scored.truthSource } : {}),
+    rows: scored.rows,
+    metrics: computeMetrics(suite, scored.rows, scored.truthMetrics),
+    rescoredAt: (options.now ?? (() => new Date()))().toISOString(),
   };
 }
 

@@ -33,6 +33,8 @@ describe("classifyPage", () => {
     expect(classifyPage(403, page(""))).toBe("HTTP 403");
     expect(classifyPage(200, "<html><title>Just a moment...</title></html>")).toBe("bot challenge page");
     expect(classifyPage(200, "<html></html>")).toBe("only 13 bytes of HTML");
+    // Reddit's proof-of-work interstitial: a real-looking 8 KB page with no site content.
+    expect(classifyPage(200, page('<script>e.elements.namedItem("solution").value=n,e.requestSubmit()</script>'))).toBe("bot challenge page");
     expect(classifyPage(200, page("<p>hello</p>"))).toBeUndefined();
   });
 });
@@ -65,7 +67,7 @@ describe("clayMentions", () => {
   });
 });
 
-const site = (domain: string, detected: string[]): SiteTruth => ({ domain, verdict: "verified", detected, evidence: {}, headers: {} });
+const site = (domain: string, detected: string[]): SiteTruth => ({ domain, method: "rendered", verdict: "verified", detected, evidence: {}, headers: {} });
 
 describe("scoreTechStack", () => {
   const snapshot = {
@@ -75,7 +77,7 @@ describe("scoreTechStack", () => {
     entries: [
       site("a.com", ["Google Tag Manager", "HubSpot"]),
       site("b.com", ["Cloudflare"]),
-      { domain: "c.com", verdict: "unverifiable" as const, reason: "HTTP 403", detected: [], evidence: {}, headers: {} },
+      { domain: "c.com", method: "rendered" as const, verdict: "unverifiable" as const, reason: "HTTP 403", detected: [], evidence: {}, headers: {} },
     ],
   };
 

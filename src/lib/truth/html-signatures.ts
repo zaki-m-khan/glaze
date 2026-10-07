@@ -22,7 +22,7 @@ export const SIGNATURES: Signature[] = [
   {
     id: "Google Analytics",
     clayNames: ["Google Analytics", "Google Analytics 4", "Google Universal Analytics", "Google Analytics Classic", "Global Site Tag"],
-    html: [/googletagmanager\.com\/gtag\/js/i, /google-analytics\.com\/(?:analytics|ga)\.js/i, /\bgtag\(\s*['"]config['"]\s*,\s*['"](?:G|UA)-/i],
+    html: [/googletagmanager\.com\/gtag\/js/i, /google-analytics\.com\/(?:analytics|ga)\.js/i, /\bgtag\(\s*['"]config['"]\s*,\s*['"](?:G|UA)-/i, /google-analytics\.com\/g\/collect/i],
   },
   { id: "Segment", clayNames: ["Segment"], html: [/cdn\.segment\.(?:com|io)\/analytics\.js/i, /cdn\.segment\.(?:com|io)\/analytics-next/i] },
   {
@@ -69,6 +69,10 @@ export type SiteVerdict = "verified" | "unverifiable";
 
 export interface SiteTruth {
   domain: string;
+  /** static = raw HTML + headers; rendered = headless Chromium, including every network request. */
+  method: "static" | "rendered";
+  /** Network requests seen while rendering. */
+  requests?: number;
   verdict: SiteVerdict;
   /** Why the site couldn't be checked, when unverifiable. */
   reason?: string;
@@ -90,20 +94,21 @@ export interface TruthSnapshot<T> {
   entries: T[];
 }
 
-const KEPT_HEADERS = ["server", "x-powered-by", "via", "cf-ray", "x-vercel-id", "x-vercel-cache", "x-served-by", "x-fastly-request-id", "x-cache", "content-type"];
+export const KEPT_HEADERS = ["server", "x-powered-by", "via", "cf-ray", "x-vercel-id", "x-vercel-cache", "x-served-by", "x-fastly-request-id", "x-cache", "content-type"];
 
 /** Pages under this size with no scripts are almost always a bot wall or an empty client-side shell. */
 const MIN_HTML_BYTES = 1500;
-const CHALLENGE_PATTERNS = [/<title>\s*Just a moment\.\.\.\s*<\/title>/i, /cdn-cgi\/challenge-platform\/h\/[bg]\/orchestrate/i, /Attention Required! \| Cloudflare/i, /px-captcha/i, /<title>\s*Access Denied\s*<\/title>/i];
+const CHALLENGE_PATTERNS = [/<title>\s*Just a moment\.\.\.\s*<\/title>/i, /cdn-cgi\/challenge-platform\/h\/[bg]\/orchestrate/i, /Attention Required! \| Cloudflare/i, /px-captcha/i, /elements\.namedItem\(["']solution["']\)/, /<title>\s*Access Denied\s*<\/title>/i];
 
-export function detect(html: string, headers: Record<string, string>): { detected: string[]; evidence: Record<string, string> } {
+/** `text` is the page HTML, plus every request URL when the page was rendered. */
+export function detect(text: string, headers: Record<string, string>): { detected: string[]; evidence: Record<string, string> } {
   const detected: string[] = [];
   const evidence: Record<string, string> = {};
   for (const sig of SIGNATURES) {
-    const htmlHit = sig.html?.find((re) => re.test(html));
+    const htmlHit = sig.html?.find((re) => re.test(text));
     if (htmlHit) {
       detected.push(sig.id);
-      evidence[sig.id] = `html ${htmlHit.source}`;
+      evidence[sig.id] = `page ${htmlHit.source}`;
       continue;
     }
     const headerHit = Object.entries(sig.headers ?? {}).find(([name, re]) => headers[name] !== undefined && re.test(headers[name] ?? ""));
@@ -126,7 +131,7 @@ export const BROWSER_UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36";
 
 export async function fetchSiteTruth(domain: string, fetchImpl: typeof fetch = fetch, timeoutMs = 10_000): Promise<SiteTruth> {
-  const base: SiteTruth = { domain, verdict: "unverifiable", detected: [], evidence: {}, headers: {} };
+  const base: SiteTruth = { domain, method: "static", verdict: "unverifiable", detected: [], evidence: {}, headers: {} };
   let response: Response;
   let html: string;
   try {

@@ -1,0 +1,1054 @@
+{
+  "version": 1,
+  "id": "20261007T073213Z-funding",
+  "suite": "funding",
+  "suiteTitle": "Company Latest Funding",
+  "suiteFile": "suites/funding.yaml",
+  "function": {
+    "name": "Company Latest Funding",
+    "routineId": "function:t_0tj9gawg8qYAXCtMVdZ"
+  },
+  "mode": "live",
+  "sample": false,
+  "startedAt": "2026-10-07T07:32:13.422Z",
+  "finishedAt": "2026-10-07T07:39:10.502Z",
+  "spend": {
+    "credits": 143,
+    "actions": 26,
+    "balanceBefore": {
+      "credits": 19847.5,
+      "actions": 440
+    },
+    "balanceAfter": {
+      "credits": 19704.5,
+      "actions": 414
+    }
+  },
+  "judge": {
+    "enabled": false,
+    "note": "ANTHROPIC_API_KEY not set; LLM judge skipped"
+  },
+  "rows": [
+    {
+      "id": "clay",
+      "label": "Clay",
+      "domain": "clay.com",
+      "inputs": {
+        "Company Domain": "clay.com"
+      },
+      "inputHash": "df84f7d5b3d54a07",
+      "source": "cache",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": false,
+          "message": "placeholder value \"0\""
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": false,
+          "message": "0 ≤ 0"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "0"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "0"
+      },
+      "latencyMs": 2173,
+      "credits": 7,
+      "actions": 2,
+      "clayRunId": "run_0tmiz6kVacV6z7RPyVB",
+      "recordedAt": "2026-10-07T06:54:38.843Z"
+    },
+    {
+      "id": "sierra",
+      "label": "Sierra",
+      "domain": "sierra.ai",
+      "inputs": {
+        "Company Domain": "sierra.ai"
+      },
+      "inputHash": "5ff4c714469995f8",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "175000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "175000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "175000000"
+      },
+      "latencyMs": 3729,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj0xpgEk4rD288mUx",
+      "recordedAt": "2026-10-07T07:32:23.528Z"
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "domain": "anthropic.com",
+      "inputs": {
+        "Company Domain": "anthropic.com"
+      },
+      "inputHash": "d8706aa5e7d3e566",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "3500000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "3500000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "3500000000"
+      },
+      "latencyMs": 7712,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj0xzCE4G2s8HKBnG",
+      "recordedAt": "2026-10-07T07:32:38.061Z"
+    },
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "domain": "openai.com",
+      "inputs": {
+        "Company Domain": "openai.com"
+      },
+      "inputHash": "794b07e8e85e4541",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "40000000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "40000000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "40000000000"
+      },
+      "latencyMs": 9874,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj0ydeCtb7jbBHjMe",
+      "recordedAt": "2026-10-07T07:32:54.157Z"
+    },
+    {
+      "id": "cursor",
+      "label": "Cursor",
+      "domain": "cursor.com",
+      "inputs": {
+        "Company Domain": "cursor.com"
+      },
+      "inputHash": "a297e792f0bd5f6c",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "60000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "60000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "60000000"
+      },
+      "latencyMs": 9844,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj0ytqAKeB2DkvDog",
+      "recordedAt": "2026-10-07T07:33:10.244Z"
+    },
+    {
+      "id": "vanta",
+      "label": "Vanta",
+      "domain": "vanta.com",
+      "inputs": {
+        "Company Domain": "vanta.com"
+      },
+      "inputHash": "a24f6c2e6a9062cd",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": false,
+          "message": "placeholder value \"0\""
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": false,
+          "message": "0 ≤ 0"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "0"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "0"
+      },
+      "latencyMs": 9840,
+      "credits": 7,
+      "actions": 2,
+      "clayRunId": "run_0tmj0z9B5bysrYKrYAA",
+      "recordedAt": "2026-10-07T07:33:26.332Z"
+    },
+    {
+      "id": "intercom",
+      "label": "Intercom",
+      "domain": "intercom.com",
+      "inputs": {
+        "Company Domain": "intercom.com"
+      },
+      "inputHash": "9bf4aa3e40e3ae75",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "0.25"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "0.25"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "0.25"
+      },
+      "latencyMs": 14196,
+      "credits": 22,
+      "actions": 2,
+      "clayRunId": "run_0tmj0zpZJMcMKoC4DZ6",
+      "recordedAt": "2026-10-07T07:33:46.811Z"
+    },
+    {
+      "id": "canva",
+      "label": "Canva",
+      "domain": "canva.com",
+      "inputs": {
+        "Company Domain": "canva.com"
+      },
+      "inputHash": "b6451c1a613a3076",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "25000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "25000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "25000000"
+      },
+      "latencyMs": 27553,
+      "credits": 14,
+      "actions": 2,
+      "clayRunId": "run_0tmj10av7oGWt73BFsF",
+      "recordedAt": "2026-10-07T07:34:20.609Z"
+    },
+    {
+      "id": "figma",
+      "label": "Figma",
+      "domain": "figma.com",
+      "inputs": {
+        "Company Domain": "figma.com"
+      },
+      "inputHash": "6484be5f1323b0a0",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "411490"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "411490"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "411490"
+      },
+      "latencyMs": 11241,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj118o8vmc4o7F9PN",
+      "recordedAt": "2026-10-07T07:34:38.095Z"
+    },
+    {
+      "id": "reddit",
+      "label": "Reddit",
+      "domain": "reddit.com",
+      "inputs": {
+        "Company Domain": "reddit.com"
+      },
+      "inputHash": "212eb357145b909a",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "500000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "500000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "500000000"
+      },
+      "latencyMs": 9954,
+      "credits": 4,
+      "actions": 1,
+      "clayRunId": "run_0tmj11p22bbjM3r6ECn",
+      "recordedAt": "2026-10-07T07:34:54.293Z"
+    },
+    {
+      "id": "airbnb",
+      "label": "Airbnb",
+      "domain": "airbnb.com",
+      "inputs": {
+        "Company Domain": "airbnb.com"
+      },
+      "inputHash": "6fc006fccfc308f7",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "2500000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "2500000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "2500000000"
+      },
+      "latencyMs": 11192,
+      "credits": 4,
+      "actions": 1,
+      "clayRunId": "run_0tmj125JPgSb3K5WVmq",
+      "recordedAt": "2026-10-07T07:35:11.907Z"
+    },
+    {
+      "id": "affirm",
+      "label": "Affirm",
+      "domain": "affirm.com",
+      "inputs": {
+        "Company Domain": "affirm.com"
+      },
+      "inputHash": "325e4de9a4e1a15f",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "675000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "675000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "675000000"
+      },
+      "latencyMs": 16254,
+      "credits": 4,
+      "actions": 1,
+      "clayRunId": "run_0tmj12nJj4a3qxHPKM7",
+      "recordedAt": "2026-10-07T07:35:34.397Z"
+    },
+    {
+      "id": "bill",
+      "label": "BILL",
+      "domain": "bill.com",
+      "inputs": {
+        "Company Domain": "bill.com"
+      },
+      "inputHash": "bce304534affd149",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "2.1"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "2.1"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "2.1"
+      },
+      "latencyMs": 62310,
+      "credits": 26,
+      "actions": 3,
+      "clayRunId": "run_0tmj1392Wy3PX55Gay7",
+      "recordedAt": "2026-10-07T07:36:43.006Z"
+    },
+    {
+      "id": "lucid",
+      "label": "Lucid",
+      "domain": "lucid.co",
+      "inputs": {
+        "Company Domain": "lucid.co"
+      },
+      "inputHash": "6f3af1a4be0f3acc",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "52000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "52000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "52000000"
+      },
+      "latencyMs": 21902,
+      "credits": 4,
+      "actions": 1,
+      "clayRunId": "run_0tmj156HqQUG8AhWwbM",
+      "recordedAt": "2026-10-07T07:37:11.134Z"
+    },
+    {
+      "id": "sigma",
+      "label": "Sigma Computing",
+      "domain": "sigmacomputing.com",
+      "inputs": {
+        "Company Domain": "sigmacomputing.com"
+      },
+      "inputHash": "fcbf1d6f986a3e22",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "200000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "200000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "200000000"
+      },
+      "latencyMs": 11000,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj15yeHyoz55DEnSv",
+      "recordedAt": "2026-10-07T07:37:28.381Z"
+    },
+    {
+      "id": "hubspot",
+      "label": "HubSpot",
+      "domain": "hubspot.com",
+      "inputs": {
+        "Company Domain": "hubspot.com"
+      },
+      "inputHash": "2379cb9f3742347d",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "5"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "5"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "5"
+      },
+      "latencyMs": 21818,
+      "credits": 26,
+      "actions": 3,
+      "clayRunId": "run_0tmj16fuxRroXrF6jE7",
+      "recordedAt": "2026-10-07T07:37:56.439Z"
+    },
+    {
+      "id": "nvidia",
+      "label": "NVIDIA",
+      "domain": "nvidia.com",
+      "inputs": {
+        "Company Domain": "nvidia.com"
+      },
+      "inputHash": "2f89e51131663a32",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "25000000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "25000000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "25000000000"
+      },
+      "latencyMs": 10944,
+      "credits": 4,
+      "actions": 1,
+      "clayRunId": "run_0tmj1789cpmu2iGcSFu",
+      "recordedAt": "2026-10-07T07:38:13.627Z"
+    },
+    {
+      "id": "reforge",
+      "label": "Reforge",
+      "domain": "reforge.com",
+      "inputs": {
+        "Company Domain": "reforge.com"
+      },
+      "inputHash": "6e43f1625b69fafe",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "60000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "60000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "60000000"
+      },
+      "latencyMs": 10987,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj17pzJ9JpYRpXEbW",
+      "recordedAt": "2026-10-07T07:38:30.878Z"
+    },
+    {
+      "id": "gonimbly",
+      "label": "Go Nimbly",
+      "domain": "gonimbly.com",
+      "inputs": {
+        "Company Domain": "gonimbly.com"
+      },
+      "inputHash": "4659d3a03432d532",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "300000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "300000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "300000"
+      },
+      "latencyMs": 15016,
+      "credits": 4,
+      "actions": 1,
+      "clayRunId": "run_0tmj186Rr4hxJ36NQm3",
+      "recordedAt": "2026-10-07T07:38:52.143Z"
+    },
+    {
+      "id": "xai",
+      "label": "xAI",
+      "domain": "x.ai",
+      "inputs": {
+        "Company Domain": "x.ai"
+      },
+      "inputHash": "2d06a71b95047fa3",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(Latest Funding)",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "not a placeholder",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "not a placeholder"
+        },
+        {
+          "check": "positive money amount",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "5000000000"
+        },
+        {
+          "check": "under $50B per round",
+          "field": "Latest Funding",
+          "severity": "error",
+          "pass": true,
+          "message": "5000000000"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Latest Funding": "5000000000"
+      },
+      "latencyMs": 12122,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tmj18rSCwwfnrm8wrm",
+      "recordedAt": "2026-10-07T07:39:10.499Z"
+    }
+  ],
+  "metrics": {
+    "rows": 20,
+    "completed": 20,
+    "failed": 0,
+    "missing": 0,
+    "coverage": 1,
+    "failureRate": 0,
+    "checksEvaluated": 80,
+    "checksPassed": 76,
+    "assertionPassRate": 0.95,
+    "rowPassRate": 0.9,
+    "latencyP50Ms": 11096,
+    "latencyP95Ms": 29290.850000000024,
+    "creditsPerRow": 7.5,
+    "actionsPerRow": 1.4,
+    "accuracy": {
+      "label": "assertion pass rate",
+      "value": 0.95
+    },
+    "status": "green"
+  }
+}

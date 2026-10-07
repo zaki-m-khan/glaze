@@ -1,0 +1,557 @@
+{
+  "source": "Homepages rendered directly by Glaze (independent of Clay and BuiltWith)",
+  "method": "Each homepage is loaded in headless Chromium (desktop Chrome user agent, en-US, 30s timeout), then left running 6s more so tag managers can inject their tags. Technologies are matched against the final DOM, every network request URL, and the document's response headers (src/lib/truth/html-signatures.ts). Only the homepage is checked, as a first-time US visitor who hasn't answered a cookie banner. Tags that load only after consent, on other pages, or on other subdomains are invisible, so a missing tag here is weaker evidence than a detected one.",
+  "generatedAt": "2026-10-07T07:24:04.529Z",
+  "entries": [
+    {
+      "domain": "clay.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "LinkedIn Insight",
+        "Meta Pixel",
+        "Webflow",
+        "Cloudflare"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js",
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "LinkedIn Insight": "page snap\\.licdn\\.com\\/li\\.lms-analytics",
+        "Meta Pixel": "page connect\\.facebook\\.net\\/[a-z_A-Z]+\\/fbevents\\.js",
+        "Webflow": "page \\bdata-wf-(?:site|page)=",
+        "Cloudflare": "header server: cloudflare"
+      },
+      "headers": {
+        "server": "cloudflare",
+        "via": "1.1 1f8f39239caa9483a95872353afdef00.cloudfront.net (CloudFront)",
+        "cf-ray": "a46b264cdf488095-EWR",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://www.clay.com/",
+      "httpStatus": 200,
+      "htmlBytes": 682783,
+      "requests": 203
+    },
+    {
+      "domain": "sierra.ai",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Analytics",
+        "HubSpot",
+        "LinkedIn Insight",
+        "Meta Pixel",
+        "Next.js",
+        "Cloudflare",
+        "Vercel"
+      ],
+      "evidence": {
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "HubSpot": "page js(?:-[a-z0-9]+)?\\.hs-scripts\\.com",
+        "LinkedIn Insight": "page snap\\.licdn\\.com\\/li\\.lms-analytics",
+        "Meta Pixel": "page connect\\.facebook\\.net\\/[a-z_A-Z]+\\/fbevents\\.js",
+        "Next.js": "page \\/_next\\/static\\/",
+        "Cloudflare": "header server: cloudflare",
+        "Vercel": "header x-vercel-id: iad1::iad1::9vvnj-1791357701648-39f794445f55"
+      },
+      "headers": {
+        "server": "cloudflare",
+        "cf-ray": "a46b268338301fda-IAD",
+        "x-vercel-id": "iad1::iad1::9vvnj-1791357701648-39f794445f55",
+        "x-vercel-cache": "MISS",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://sierra.ai/",
+      "httpStatus": 200,
+      "htmlBytes": 570150,
+      "requests": 207
+    },
+    {
+      "domain": "anthropic.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "Webflow",
+        "Cloudflare"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js",
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "Webflow": "page \\bdata-wf-(?:site|page)=",
+        "Cloudflare": "header server: cloudflare"
+      },
+      "headers": {
+        "server": "cloudflare",
+        "cf-ray": "a46b26ad580616af-IAD",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://www.anthropic.com/",
+      "httpStatus": 200,
+      "htmlBytes": 191367,
+      "requests": 28
+    },
+    {
+      "domain": "openai.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Next.js",
+        "Cloudflare",
+        "Vercel"
+      ],
+      "evidence": {
+        "Next.js": "page \\/_next\\/static\\/",
+        "Cloudflare": "header server: cloudflare",
+        "Vercel": "header x-vercel-id: iad1::pdx1::vq92z-1791357715441-849d9bd2143e"
+      },
+      "headers": {
+        "server": "cloudflare",
+        "x-powered-by": "Next.js",
+        "cf-ray": "a46b26d97f637000-IAD",
+        "x-vercel-id": "iad1::pdx1::vq92z-1791357715441-849d9bd2143e",
+        "x-vercel-cache": "HIT",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://openai.com/",
+      "httpStatus": 200,
+      "htmlBytes": 488590,
+      "requests": 196
+    },
+    {
+      "domain": "cursor.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "LinkedIn Insight",
+        "Meta Pixel",
+        "Next.js",
+        "Vercel"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page \\bGTM-[A-Z0-9]{4,}\\b",
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "LinkedIn Insight": "page snap\\.licdn\\.com\\/li\\.lms-analytics",
+        "Meta Pixel": "page connect\\.facebook\\.net\\/[a-z_A-Z]+\\/fbevents\\.js",
+        "Next.js": "page \\/_next\\/static\\/",
+        "Vercel": "header server: Vercel"
+      },
+      "headers": {
+        "server": "Vercel",
+        "x-vercel-id": "iad1::v4c4k-1791357722217-5ab522111a0e",
+        "x-vercel-cache": "HIT",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://cursor.com/",
+      "httpStatus": 200,
+      "htmlBytes": 645321,
+      "requests": 184
+    },
+    {
+      "domain": "vanta.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "HubSpot",
+        "Qualified",
+        "6sense",
+        "LinkedIn Insight",
+        "Meta Pixel",
+        "Webflow",
+        "Cloudflare"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js",
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "HubSpot": "page js(?:-[a-z0-9]+)?\\.hs-scripts\\.com",
+        "Qualified": "page js\\.qualified\\.com",
+        "6sense": "page j\\.6sc\\.co",
+        "LinkedIn Insight": "page snap\\.licdn\\.com\\/li\\.lms-analytics",
+        "Meta Pixel": "page connect\\.facebook\\.net\\/[a-z_A-Z]+\\/fbevents\\.js",
+        "Webflow": "page \\bdata-wf-(?:site|page)=",
+        "Cloudflare": "header server: cloudflare"
+      },
+      "headers": {
+        "server": "cloudflare",
+        "cf-ray": "a46b2730bb6480b3-IAD",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://www.vanta.com/",
+      "httpStatus": 200,
+      "htmlBytes": 1423026,
+      "requests": 277
+    },
+    {
+      "domain": "intercom.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "Marketo",
+        "Intercom",
+        "6sense",
+        "LinkedIn Insight",
+        "Meta Pixel",
+        "Next.js",
+        "Vercel"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js",
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "Marketo": "page munchkin\\.marketo\\.net",
+        "Intercom": "page widget\\.intercom\\.io",
+        "6sense": "page j\\.6sc\\.co",
+        "LinkedIn Insight": "page snap\\.licdn\\.com\\/li\\.lms-analytics",
+        "Meta Pixel": "page connect\\.facebook\\.net\\/[a-z_A-Z]+\\/fbevents\\.js",
+        "Next.js": "page \\/_next\\/static\\/",
+        "Vercel": "header server: Vercel"
+      },
+      "headers": {
+        "server": "Vercel",
+        "x-powered-by": "Next.js",
+        "via": "1.1 ccbf01f3e1fbbe27e81779a9bd6e91de.cloudfront.net (CloudFront)",
+        "x-vercel-id": "iad1::iad1::89vq2-1791357738492-538db8854edb",
+        "x-vercel-cache": "MISS",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://www.intercom.com/",
+      "httpStatus": 200,
+      "htmlBytes": 1594419,
+      "requests": 213
+    },
+    {
+      "domain": "canva.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "LinkedIn Insight",
+        "Meta Pixel",
+        "Cloudflare"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js",
+        "LinkedIn Insight": "page snap\\.licdn\\.com\\/li\\.lms-analytics",
+        "Meta Pixel": "page connect\\.facebook\\.net\\/[a-z_A-Z]+\\/fbevents\\.js",
+        "Cloudflare": "header server: cloudflare"
+      },
+      "headers": {
+        "server": "cloudflare",
+        "cf-ray": "a46b27955f0c2027-IAD",
+        "content-type": "text/html;charset=utf-8"
+      },
+      "finalUrl": "https://www.canva.com/",
+      "httpStatus": 200,
+      "htmlBytes": 521415,
+      "requests": 101
+    },
+    {
+      "domain": "figma.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Next.js"
+      ],
+      "evidence": {
+        "Next.js": "page \\/_next\\/static\\/"
+      },
+      "headers": {
+        "via": "1.1 08dc97955bd2deffaa4ff081d908767a.cloudfront.net (CloudFront)",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://www.figma.com/",
+      "httpStatus": 200,
+      "htmlBytes": 1718850,
+      "requests": 165
+    },
+    {
+      "domain": "reddit.com",
+      "method": "rendered",
+      "verdict": "unverifiable",
+      "detected": [],
+      "evidence": {},
+      "headers": {
+        "server": "snooserv",
+        "via": "1.1 varnish",
+        "content-type": "text/html"
+      },
+      "finalUrl": "https://www.reddit.com/?solution=bee88abc6eebabcabee88abc6eebabca&js_challenge=1&jsc_token=2824be10929bdc604753c70a67a1c331d5bbc29c1b458fe77d5804037f3e161f&jsc_orig_r=",
+      "httpStatus": 200,
+      "htmlBytes": 189954,
+      "requests": 3,
+      "reason": "only 3 network requests; the page didn't finish loading (likely a bot interstitial)"
+    },
+    {
+      "domain": "airbnb.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js"
+      },
+      "headers": {
+        "server": "nginx",
+        "content-type": "text/html;charset=utf-8"
+      },
+      "finalUrl": "https://www.airbnb.com/",
+      "httpStatus": 200,
+      "htmlBytes": 1147118,
+      "requests": 237
+    },
+    {
+      "domain": "affirm.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "Meta Pixel",
+        "Hotjar",
+        "Cloudflare"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js",
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "Meta Pixel": "page connect\\.facebook\\.net\\/[a-z_A-Z]+\\/fbevents\\.js",
+        "Hotjar": "page static\\.hotjar\\.com",
+        "Cloudflare": "header server: cloudflare"
+      },
+      "headers": {
+        "server": "cloudflare",
+        "cf-ray": "a46b2844f9f2dce4-IAD",
+        "content-type": "text/html"
+      },
+      "finalUrl": "https://www.affirm.com/",
+      "httpStatus": 200,
+      "htmlBytes": 1133579,
+      "requests": 193
+    },
+    {
+      "domain": "bill.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "Qualified",
+        "Meta Pixel",
+        "Webflow",
+        "Cloudflare"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js",
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "Qualified": "page js\\.qualified\\.com",
+        "Meta Pixel": "page connect\\.facebook\\.net\\/[a-z_A-Z]+\\/fbevents\\.js",
+        "Webflow": "page \\bdata-wf-(?:site|page)=",
+        "Cloudflare": "header server: cloudflare"
+      },
+      "headers": {
+        "server": "cloudflare",
+        "via": "1.1 bb74c0fb6bd5f30d051b0cb1298e0f3e.cloudfront.net (CloudFront)",
+        "cf-ray": "a468a9dd8cdef2a5-IAD",
+        "x-cache": "Hit from cloudfront",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://www.bill.com/",
+      "httpStatus": 200,
+      "htmlBytes": 1650889,
+      "requests": 295
+    },
+    {
+      "domain": "lucid.co",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "Marketo",
+        "Qualified",
+        "LinkedIn Insight",
+        "Meta Pixel"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js",
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "Marketo": "page munchkin\\.marketo\\.net",
+        "Qualified": "page js\\.qualified\\.com",
+        "LinkedIn Insight": "page snap\\.licdn\\.com\\/li\\.lms-analytics",
+        "Meta Pixel": "page connect\\.facebook\\.net\\/[a-z_A-Z]+\\/fbevents\\.js"
+      },
+      "headers": {
+        "content-type": "text/html"
+      },
+      "finalUrl": "https://lucid.co/",
+      "httpStatus": 200,
+      "htmlBytes": 819908,
+      "requests": 333
+    },
+    {
+      "domain": "sigmacomputing.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "HubSpot",
+        "Next.js"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js",
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "HubSpot": "page js\\.hsforms\\.net",
+        "Next.js": "page \\/_next\\/static\\/"
+      },
+      "headers": {
+        "server": "Netlify",
+        "x-powered-by": "Next.js",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://www.sigmacomputing.com/",
+      "httpStatus": 200,
+      "htmlBytes": 537330,
+      "requests": 103
+    },
+    {
+      "domain": "hubspot.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "HubSpot",
+        "LinkedIn Insight",
+        "Meta Pixel",
+        "Cloudflare"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js",
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "HubSpot": "page js\\.hs-analytics\\.net",
+        "LinkedIn Insight": "page snap\\.licdn\\.com\\/li\\.lms-analytics",
+        "Meta Pixel": "page \\bfbq\\(\\s*['\"]init['\"]",
+        "Cloudflare": "header server: cloudflare"
+      },
+      "headers": {
+        "server": "cloudflare",
+        "cf-ray": "a46b290a3e46073c-IAD",
+        "content-type": "text/html;charset=utf-8"
+      },
+      "finalUrl": "https://www.hubspot.com/",
+      "httpStatus": 200,
+      "htmlBytes": 758290,
+      "requests": 266
+    },
+    {
+      "domain": "nvidia.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [],
+      "evidence": {},
+      "headers": {
+        "server": "Apache",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "finalUrl": "https://www.nvidia.com/en-us/",
+      "httpStatus": 200,
+      "htmlBytes": 989429,
+      "requests": 47
+    },
+    {
+      "domain": "reforge.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "HubSpot",
+        "LinkedIn Insight",
+        "Cloudflare"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js",
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "HubSpot": "page js(?:-[a-z0-9]+)?\\.hs-scripts\\.com",
+        "LinkedIn Insight": "page snap\\.licdn\\.com\\/li\\.lms-analytics",
+        "Cloudflare": "header server: cloudflare"
+      },
+      "headers": {
+        "server": "cloudflare",
+        "via": "2.0 heroku-router",
+        "cf-ray": "a46b29754e84e5fe-IAD",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://www.reforge.com/",
+      "httpStatus": 200,
+      "htmlBytes": 1405044,
+      "requests": 192
+    },
+    {
+      "domain": "gonimbly.com",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "HubSpot",
+        "Webflow",
+        "Cloudflare"
+      ],
+      "evidence": {
+        "HubSpot": "page js\\.hsforms\\.net",
+        "Webflow": "page \\bdata-wf-(?:site|page)=",
+        "Cloudflare": "header server: cloudflare"
+      },
+      "headers": {
+        "server": "cloudflare",
+        "cf-ray": "a46b29a23f2b0a52-IAD",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://www.gonimbly.com/",
+      "httpStatus": 200,
+      "htmlBytes": 279584,
+      "requests": 96
+    },
+    {
+      "domain": "x.ai",
+      "method": "rendered",
+      "verdict": "verified",
+      "detected": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "LinkedIn Insight",
+        "Meta Pixel",
+        "Next.js",
+        "Cloudflare"
+      ],
+      "evidence": {
+        "Google Tag Manager": "page googletagmanager\\.com\\/gtm\\.js",
+        "Google Analytics": "page googletagmanager\\.com\\/gtag\\/js",
+        "LinkedIn Insight": "page snap\\.licdn\\.com\\/li\\.lms-analytics",
+        "Meta Pixel": "page connect\\.facebook\\.net\\/[a-z_A-Z]+\\/fbevents\\.js",
+        "Next.js": "page \\/_next\\/static\\/",
+        "Cloudflare": "header server: cloudflare"
+      },
+      "headers": {
+        "server": "cloudflare",
+        "cf-ray": "a46b29cf8b4dd65b-IAD",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "finalUrl": "https://x.ai/",
+      "httpStatus": 200,
+      "htmlBytes": 450184,
+      "requests": 160
+    }
+  ]
+}

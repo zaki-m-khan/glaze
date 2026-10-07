@@ -1,0 +1,1258 @@
+{
+  "version": 1,
+  "id": "20261007T072635Z-traffic",
+  "suite": "traffic",
+  "suiteTitle": "Website Traffic",
+  "suiteFile": "suites/traffic.yaml",
+  "function": {
+    "name": "Website Traffic",
+    "routineId": "function:t_0tj9gb2a2btZNpMekhV"
+  },
+  "mode": "live",
+  "sample": false,
+  "startedAt": "2026-10-07T07:26:35.430Z",
+  "finishedAt": "2026-10-07T07:32:03.968Z",
+  "spend": {
+    "credits": 38,
+    "actions": 19,
+    "balanceBefore": {
+      "credits": 19885.5,
+      "actions": 459
+    },
+    "balanceAfter": {
+      "credits": 19847.5,
+      "actions": 440
+    }
+  },
+  "judge": {
+    "enabled": false,
+    "note": "suite has no judge rubric"
+  },
+  "truthSource": {
+    "kind": "tranco",
+    "source": "Tranco list 26Y29 (https://tranco-list.eu/list/26Y29/1000000)",
+    "generatedAt": "2026-10-07T07:24:06.665Z"
+  },
+  "rows": [
+    {
+      "id": "clay",
+      "label": "Clay",
+      "domain": "clay.com",
+      "inputs": {
+        "domain": "clay.com"
+      },
+      "inputHash": "1cf37cda9083c512",
+      "source": "cache",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "1574681"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 1574681,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 8470,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmiz5v8RFUdaqY7SnB",
+      "recordedAt": "2026-10-07T06:54:20.854Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 36854,
+        "clayValue": 1574681,
+        "clayPosition": 15,
+        "trancoPosition": 16
+      }
+    },
+    {
+      "id": "sierra",
+      "label": "Sierra",
+      "domain": "sierra.ai",
+      "inputs": {
+        "domain": "sierra.ai"
+      },
+      "inputHash": "0341ff6f52764adb",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "200650"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 200650,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 2487,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0obKPC4P5KGQKx2",
+      "recordedAt": "2026-10-07T07:26:44.440Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 180156,
+        "clayValue": 200650,
+        "clayPosition": 18,
+        "trancoPosition": 18
+      }
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "domain": "anthropic.com",
+      "inputs": {
+        "domain": "anthropic.com"
+      },
+      "inputHash": "f2a5c7478aaaf421",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "16097192"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 16097192,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 16326,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0ojDthCZXVCPSSj",
+      "recordedAt": "2026-10-07T07:27:07.003Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 584,
+        "clayValue": 16097192,
+        "clayPosition": 11,
+        "trancoPosition": 6
+      }
+    },
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "domain": "openai.com",
+      "inputs": {
+        "domain": "openai.com"
+      },
+      "inputHash": "fac0cf14f9e67b29",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "565585964"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 565585964,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 11996,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0p6777iryAzW2mo",
+      "recordedAt": "2026-10-07T07:27:25.236Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 93,
+        "clayValue": 565585964,
+        "clayPosition": 3,
+        "trancoPosition": 1
+      }
+    },
+    {
+      "id": "cursor",
+      "label": "Cursor",
+      "domain": "cursor.com",
+      "inputs": {
+        "domain": "cursor.com"
+      },
+      "inputHash": "db238ac103b151fe",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "29014283"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 29014283,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 8803,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0po7fcpWn22q9Tp",
+      "recordedAt": "2026-10-07T07:27:40.262Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 3297,
+        "clayValue": 29014283,
+        "clayPosition": 9,
+        "trancoPosition": 11
+      }
+    },
+    {
+      "id": "vanta",
+      "label": "Vanta",
+      "domain": "vanta.com",
+      "inputs": {
+        "domain": "vanta.com"
+      },
+      "inputHash": "93010fd90e6b0984",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "877038"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 877038,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 9639,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0q4VhnXa6XhXXrW",
+      "recordedAt": "2026-10-07T07:27:56.118Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 18484,
+        "clayValue": 877038,
+        "clayPosition": 16,
+        "trancoPosition": 15
+      }
+    },
+    {
+      "id": "intercom",
+      "label": "Intercom",
+      "domain": "intercom.com",
+      "inputs": {
+        "domain": "intercom.com"
+      },
+      "inputHash": "4406c4bc71664563",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "7958545"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 7958545,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 14152,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0qjARFoYD3nZ8Zw",
+      "recordedAt": "2026-10-07T07:28:16.649Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 1860,
+        "clayValue": 7958545,
+        "clayPosition": 12,
+        "trancoPosition": 9
+      }
+    },
+    {
+      "id": "canva",
+      "label": "Canva",
+      "domain": "canva.com",
+      "inputs": {
+        "domain": "canva.com"
+      },
+      "inputHash": "a98d87247b16b2e6",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "862500014"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 862500014,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 8691,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0r4osDWEgZddTy2",
+      "recordedAt": "2026-10-07T07:28:31.572Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 249,
+        "clayValue": 862500014,
+        "clayPosition": 2,
+        "trancoPosition": 3
+      }
+    },
+    {
+      "id": "figma",
+      "label": "Figma",
+      "domain": "figma.com",
+      "inputs": {
+        "domain": "figma.com"
+      },
+      "inputHash": "5a0ee26828e71294",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "141432950"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 141432950,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 9774,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0rjzPPd7oH9qGAH",
+      "recordedAt": "2026-10-07T07:28:47.569Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 884,
+        "clayValue": 141432950,
+        "clayPosition": 4,
+        "trancoPosition": 8
+      }
+    },
+    {
+      "id": "reddit",
+      "label": "Reddit",
+      "domain": "reddit.com",
+      "inputs": {
+        "domain": "reddit.com"
+      },
+      "inputHash": "e9dde3eb18b95d67",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "5250472758"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 5250472758,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 9848,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0rzK6axPAwBQJux",
+      "recordedAt": "2026-10-07T07:29:03.654Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 106,
+        "clayValue": 5250472758,
+        "clayPosition": 1,
+        "trancoPosition": 2
+      }
+    },
+    {
+      "id": "airbnb",
+      "label": "Airbnb",
+      "domain": "airbnb.com",
+      "inputs": {
+        "domain": "airbnb.com"
+      },
+      "inputHash": "a2815edd37fd55fb",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "93027736"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 93027736,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 14143,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0sfqnFBUCZtU92V",
+      "recordedAt": "2026-10-07T07:29:24.013Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 748,
+        "clayValue": 93027736,
+        "clayPosition": 5,
+        "trancoPosition": 7
+      }
+    },
+    {
+      "id": "affirm",
+      "label": "Affirm",
+      "domain": "affirm.com",
+      "inputs": {
+        "domain": "affirm.com"
+      },
+      "inputHash": "6daea756ca89e2b3",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "24916612"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 24916612,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 10387,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0szcmRtomrf5G6h",
+      "recordedAt": "2026-10-07T07:29:40.932Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 2664,
+        "clayValue": 24916612,
+        "clayPosition": 10,
+        "trancoPosition": 10
+      }
+    },
+    {
+      "id": "bill",
+      "label": "BILL",
+      "domain": "bill.com",
+      "inputs": {
+        "domain": "bill.com"
+      },
+      "inputHash": "08527febf0dda5e1",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "3451573"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 3451573,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 11010,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0tgonF6beNeH92g",
+      "recordedAt": "2026-10-07T07:29:58.209Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 5375,
+        "clayValue": 3451573,
+        "clayPosition": 13,
+        "trancoPosition": 13
+      }
+    },
+    {
+      "id": "lucid",
+      "label": "Lucid",
+      "domain": "lucid.co",
+      "inputs": {
+        "domain": "lucid.co"
+      },
+      "inputHash": "4f1e289d6c877a2d",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "1825927"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 1825927,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 9792,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0txiojHRRUX7FhY",
+      "recordedAt": "2026-10-07T07:30:14.210Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 16871,
+        "clayValue": 1825927,
+        "clayPosition": 14,
+        "trancoPosition": 14
+      }
+    },
+    {
+      "id": "sigma",
+      "label": "Sigma Computing",
+      "domain": "sigmacomputing.com",
+      "inputs": {
+        "domain": "sigmacomputing.com"
+      },
+      "inputHash": "37e2a8e82edbfad2",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "687499"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 687499,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 17424,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0udCUFZdsDJ5p2D",
+      "recordedAt": "2026-10-07T07:30:37.905Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 45839,
+        "clayValue": 687499,
+        "clayPosition": 17,
+        "trancoPosition": 17
+      }
+    },
+    {
+      "id": "hubspot",
+      "label": "HubSpot",
+      "domain": "hubspot.com",
+      "inputs": {
+        "domain": "hubspot.com"
+      },
+      "inputHash": "535e456c140adf1a",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "54369311"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 54369311,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 4443,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0v1S6weEdUY3vrZ",
+      "recordedAt": "2026-10-07T07:30:48.608Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 260,
+        "clayValue": 54369311,
+        "clayPosition": 7,
+        "trancoPosition": 4
+      }
+    },
+    {
+      "id": "nvidia",
+      "label": "NVIDIA",
+      "domain": "nvidia.com",
+      "inputs": {
+        "domain": "nvidia.com"
+      },
+      "inputHash": "8b6bfd08c52445e1",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "64971434"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 64971434,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 8729,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0vcG4kqjDN3VPPd",
+      "recordedAt": "2026-10-07T07:31:03.576Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 378,
+        "clayValue": 64971434,
+        "clayPosition": 6,
+        "trancoPosition": 5
+      }
+    },
+    {
+      "id": "reforge",
+      "label": "Reforge",
+      "domain": "reforge.com",
+      "inputs": {
+        "domain": "reforge.com"
+      },
+      "inputHash": "9f45974588010d6f",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "91905"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 91905,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 15127,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0vreXcjEKNodXkG",
+      "recordedAt": "2026-10-07T07:31:24.930Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 224143,
+        "clayValue": 91905,
+        "clayPosition": 19,
+        "trancoPosition": 19
+      }
+    },
+    {
+      "id": "gonimbly",
+      "label": "Go Nimbly",
+      "domain": "gonimbly.com",
+      "inputs": {
+        "domain": "gonimbly.com"
+      },
+      "inputHash": "02240022542502da",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "1182"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 1182,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 16334,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0wcUC3M7ATQky6t",
+      "recordedAt": "2026-10-07T07:31:47.508Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": null,
+        "clayValue": 1182
+      }
+    },
+    {
+      "id": "xai",
+      "label": "xAI",
+      "domain": "x.ai",
+      "inputs": {
+        "domain": "x.ai"
+      },
+      "inputHash": "50642452e7eb25be",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(siteTraffic)",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "number"
+        },
+        {
+          "check": "traffic is positive",
+          "field": "siteTraffic",
+          "severity": "error",
+          "pass": true,
+          "message": "41965644"
+        },
+        {
+          "check": "required(siteTrafficDataProvider)",
+          "field": "siteTrafficDataProvider",
+          "severity": "warn",
+          "pass": true,
+          "message": "present"
+        }
+      ],
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "siteTraffic": 41965644,
+        "siteTrafficDataProvider": "Semrush"
+      },
+      "latencyMs": 10232,
+      "credits": 2,
+      "actions": 1,
+      "clayRunId": "run_0tmj0wzb3ZZyZyw57Ky",
+      "recordedAt": "2026-10-07T07:32:03.966Z",
+      "truth": {
+        "kind": "tranco",
+        "trancoRank": 4847,
+        "clayValue": 41965644,
+        "clayPosition": 8,
+        "trancoPosition": 12
+      }
+    }
+  ],
+  "metrics": {
+    "rows": 20,
+    "completed": 20,
+    "failed": 0,
+    "missing": 0,
+    "coverage": 1,
+    "failureRate": 0,
+    "checksEvaluated": 80,
+    "checksPassed": 80,
+    "assertionPassRate": 1,
+    "rowPassRate": 1,
+    "latencyP50Ms": 10040,
+    "latencyP95Ms": 16388.5,
+    "creditsPerRow": 2,
+    "actionsPerRow": 1,
+    "truth": {
+      "kind": "tranco",
+      "spearman": 0.9192982456140351,
+      "pairs": 19,
+      "unranked": [
+        "gonimbly.com"
+      ],
+      "noClayValue": [],
+      "outliers": [
+        {
+          "domain": "anthropic.com",
+          "clayPosition": 11,
+          "trancoPosition": 6,
+          "shift": 5
+        },
+        {
+          "domain": "figma.com",
+          "clayPosition": 4,
+          "trancoPosition": 8,
+          "shift": -4
+        },
+        {
+          "domain": "x.ai",
+          "clayPosition": 8,
+          "trancoPosition": 12,
+          "shift": -4
+        },
+        {
+          "domain": "intercom.com",
+          "clayPosition": 12,
+          "trancoPosition": 9,
+          "shift": 3
+        },
+        {
+          "domain": "hubspot.com",
+          "clayPosition": 7,
+          "trancoPosition": 4,
+          "shift": 3
+        }
+      ]
+    },
+    "accuracy": {
+      "label": "Spearman ρ",
+      "value": 0.9192982456140351
+    },
+    "status": "green"
+  }
+}

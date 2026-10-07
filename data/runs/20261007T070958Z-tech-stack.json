@@ -1,0 +1,1673 @@
+{
+  "version": 1,
+  "id": "20261007T070958Z-tech-stack",
+  "suite": "tech-stack",
+  "suiteTitle": "Website Technology Stack",
+  "suiteFile": "suites/tech-stack.yaml",
+  "function": {
+    "name": "Website Technology Stack",
+    "routineId": "function:t_0tj9gb2twxEB8ngq822"
+  },
+  "mode": "live",
+  "sample": false,
+  "startedAt": "2026-10-07T07:09:58.359Z",
+  "finishedAt": "2026-10-07T07:15:00.945Z",
+  "spend": {
+    "credits": 19,
+    "actions": 19,
+    "balanceBefore": {
+      "credits": 19904.5,
+      "actions": 478
+    },
+    "balanceAfter": {
+      "credits": 19885.5,
+      "actions": 459
+    }
+  },
+  "judge": {
+    "enabled": false,
+    "note": "suite has no judge rubric"
+  },
+  "rows": [
+    {
+      "id": "clay",
+      "label": "Clay",
+      "domain": "clay.com",
+      "inputs": {
+        "Company Domain": "clay.com"
+      },
+      "inputHash": "ab9f7c0b32f26dec",
+      "source": "cache",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Google Font API, html5shiv, Apache, Google Analytics, pair Networks, pair Networks Hosting, Microsoft Exchange Online, New Relic, pairNetworks DNS, SPF, Office 365 Mail, Apache 2.4, pair Networks Wildcard SSL, WebEx Panel, jQuery, jQuery 1.12.4, AJAX Libraries API, Google Hosted Libraries, Google Hosted jQuery, Google Hosted jQuery UI, jQuery UI, Viewport Meta, Typekit Async, Typekit, IPhone / Mobile Compatible, Facebook for Websites, Plans and Pricing, nginx, Google Domains, Google DNS, Google Cloud DNS, Google, IPv6, CloudFront, Vimeo, Google Universal Analytics, Apple Mobile Web Clips Icon, Webflow, Content Delivery Network, Embedly, CDN JS, WebFont Loader, Google Hosted Web Font Loader, Google Tag Manager, Global Site Tag, Cloudflare JS, Leadfeeder, Vimeo CDN, Apollo GraphQL, core-js, Moment JS, Underscore.js, Varnish, OpenResty, Fastly, LetsEncrypt, SSL by Default, Amazon, AWS Global Accelerator, Mobile Non Scaleable Content, Google Analytics Classic, Amazon S3 CDN, Webflow Hosting, Amazon Oregon Region, Amazon Tokyo Region, My Salesforce, Amazon Virginia Region, Amazon Ireland Region, Typed.js, jsDelivr, Careers, Members Page, GStatic Google Static Content, Google Analytics 4, Google Optimize 360, DoubleClick.Net, Amazon S3, Intersection Observer, Product Hunt, Loom, US Privacy User Signal Mechanism, LinkedIn, Twitter, LinkedIn Ads, GrowSurf, LinkedIn Insights, Hubspot, Google Apps for Business, Euro, HubSpot Analytics, Hubspot Ads, Hubspot Forms, YouTube, YouTube IFrame API, YouTube IFrame Upload, Slack, CrUX Dataset, CrUX Top 5m, Hotjar, Get Koala, UNPKG, Segment, Sentry, Slick JS, DMARC, Amazon Route 53, jQuery Waypoints, Ipify, Lorem Ipsum, ContactPoint Schema, Organization Schema, PostalAddress Schema, AggregateRating Schema, SoftwareApplication Schema, Webflow Ecommerce, Cloudflare Radar, Cloudflare Radar Top 100k, Cloudflare Radar Top 200k, Azure Active Directory, Preact JS, reCAPTCHA, React, FullStory, es6 promise, Popper.js, jQuery 3.6.3, jQuery 3.5.1, jQuery 3.6.0, API Developer, CrUX Top 1m, U.S. Server Location, Japanese Yen, Lucky Orange, Webpack, Affiliate Partner Reseller, Rewardful, LiveIntent, IP API, IP API Pro, Cloudflare Radar Top 50k, Events Page, Clearbit, CrUX Top 500k, Amazon CloudFront, YouTube Link, GitHub, Artificial Intelligence, Clipboard.js, Do Not Sell, Jetboost, Salesforce, ipapi, Amazon Sydney Region, SOC 2, Amazon Mumbai Region, Amazon Paris Region, Amazon Stockholm Region, AWS Lambda, Cloudflare CDN, Cloudflare Bot Manager, matchMedia, Google Webmaster, SaaS Pricing in Dollars, SaaS Pricing Above $400 Per Month, Stripe, Termly, WooCommerce, Italian Server Location, English - Inferred, Clearbit Reveal, Cloudflare Workers, Edge Network, Wistia, Microsoft Azure DNS, DMARC None, X, Amplitude, CommonCrawl Top 250k, Factors.ai, Salesforce SPF, 3 to 9 ccTLD Redirects, GSAP, AWS Cloudfront Dallas Fort Worth Edge, AWS Cloudfront Sydney Edge, AWS Cloudfront Seattle WA Edge, AWS Cloudfront Marseille Edge, AWS Cloudfront Chicago IL Edge, AWS Cloudfront Mumbai Edge, AWS Cloudfront Miami FL Edge, AWS Cloudfront San Francisco CA Edge, AWS Cloudfront Atlanta GA Edge, AWS Cloudfront Madrid Edge, AWS Cloudfront Tel Aviv Edge, AWS Cloudfront Ashburn VA Edge, AWS Cloudfront New York NY Edge, AWS Cloudfront Paris Edge, AWS Cloudfront Stockholm Edge, AWS Cloudfront Amsterdam Edge, AWS Cloudfront Chennai Edge, AWS Cloudfront Hillsboro OR Edge, AWS Cloudfront Los Angeles CA Edge, AWS Cloudfront Milan Edge, Amazon SSL, RSS, AWS Cloudfront Helsinki Edge, AWS Cloudfront Muscat Edge, Zoom Video Conferencing, Zoom, Amazon WAF Blocked, AWS Cloudfront Dubai Edge, Typeform, AWS Cloudfront Phoenix AZ Edge, AWS Cloudfront Denver CO Edge, AWS Cloudfront Frankfurt Edge, AWS Cloudfront Vienna Edge, SaaS Pricing Above $200 Per Month, AWS Cloudfront Sao Paulo Edge, AWS Cloudfront Sofia Edge, Swedish Server Location, AWS Cloudfront Rio de Janeiro Edge, AWS Cloudfront Houston TX Edge, Squarespace Registrar, Cloudflare, CommonCrawl Top 100k, Common Crawl, AWS Cloudfront Hong Kong Edge, AWS Cloudfront Philadelphia PA Edge, AWS Cloudfront Bogotá Edge, AWS Cloudfront Zurich Edge, AWS Cloudfront Montréal QC Edge, AWS Cloudfront Kansas City MO Edge, AWS Cloudfront Minneapolis MN Edge, Figma, Java EE, AWS Cloudfront Brussels Edge, AWS Cloudfront London Edge, AWS Cloudfront Toronto ON Edge, lodash, AWS Cloudfront Vancouver BC Edge, Pre Year 2000, AWS Cloudfront Melbourne Edge, AWS Cloudfront Singapore Edge, AWS Cloudfront Kolkata Edge, AWS Cloudfront Prague Edge, AWS Cloudfront Tokyo Edge, B2B, Google Conversion Linker, AWS Cloudfront Dublin Edge, Offer Schema, Review Schema, Person Schema, Rating Schema, Google Identity Platform, AWS Cloudfront Düsseldorf Edge, AI Generated Copy, AWS Cloudfront Taipei TW Edge, Intellimize, AI Agent, AWS Cloudfront Copenhagen Edge, AWS Cloudfront Warsaw Edge, JavaScript Modules, AWS Cloudfront Boston MA Edge, AWS Cloudfront Oslo Edge, AWS Cloudfront Kuala Lumpur Edge, Copyright Year 2022, Anthropic, Docker, Intercom, CircleCI, Dagster, Elasticsearch, Fivetran Operations, Multilingual, GitHub Operations, Grafana Operations, Linux, Netlify Operations, Node.js, OpenSearch Operations, OWASP, Playwright, React Operations, Redis, Snowflake, Tableau Operations, Terraform, Technical Job Listings, Placeholders.js, Copyright Year 2020, Wikipedia, Copyright Year 2024, NPM MCP, NPM Agent, NPM CLI, MCP Model Context Protocol, NPM Publisher, Pre Year 2010, Place Schema, TrustRadius, CollegeOrUniversity Schema, AggregateOffer Schema, AWS Cloudfront Santiago Edge, AWS Cloudfront Buenos Aires Edge, AWS Cloudfront Manila Edge, Login or Signup, Dmarcian, NPM AI, Google Call Conversion Tracking, AWS Cloudfront Jakarta Edge, AWS Cloudfront New Delhi Edge, Amazon Web Services Operations, Microsoft Azure Operations, Software Engineering Job Listings, OpenAI, Data Analytics Job Listings, CI/CD Job Listings, Data Pipeline Job Listings, Technical Leadership Job Listings, Engineering Management Job Listings, Full Stack Development Job Listings, Incident Response Job Listings, Infrastructure Engineering Job Listings, Large Language Model Job Listings, AI and Machine Learning Job Listings, Microservices Job Listings, Observability Job Listings, Relational Database Job Listings, Reliability Engineering Job Listings, Security Job Listings, Serverless Computing Job Listings, Site Reliability Engineering Job Listings, AWS Cloudfront Johannesburg Edge, Data Quality Job Listings, Product Engineering Job Listings, PowerDMARC, OpenAI Operations, Funding Announcement, Switzerland FDPIC, English HREF LANG, French HREF LANG, YouTube Privacy Enchanced, Unsplash, Spotify Link, GitHub Node.js, GitHub Agent, GitHub AI, GitHub MCP, GitHub CLI, GitHub Anthropic, GitHub OpenAI, GitHub Cursor, GitHub SDK, Github Repo, Ashby, AWS Cloudfront Osaka Edge, Lightbox, Visa, MasterCard, PayPal, Lever, Twitter Tweet Button, HTML5 History API, Apple Podcast Link, GitBook, Iframely, Polyfill IO, GitHub Hosting, Algolia, Intercom Help, Cloudflare SSL, Cloudflare Hosting, Express, Cloudflare Insights, CrUX Top 10m, CrUX Top 50m, Next.js, Classnames, HSTS, Cloudflare Network Error Logging, Font Awesome, Vue, DNSSEC, Google Cloud, Cloudflare DNS, Fastly Hosted, Fastly Load Balancer, Ravelin, Pound Sterling, Brightcove, Facebook, Skilljar, HSTS IncludeSubdomains PreLoad, OneTrust, Calendly, Netlify, Amazon California Region, Amazon Frankfurt Region, Netlify Edge, German Server Location, Cloudflare Blocked, Cloudflare Challenge, Cloudflare Automatic Challenge, FLoC Opt-Out, Imgur, Gravatar Profiles, Vercel, Cogeco Peer 1, Cloudinary, Radix UI, Bootstrap.js, Handlebars, React Redux, Amazon SES, Vanta, Cloudflare Web Analytics, Merge, Day.js, Supabase, Google Cloud CDN, Google Cloud Global Multi-Region, Sprig, shadcn ui, Base UI"
+      },
+      "latencyMs": 2414,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmiz55MW4eEk5aUkJt",
+      "recordedAt": "2026-10-07T06:53:47.940Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "423 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "LinkedIn Insight",
+          "Webflow",
+          "Cloudflare"
+        ],
+        "falsePositives": [
+          "Segment",
+          "HubSpot",
+          "Intercom",
+          "Hotjar",
+          "Next.js",
+          "Vercel",
+          "Fastly",
+          "Stripe.js"
+        ],
+        "falseNegatives": [
+          "Meta Pixel"
+        ]
+      }
+    },
+    {
+      "id": "sierra",
+      "label": "Sierra",
+      "domain": "sierra.ai",
+      "inputs": {
+        "Company Domain": "sierra.ai"
+      },
+      "inputHash": "740ff2a25a6c80c2",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Viewport Meta, IPhone / Mobile Compatible, Mobile Non Scaleable Content, nginx, ScaleMatrix, Content Delivery Network, DeviceAtlas Client Side Component, LetsEncrypt, Amazon, Amazon S3 CDN, 101domain, Amazon Montreal Region, jQuery, jQuery 3.6.0, Modernizr, Copyright Year 1999, CloudFront, Cloudflare Network Error Logging, Cloudflare CDN, Cloudflare, Cloudflare Hosting, IPv6, SPF, Google Apps for Business, Cloudflare DNS, SSL by Default, React, Intersection Observer, Microsoft Azure DNS, Next.js, Apple Mobile Web Clips Icon, Sanity, HSTS IncludeSubdomains PreLoad, HSTS, OneTrust Domain Verification, Organization Schema, Hubspot, LinkedIn, Google Analytics 4, X, OneTrust, Optanon, Google Tag Manager, Global Site Tag, Google Analytics, CrUX Dataset, CrUX Top 50m, Euro, Sentry, Network Advertising Initiative, Google Analytics Opt-Out Privacy, AdChoices in Canada, DMARC, CrUX Top 5m, DoubleClick.Net, US Privacy User Signal Mechanism, Facebook SDK, Facebook for Websites, Facebook Pixel, Facebook Custom Audiences, Facebook Conversion Tracking, Google AdWords Conversion, Google Conversion Tracking, LinkedIn Insights, Facebook, Facebook Signal, HubSpot Analytics, LinkedIn Ads, Google Remarketing, Hubspot Ads, Hubspot Forms, UNPKG, Careers, Artificial Intelligence, Azure Active Directory, Cloudflare Bot Manager, Google Policies, EDAA, Cloudflare Radar, Google Webmaster, English - Inferred, YouTube Link, Vercel, Apple iCloud Mail, DMARC None, OpenAI, Amazon Business Program, Figma, English HREF LANG, The Trade Desk, DMARC Quarantine, The Trade Desk Universal Pixel, ZoomInfo, CommonCrawl Top 5m, DMARC Reject, RSS, Box, Sierra, Google DoubleClick Conversion, StatusPage IO, Reddit Ads, CrUX Top 1m, Cloudflare Radar Top 500k, Cloudflare Radar Top 200k, Smartsheet, Spanish - Inferred, CommonCrawl Top 250k, Common Crawl, Zoom Video Conferencing, Zoom, Dreamdata, Portuguese - Inferred, CrUX Top 500k, 3 to 9 ccTLD Redirects, HackerOne, Salesforce SPF, Modern Slavery Statement, Postman, AI Generated Copy, Discover, Cloudflare Radar Top 100k, Stripe, AI Agent, CommonCrawl Top 100k, DocuSign, Anthropic, Docker, OpenAI Operations, Multilingual, ClickHouse, Dagster, Grafana Operations, Kotlin, Kubernetes Operations, LangChain, MLOps, OpenTelemetry Operations, Prometheus, Prompt Engineering, PyTorch, React Operations, Snowflake, TensorFlow, Terraform, Technical Job Listings, Spanish HREF LANG, Adobe Enterprise Cloud, Japanese HREF LANG, Login or Signup, Person Schema, PostalAddress Schema, ContactPoint Schema, French HREF LANG, German HREF LANG, Canva, Amazon Web Services Operations, Microsoft Azure Operations, OpenAI Codex, Large Language Model Job Listings, Software Engineering Job Listings, MTA Strict Transport Security, Korean HREF LANG, Telecommunications Job Listings, Change Management Job Listings, CI/CD Job Listings, Data Pipeline Job Listings, Distributed Systems Job Listings, ETL Pipeline Job Listings, Incident Response Job Listings, Infrastructure Engineering Job Listings, Natural Language Processing Job Listings, Observability Job Listings, Program Management Job Listings, Release Management Job Listings, Security Job Listings, Statistical Analysis Job Listings, Technical Documentation Job Listings, Technical Leadership Job Listings, MTA-STS Testing, Solutions Engineering Job Listings, Funding Announcement, Product Engineering Job Listings, Systems Integration Job Listings, Bing Universal Event Tracking, Reddit Conversion Tracking, Facebook Sharer, Envoy, Hubspot Hosted, U.S. Server Location, Amazon Oregon Region, DNSSEC, JavaScript Modules, Robots Disallow, CLEAR, Vanta, GStatic Google Static Content, Amazon S3, CrUX Top 10m, Amazon ELB Tokyo, Amazon Elastic Load Balancing, Amazon Tokyo Region, Japanese Server Location, American Express, Zendesk, Amazon SSL, Java EE, 403 Error, Google Cloud CDN, Google Cloud"
+      },
+      "latencyMs": 2262,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizwmsPVPnyz9RxPm",
+      "recordedAt": "2026-10-07T07:10:06.961Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "209 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Analytics",
+          "HubSpot",
+          "LinkedIn Insight",
+          "Meta Pixel",
+          "Next.js",
+          "Cloudflare",
+          "Vercel"
+        ],
+        "falsePositives": [
+          "Google Tag Manager",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "domain": "anthropic.com",
+      "inputs": {
+        "Company Domain": "anthropic.com"
+      },
+      "inputHash": "755816cb95eb0491",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Google Cloud, Google, Namefind, CloudFront, Google Adsense, Google Adsense for Domains, Viewport Meta, IPhone / Mobile Compatible, OpenResty, AdBlock Acceptable Ads, Some Robots Disallow, GoDaddy, Google Apps for Business, GoDaddy DNS, Microsoft Azure DNS, Google Domains, Google DNS, Google Cloud DNS, Apple Mobile Web Clips Icon, PHP, Amazon S3, SSL by Default, React, Webpack, Amazon SSL, IPv6, SPF, DMARC, Amazon CloudFront, Amazon, Hit Farm, AJAX Libraries API, Google Hosted Libraries, Google Hosted jQuery, jQuery, jQuery 1.9.1, jQuery 1.8.3, Content Delivery Network, Optimizely, Google Font API, Google Analytics, Google Universal Analytics, Google Analytics Enhanced Link Attribution, My Salesforce, Atlassian Cloud, AWS Cloudfront Los Angeles CA Edge, AWS Cloudfront Miami FL Edge, AWS Cloudfront Chicago IL Edge, AWS Cloudfront Sydney Edge, AWS Cloudfront Stockholm Edge, AWS Cloudfront Helsinki Edge, AWS Cloudfront Singapore Edge, AWS Cloudfront Seattle WA Edge, DNSSEC, AWS Cloudfront Amsterdam Edge, AWS Cloudfront Ashburn VA Edge, Slack, CrUX Dataset, CrUX Top 5m, AWS Cloudfront Paris Edge, Stripe, SEOmatic, LocalBusiness Schema, Organization Schema, Craft, Cloudflare, LinkedIn, Twitter, Careers, GSAP, core-js, Cloudflare CDN, HSTS, Cloudflare SSL, Cloudflare Hosting, CrUX Top 1m, Fathom Analytics, reCAPTCHA, CrUX Top 500k, Hubspot Forms, Intersection Observer, Hubspot, Azure Active Directory, Segment, Cloudflare Radar, Cloudflare Radar Top 50k, HackerOne, CrUX Top 100k, IP Block Owner, Cloudflare DNS, Styled Components, U.S. Server Location, reCAPTCHA Enterprise, GStatic Google Static Content, Classnames, Next.js, Sanity, HSTS IncludeSubdomains PreLoad, Google Cloud CDN, Cloudflare Bot Manager, LetsEncrypt, API Developer, US Privacy User Signal Mechanism, Facebook Signal, Reddit Ads, Facebook SDK, Google Remarketing, Facebook for Websites, Facebook Pixel, Facebook Custom Audiences, DoubleClick.Net, Google Tag Manager, LinkedIn Insights, Reddit Conversion Tracking, LinkedIn Ads, OpenTelemetry, CrUX Top 50k, GitHub, Google Analytics Classic, Plans and Pricing, Apple App Link, Google Play Store Link, Artificial Intelligence, YouTube Link, 1Password, Google Webmaster, WebEx, WebEx Panel, English - Inferred, Sentry, DMARC Reject, Companies House, X, Cloudflare Challenge, Cloudflare Automatic Challenge, FLoC Opt-Out, 403 Error, CommonCrawl Top 5k, Airtable, Greenhouse, WebFont Loader, Google Hosted Web Font Loader, Global Site Tag, Google Analytics 4, YouTube, YouTube Privacy Enchanced, Hubspot Webflow, AWS Lambda, Intellimize, 3 to 9 ccTLD Redirects, Events Page, jQuery 3.5.1, Webflow, About Cookies, matchMedia, Facebook, Emotion, Cloudflare Radar Top 100k, CDN JS, Cloudflare JS, CommonCrawl Top 1000, Common Crawl, Wikipedia, B2B, Salesforce, Embedly, LangChain, Anthropic, Docker, Copyright Year 2024, Angular Operations, Ansible, Apache Spark, Google BigQuery, ClickHouse, Multilingual, Confluence, Dagster, Databricks, DuckDB, Amazon DynamoDB, Fivetran Operations, GitHub Operations, GitLab Operations, Grafana Operations, InfluxDB, Istio Operations, Jetpack Compose, Kotlin, Kubernetes Operations, Linux, MLOps, MySQL, Node.js, NumPy, OpenTelemetry Operations, PagerDuty, pandas, PostgreSQL, Microsoft Power BI Operations, Prometheus, Prompt Engineering, Pulumi, PyTorch, React Operations, React Native, Redis, SCIKit Learn, Snowflake, Microsoft SQL Server, SwiftUI, Tableau Operations, Temporal, TensorFlow, Terraform, TimescaleDB, Vercel Operations, Google Vertex AI, Zero Trust, Technical Job Listings, Bug Bounty, NPM Anthropic, NPM LLM, NPM API, NPM AI, NPM Publisher, Euro, Login or Signup, Global Privacy Control, Copyright Year 2023, JavaScript Modules, Pre Year 2010, CrUX Top 10k, MongoDB, European Government Contractor, Dutch Government Contractor, Quicktime, Amazon Web Services Operations, Microsoft Azure Operations, Anthropic Claude Code, Control Systems Job Listings, Large Language Model Job Listings, Observability Job Listings, Performance Engineering Job Listings, Platform Engineering Job Listings, Product Engineering Job Listings, Security Job Listings, API Development Job Listings, Business Intelligence Job Listings, Data Analytics Job Listings, API Integration Job Listings, Solutions Architecture Job Listings, Change Management Job Listings, CI/CD Job Listings, Cloud Architecture Job Listings, Cloud Infrastructure Job Listings, Cloud Native Job Listings, Computer Vision Job Listings, Configuration Management Job Listings, Continuous Integration Job Listings, Data Engineering Job Listings, Data Pipeline Job Listings, Data Quality Job Listings, Data Science Job Listings, Data Visualization Job Listings, Data Warehousing Job Listings, Deep Learning Job Listings, Design Engineering Job Listings, DevOps Practices Job Listings, Distributed Systems Job Listings, Technical Leadership Job Listings, Engineering Management Job Listings, Full Stack Development Job Listings, Incident Response Job Listings, Infrastructure Engineering Job Listings, Integration Engineering Job Listings, AI and Machine Learning Job Listings, Mechanical Engineering Job Listings, Microservices Job Listings, Natural Language Processing Job Listings, Network Architecture Job Listings, Network Engineering Job Listings, NoSQL Database Job Listings, Product Management Job Listings, Program Management Job Listings, Project Management Job Listings, Relational Database Job Listings, Reliability Engineering Job Listings, Serverless Computing Job Listings, Site Reliability Engineering Job Listings, Software Architecture Job Listings, Software Engineering Job Listings, Statistical Analysis Job Listings, Technical Documentation Job Listings, Technical Writing Job Listings, Telecommunications Job Listings, Virtualization Job Listings, Generative AI Job Listings, Hybrid Cloud Job Listings, Solutions Engineering Job Listings, Data Governance Job Listings, Predictive Analytics Job Listings, Funding Announcement, Technology Engineering Job Listings, Backend Development Job Listings, Amazon Route 53, AWS Cloudfront Frankfurt Edge, AWS Cloudfront San Francisco CA Edge, AWS Cloudfront Atlanta GA Edge, AWS Cloudfront Milan Edge, AWS Cloudfront Tel Aviv Edge, AWS Cloudfront Madrid Edge, AWS Cloudfront Denver CO Edge, AWS Cloudfront Mumbai Edge, Fastly, Fastly Hosted, Fastly Load Balancer, Notion, Google Cloud Global Multi-Region, Apple Mobile Web App Capable, Apple Mobile Web Clips Startup, Workbox, Intercom Help, Intercom, Statsig, Apple Mobile Web App Status Bar Style, Alexa Bot Disallow, hCaptcha, CrUX Top 50m, Google Fraud Defence, AWS Cloudfront Marseille Edge, AWS Cloudfront Dubai Edge, AWS Cloudfront Dallas Fort Worth Edge, Domain Not Resolving, Robots Disallow, Facebook Sharer, Lever, European Commission Online Dispute Resolution, Visa, Typeform, Code the Dream, Code for America, OAIC, StatusPage IO, html5shiv, Mobile Non Scaleable Content, Mobile Optimized, Polyfill IO, Atom, RSS, Amazon Oregon Region, Tooltipster, jQuery Cookie, Typeahead.js, Moment JS, lodash, MobX, Bloodhound Typeahead, Google Code Prettify, Respond, Amazon Ireland Region, Amazon Virginia Region, AWS Cloudfront Taipei TW Edge, Ruby on Rails Token, AWS Cloudfront Phoenix AZ Edge, AWS Cloudfront London Edge, Babel, AWS Cloudfront Manama Edge, AWS Cloudfront Toronto ON Edge, AWS Cloudfront New York NY Edge, AWS Cloudfront Jakarta Edge, Amazon S3 CDN, Gist, CrUX Top 10m, Auth0, UNPKG, Angular JS, Heroku Vegur Proxy, Algolia, es6 promise, Render, LogRocket, Material UI, Vanta, CommandBar, Merge, Cloudflare Insights, Cloudflare Web Analytics, Cloudflare Network Error Logging, Brightcove, Skilljar, Loom, nginx, Istio, DigiCert SSL, jsDelivr, ReadMe, Localize, HTML5 History API, Mintlify, KaTeX, BunnyCDN General, Maestro, crypto browserify, Varnish, Stripe Hosted Checkout, AWS Cloudfront Hong Kong Edge, English HREF LANG, French HREF LANG, German HREF LANG, Indonesian HREF LANG, Italian HREF LANG, Japanese HREF LANG, Korean HREF LANG, Russian HREF LANG, Chinese HREF LANG, Spanish HREF LANG, Taiwan Chinese HREF LANG, Portuguese HREF LANG, Amazon API Gateway, ATT, Font Awesome, RequireJS, Cookie Consent by Osano, Bynder, jQ"
+      },
+      "latencyMs": 5490,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizwuCF9vbkxJhw4x",
+      "recordedAt": "2026-10-07T07:10:18.998Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "426 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "Webflow",
+          "Cloudflare"
+        ],
+        "falsePositives": [
+          "Segment",
+          "HubSpot",
+          "Intercom",
+          "LinkedIn Insight",
+          "Meta Pixel",
+          "Optimizely",
+          "Next.js",
+          "Fastly",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "domain": "openai.com",
+      "inputs": {
+        "Company Domain": "openai.com"
+      },
+      "inputHash": "bb1b9c5c8531ec0d",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Viewport Meta, Apple Mobile Web Clips Icon, Google Analytics, Amazon S3, Amazon, Amazon Route 53, SPF, SSL by Default, Google Apps for Business, Google Universal Analytics, Comodo PositiveSSL, Comodo SSL, Fonts.com, RSS, jQuery, jQuery CDN, Modernizr, Segment, Content Delivery Network, CloudFront, PHP, Atom, Dynamics.js, IPhone / Mobile Compatible, Microsoft Azure DNS, Ghost, Cloudflare, PrismJS, fluidvids.js, Amazon SSL, Amazon CloudFront, Clipboard.js, DoubleClick.Net, MailChimp SPF, Stripe, Stripe v3, Ghost 3.0, Global Site Tag, Google Tag Manager, Marked, Ghost 3.7*, Ghost 3.1*, DMARC, Dmarcian, jsDelivr, Ghost 3.2*, Microsoft Exchange Online, Office 365 Mail, Ghost 3.3*, UNPKG, Microsoft, React, Organization Schema, Person Schema, KaTeX, Ghost 3.4*, Events Page, Atlassian Cloud, Plans and Pricing, Ghost 4.7*, Java EE, Ghost 4.8*, Ghost 4.9*, Varnish, OpenResty, Fastly, Ghost 4.1*, Sentry, nginx, My Salesforce, Ghost 4.2*, LetsEncrypt, Akamai Hosted, Ghost 4.3*, Copyright Year 2015, Careers, GoDaddy CDN, SEDO Parking, Japanese Yen, jQuery 1.4.2, Google Adsense, Google Adsense for Domains, Ghost 4.4*, 3 to 9 ccTLD Redirects, core-js, US Privacy User Signal Mechanism, Facebook, LinkedIn, Twitter, Ghost 5.10*, Intersection Observer, Telstra, AdBlock Acceptable Ads, Euro, Apple iCloud Mail, Vimeo, Slack, Microsoft Azure Front Door, Microsoft Azure Verified CDN, DigiCert SSL, GeoTrust SSL, CrUX Dataset, CrUX Top 10k, CrUX Top 5000, Google Font API, Imgix, Nuxt.js, Microsoft Azure Blob Storage, Azure Edge, HSTS IncludeSubdomains PreLoad, HSTS, CrUX Top 1000, Cloudflare Verify, Azure Active Directory, Cloudflare Hosting, Bug Bounty, Report URI, SoundCloud, Cloudflare Insights, Cloudflare Web Analytics, Instagram, GitHub, Cloudflare Radar, Cloudflare Radar Top 50k, API Developer, Edge Network, Affiliate Partner Reseller, WebEx, Members Page, WebEx Panel, JavaScript Modules, Vue, Wrike, Vue Instantiated, YouTube Link, Salesforce, TikTok, Next.js, Radix UI, English HREF LANG, Contentful, Cloudflare CDN, Cloudflare Challenge, Cloudflare Automatic Challenge, FLoC Opt-Out, Cloudflare Bot Manager, 403 Error, Vercel, DALL-E, X, Perl, Artificial Intelligence, Cloudflare Network Error Logging, Japanese HREF LANG, ResearchGate, USA Charities and Non-Profits, USA Charity Non Profit Above $10k Revenue, Dropbox Business, Airtable, Box, Canva, Google Webmaster, Miro, Twilio, HTML5 History API, Flickity, Google Analytics 4, IPv6, Cloudflare Turnstile, Statsig, English - Inferred, Ghost 2.X, Ghost 3.X, Ghost 4.X, Ghost 5.X, Zoom Video Conferencing, Zoom, Blocked in China, DMARC Reject, USA Charity Non Profit Above $1m Revenue, Marketo Mail, AWS Cloudfront Ashburn VA Edge, CommonCrawl Top 1000, Spanish HREF LANG, lodash, 10 to 14 ccTLD Redirects, German HREF LANG, Danish HREF LANG, Finnish HREF LANG, French HREF LANG, Hindi HREF LANG, Indonesian HREF LANG, Italian HREF LANG, Korean HREF LANG, Dutch HREF LANG, Polish HREF LANG, Portuguese HREF LANG, Brazilian Portuguese HREF LANG, Swedish HREF LANG, Turkish HREF LANG, Vietnamese HREF LANG, Chinese HREF LANG, LinkedIn Insights, Reddit Ads, Reddit Conversion Tracking, Vercel AI SDK, Bengali HREF LANG, Telugu HREF LANG, Cloudflare Radar Top 100k, Multilingual, OpenAI, Common Crawl, Hubspot Developer Verification, Figma, 15 to 19 ccTLD Redirects, Marathi HREF LANG, Tamil HREF LANG, Oracle Cloud, 20 to 29 ccTLD Redirects, OneTrust Domain Verification, Postman, Smartsheet, Wikipedia, Arabic HREF LANG, Bulgarian HREF LANG, Bosnian HREF LANG, Czech HREF LANG, Greek HREF LANG, Estonian HREF LANG, Persian HREF LANG, Canadian French HREF LANG, Croatian HREF LANG, Hungarian HREF LANG, Armenian HREF LANG, Icelandic HREF LANG, Lithuanian HREF LANG, Latvian HREF LANG, Macedonian HREF LANG, Malayalam HREF LANG, Malaysian HREF LANG, Romanian HREF LANG, Russian HREF LANG, Slovak HREF LANG, Slovenian HREF LANG, Albanian HREF LANG, Swahili HREF LANG, Thai HREF LANG, Ukrainian HREF LANG, Urdu HREF LANG, Autodesk, Yahoo Dot, Bing Universal Event Tracking, B2B, Facebook for Websites, Facebook SDK, Facebook Pixel, Facebook Custom Audiences, Facebook Data Processing Options, U.S. Server Location, Docker, OpenAI Operations, Angular Operations, Ansible, Apache Kafka, Apache Spark, Argo CD, Google BigQuery, ClickHouse, Dagster, Databricks, Django Operations, Elasticsearch, GitHub Operations, GitLab Operations, Gradle, Grafana Operations, Istio Operations, Jetpack Compose, Kotlin, Kubernetes Operations, Laravel Operations, Linux, Memcached, MLOps, MySQL, Node.js, OpenTelemetry Operations, OWASP, PagerDuty, pandas, PostgreSQL, Prefect, Prometheus, Prompt Engineering, Protocol Buffers, Pulumi, PyTorch, React Operations, Redis, SCIKit Learn, Snowflake, SwiftUI, Tableau Operations, Temporal, TensorFlow, TensorRT, Terraform, Vercel Operations, Zero Trust, Technical Job Listings, AI Agent, AI Generated Copy, USA Charity Non Profit Above $10m Revenue, AI Unfriendly, NPM OpenAI, NPM Publisher, Apple App Link, Login or Signup, Canadian Server Location, Ghost 5.8*, Ghost 5.7*, Ghost 5.2*, MCP Model Context Protocol, Pre Year 2010, MongoDB, Amazon Web Services Operations, Microsoft Azure Operations, OpenAI Codex, AI and Machine Learning Job Listings, Continuous Integration Job Listings, Full Stack Development Job Listings, Relational Database Job Listings, Project Management Job Listings, Site Reliability Engineering Job Listings, Data Analytics Job Listings, API Development Job Listings, Software Engineering Job Listings, Systems Integration Job Listings, Backend Development Job Listings, Big Data Job Listings, Change Management Job Listings, CI/CD Job Listings, Cloud Architecture Job Listings, Cloud Computing Job Listings, Cloud Infrastructure Job Listings, Cloud Native Job Listings, Computer Vision Job Listings, Configuration Management Job Listings, Control Systems Job Listings, Security Job Listings, Data Engineering Job Listings, Data Governance Job Listings, Data Pipeline Job Listings, Data Quality Job Listings, Data Science Job Listings, Data Visualization Job Listings, Database Design Job Listings, Deep Learning Job Listings, Design Engineering Job Listings, DevOps Practices Job Listings, Distributed Systems Job Listings, Electrical Engineering Job Listings, Technical Leadership Job Listings, Engineering Management Job Listings, Enterprise Architecture Job Listings, ETL Pipeline Job Listings, Generative AI Job Listings, Hybrid Cloud Job Listings, Incident Response Job Listings, Infrastructure Engineering Job Listings, Large Language Model Job Listings, Mechanical Engineering Job Listings, Microservices Job Listings, Natural Language Processing Job Listings, Network Engineering Job Listings, NoSQL Database Job Listings, Observability Job Listings, Performance Engineering Job Listings, Platform Engineering Job Listings, Predictive Analytics Job Listings, Principal Engineering Job Listings, Product Engineering Job Listings, Product Management Job Listings, Program Management Job Listings, Quality Engineering Job Listings, Release Management Job Listings, Reliability Engineering Job Listings, Solutions Architecture Job Listings, Solutions Engineering Job Listings, Statistical Analysis Job Listings, Storage Systems Job Listings, Systems Engineering Job Listings, Technical Documentation Job Listings, Telecommunications Job Listings, Quality Assurance and Test Engineering Job Listings, Virtualization Job Listings, Network Architecture Job Listings, Business Intelligence Job Listings, New Relic, AJAX Libraries API, Google Hosted Libraries, Google Hosted jQuery, Facebook Domain Insights, CDN JS, Intercom, nginx 1.9, jQuery 2.2.0, Moment JS, BootstrapCDN, Highlight.js, Cloudflare JS, Fastly Hosted, Fastly Load Balancer, Namecheap, Namecheap DNS, GitHub Hosting, CrUX Top 50m, DNSSEC, Amazon Oregon Region, Nginx 1.11, Google Cloud Storage, Google SSL, CrUX Top 10m, Domain Not Resolving, jQuery 2.0.3, Underscore.js, Ubuntu, CrUX Top 5m, CrUX Top 1m, Pygments, Read the Docs, Classnames, imagesLoaded, YouTube, YouTube IFrame API, YouTube IFrame Upload, Lever, Gist, COVID-19, Formspree, html2canvas, jQuery 3.3.1, RangeTouch, Greenhouse, Application Reque"
+      },
+      "latencyMs": 5498,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizx7VCo6r7dUUznA",
+      "recordedAt": "2026-10-07T07:10:31.238Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "445 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Next.js",
+          "Cloudflare",
+          "Vercel"
+        ],
+        "falsePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "Segment",
+          "Intercom",
+          "LinkedIn Insight",
+          "Meta Pixel",
+          "Fastly",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "cursor",
+      "label": "Cursor",
+      "domain": "cursor.com",
+      "inputs": {
+        "Company Domain": "cursor.com"
+      },
+      "inputHash": "e92f4042303d054d",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "jQuery, Modernizr, PHP, Unix, mod_ssl, OpenSSL, Auth Passthrough, Limiter Modules, Frontpage Extensions, Liquid Web, CentOS, Google Adsense, Neverblue, Google Custom Search, Apache, Red Hat Enterprise Linux, Reliable Hosting.com, GeoTrust SSL, GoDaddy SSL, Comodo PositiveSSL, SPF, CPanel SSL, Copyright Year 2013, Amazon, Google DNS, Google Cloud DNS, Google Apps for Business, Google, Apple Mobile Web Clips Icon, Amazon S3, Viewport Meta, Global Site Tag, Google Analytics, LiveChat, Facebook Custom Audiences, Facebook Pixel, LetsEncrypt, Facebook SDK, Facebook for Websites, IPhone / Mobile Compatible, Google Font API, Facebook Signal, SSL by Default, Google Universal Analytics, jQuery Waypoints, imagesLoaded, Slick JS, DoubleClick.Net, Amazon CloudFront, IPv6, Facebook Conversion Tracking, Popper.js, Bootstrap.js, Careers, Atlassian Cloud, Content Delivery Network, Google SSL, Google Domains, DMARC, Adobe Dreamweaver, DNSSEC, Amazon Route 53, Fastly Hosted, Fastly Load Balancer, Slack, Google Analytics 4, jQuery 1.11.0, Park.io, AJAX Libraries API, Google Hosted Libraries, Google Hosted jQuery, Google Tag Manager, jsDelivr, BootstrapCDN, US Privacy User Signal Mechanism, Intersection Observer, Apache 2.2, Amazon SSL, Amazon Virginia Region, Mailgun, Common Name Invalid, CrUX Dataset, CrUX Top 50m, Mobile Non Scaleable Content, Font Awesome, OSS CDN, Respond, Lorem Ipsum, Facebook, Twitter, Instagram, scrollReveal.js, PhotoSwipe, Swipe JS, jQuery Countdown, Prefix Free, Euro, LinkedIn, Amazon Oregon Region, Amazon S3 CDN, Next.js, RSS, SOC 2, Plans and Pricing, HSTS, Vercel, React, Cloudflare Radar, Cloudflare Radar Top 200k, GitHub, PostHog, Artificial Intelligence, CrUX Top 500k, Cloudflare Radar Top 100k, Cloudflare Radar Top 50k, CrUX Top 100k, StatusPage IO, Google Webmaster, U.S. Server Location, X, GSAP, English - Inferred, CrUX Top 50k, Cogeco Peer 1, DMARC None, Pusher, Salesforce, CommonCrawl Top 500k, 3 to 9 ccTLD Redirects, Apple Mobile Web App Capable, Apple Mobile Web App Status Bar Style, English HREF LANG, Chinese HREF LANG, Japanese HREF LANG, Organization Schema, ContactPoint Schema, Sitelinks Search Box, YouTube Link, Amazon API Gateway, CrUX Top 10k, Spanish HREF LANG, French HREF LANG, Portuguese HREF LANG, Brazilian Portuguese HREF LANG, Korean HREF LANG, Russian HREF LANG, Turkish HREF LANG, Indonesian HREF LANG, German HREF LANG, Sanity, Afternic, DMARC Quarantine, crypto browserify, KaTeX, Multilingual, SaaS Pricing in Dollars, SaaS Pricing Below $50 Per Month, Radix UI, LLMS Text, CommonCrawl Top 1000, Common Crawl, CommonCrawl Top 5k, Microsoft Azure DNS, LinkedIn Insights, DocuSign, Wikipedia, B2B, AI Agent, TikTok, Reddit Ads, TikTok Conversion Tracking Pixel, LLMS Text - Technical, Pound Sterling, Hindi HREF LANG, PayPal, Apple iCloud Mail, Figma, EU VAT Registration, LinkedIn Ads, NPM Cursor, NPM SDK, NPM Agent, API Developer, NPM Publisher, Postmark, NPM MCP, MCP Model Context Protocol, Login or Signup, Google Conversion Linker, Reddit Conversion Tracking, Kasada, AI Generated Copy, GitHub Hosting, Pre Year 2010, Statsig, Ashby, Google Call Conversion Tracking, Funding Announcement, OneTrust, Optanon, Cookie Policy, Atom, GitHub Buttons Official, CDN JS, zepto.js, Algolia, Domain Not Resolving, BunnyCDN General, Mintlify, lodash, core-js, Hurricane Electric, Discourse, Openads/OpenX, Google Calendar, OpenStreetMap, Adbutler, Google Maps, nginx, es6 promise, Handlebars, Magnific Popup, WebAuthn, Ahrefs Bot Disallow, Googlebot Disallow, Semrush Bot Disallow, CrUX Top 5m, CrUX Top 1m, Cloudflare CDN, Cloudflare, Cloudflare Bot Manager, Moment JS, Cloudflare Hosting, JavaScript Modules, Discourse Hosted, ES Module, CrUX Top 10m, CloudFront, html5shiv, Cloudflare JS, Mobile Optimized, AWS Cloudfront Chicago IL Edge, jQuery 3.5.1, Babel, Tooltipster, jQuery Cookie, Typeahead.js, Classnames, Styled Components, MobX, Webpack, Gist, Chinese, Azure Edge, Apple Pay, Stripe, Apple App Link, SoftwareApplication Schema, Braintree, Vanta, GStatic Google Static Content, Merge, Decagon, Intercom, Cloudflare Network Error Logging"
+      },
+      "latencyMs": 9039,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizxiDt7WR9rMwSWi",
+      "recordedAt": "2026-10-07T07:10:46.675Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "265 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "LinkedIn Insight",
+          "Meta Pixel",
+          "Next.js",
+          "Vercel"
+        ],
+        "falsePositives": [
+          "Intercom",
+          "Cloudflare",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "vanta",
+      "label": "Vanta",
+      "domain": "vanta.com",
+      "inputs": {
+        "Company Domain": "vanta.com"
+      },
+      "inputHash": "ab2488626ca26e57",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "React, Moment JS, Express, Amazon, Amazon Route 53, SPF, Google Apps for Business, Viewport Meta, Immutable, CDN JS, Apple Mobile Web Clips Startup, Apple Mobile Web Clips Icon, Apple Mobile Web App Capable, IPhone / Mobile Compatible, Apple Mobile Web App Status Bar Style, UNPKG, Stripe, Segment, Heap, Mixpanel, CloudFront, Google Analytics, Google Universal Analytics, Fastly CDN, Amplitude, HubSpot Tether, Classnames, Amazon Virginia Region, Raven JS, Sentry, Stripe v3, Content Delivery Network, SSL by Default, lodash, Amazon CloudFront, Pingdom RUM, Amazon SSL, Marked, Amazon S3 CDN, Elliptic, crypto browserify, Styled Components, Amazon S3, Zendesk Embeddables, Zendesk Link, Apollo GraphQL, Webflow, jQuery, OpenResty, Varnish, Fastly, Global Site Tag, AJAX Libraries API, Google Hosted Libraries, WebFont Loader, Google Hosted Web Font Loader, Salespanel, Google Font API, GStatic Google Static Content, Google Tag Manager, Google AdWords Conversion, Google Conversion Tracking, LinkedIn Insights, LinkedIn Ads, jsDelivr, Zendesk, Amazon SES, DoubleClick.Net, Google Remarketing, Pound Sterling, Japanese Yen, Careers, core-js, Underscore.js, DMARC, nginx, LetsEncrypt, Amazon Oregon Region, Outbrain, Amazon Tokyo Region, Cloudflare, Cloudflare JS, Outbrain Pixel, DoubleClick Bid Manager, Amazon Ireland Region, Salesforce SPF, EasyDMARC, Hubspot, Chili Piper, Microsoft Exchange Online, Office 365 Mail, jQuery Validate, Bing Universal Event Tracking, AWS Global Accelerator, Facebook Conversion Tracking, Facebook Signal, Facebook SDK, Facebook for Websites, Facebook Pixel, Facebook Custom Audiences, Hubspot Ads, Hubspot Forms, Microsoft Advertising, Google Webmaster, Podsights, HubSpot Analytics, Microsoft Frontpage, Google Hosted jQuery, jQuery 1.5.2, Uniregistry Parked, RequireJS, Webflow Hosting, Matomo, My Salesforce, Embedly, YouTube Privacy Enchanced, YouTube, ZoomInfo, Okta, 6sense, Twitter Analytics, Twitter Ads, Detectify, Twitter Website Universal Tag, Reddit Conversion Tracking, Reddit Ads, Twitter Conversion Tracking, AppNexus, Google Cloud Functions, Intersection Observer, Qualified, Microsoft Azure DNS, Netlify, Amazon California Region, Digital Ocean, Google Analytics Event Tracking, es6 promise, Google Conversion Linker, Amazon Frankfurt Region, MongoDB, Cloudflare Pages, Cloudflare Hosting, US Privacy User Signal Mechanism, Facebook, LinkedIn, Twitter, AdBlock Acceptable Ads, Euro, Google Analytics 4, Hubspot Developer Verification, JSON 3, 3 to 9 ccTLD Redirects, Apple iCloud Mail, Slack, CrUX Dataset, CrUX Top 500k, Cookiebot, Google Optimize 360, CrUX Top 1m, Splide, Dreamdata, Clearbit, Events Page, GSAP, Termly, Azure Active Directory, Lightbox, Vanta, 6sense JS, DocuSign, Quora, Emotion, Google Adsense, Do Not Sell, Cloudflare Radar, Cloudflare Radar Top 50k, Service Status, PicReel, Active Campaign, Webpack, Day.js, SOC 2, jQuery 3.5.1, API Developer, Mutiny, U.S. Server Location, Hotjar, Amazon Sydney Region, Lorem Ipsum, Plans and Pricing, Parcel, Global Privacy Control, HSTS IncludeSubdomains PreLoad, HSTS, Marketo, Marketo Forms, YouTube Link, Salesforce, GitHub, Google Analytics Classic, Modern Slavery Statement, Amazon Mumbai Region, Bootstrap.js, jQuery UI, jQuery UI Mouse, Algolia, Didomi, imagesLoaded, Affiliate Partner Reseller, Artificial Intelligence, Datadog, OptinMonster, Atlassian Cloud, Cookie Consent by Osano, Cloudflare CDN, AWS Lambda, Cloudflare Bot Manager, Canva, OpenAI, Amazon Paris Region, Amazon Stockholm Region, Swedish Server Location, Amazon Business Program, English - Inferred, Intellimize, DMARC Reject, CommonCrawl Top 100k, Cloudflare Turnstile, Zapier, RSS, Facebook Sharer, Vimeo, Vimeo CDN, Cloudflare Radar Top 100k, Zoom, Magellan AI, CommonCrawl Top 10k, Common Crawl, CommonCrawl Top 5k, Fastly Hosted, Fastly Load Balancer, reCAPTCHA, B2B, AI Generated Copy, AI Agent, Copyright Year 2023, jQuery CDN, jQuery 3.6.0, LangChain, Anthropic, Docker, Google BigQuery, Confluence, Dagster, Fivetran Operations, Multilingual, GitHub Operations, Kubernetes Operations, Linux, LlamaIndex, , MongoDB Operations, Netlify Operations, Node.js, OWASP, Prompt Engineering, React Operations, Snowflake, Terraform, Technical Job Listings, Placeholders.js, Cookie Policy, Wikipedia, Y Combinator, NPM MCP, NPM API, NPM SDK, MCP Model Context Protocol, NPM Publisher, Copyright Year 2024, Login or Signup, 10 to 14 ccTLD Redirects, NPM Anthropic, NPM Agent, NPM CLI, Google Call Conversion Tracking, Amazon Web Services Operations, Microsoft Azure Operations, Box, Backend Development Job Listings, Principal Engineering Job Listings, Copyright Year 2020, Platform Engineering Job Listings, AI and Machine Learning Job Listings, Data Analytics Job Listings, API Development Job Listings, API Integration Job Listings, Software Engineering Job Listings, Automation Engineering Job Listings, Change Management Job Listings, CI/CD Job Listings, Cloud Infrastructure Job Listings, Continuous Integration Job Listings, Control Systems Job Listings, Security Job Listings, Data Engineering Job Listings, Data Modeling Job Listings, Data Pipeline Job Listings, Database Design Job Listings, Database Management Job Listings, Design Engineering Job Listings, Distributed Systems Job Listings, Technical Leadership Job Listings, Engineering Management Job Listings, Incident Response Job Listings, Large Language Model Job Listings, Microservices Job Listings, NoSQL Database Job Listings, Observability Job Listings, Operations Engineering Job Listings, Product Management Job Listings, Project Management Job Listings, Relational Database Job Listings, Solutions Engineering Job Listings, Statistical Analysis Job Listings, Systems Engineering Job Listings, Technical Documentation Job Listings, Application Architecture Job Listings, Pre Year 2010, Funding Announcement, Ireland Data Protection Commission, United Kingdom ICO, Product Engineering Job Listings, Amazon Elastic Load Balancing, Robots Disallow, Delighted, VideoJS, localForage, Zopim, Domain Not Resolving, Domain No Data, Chameleon, React Redux, Intercom, Cloudflare Network Error Logging, Cloudinary, Bluebird, CommandBar, Merge, Cloudflare Insights, Cloudflare Web Analytics, DNSSEC, IPv6, Finsweet, Pexels, Instagram, Event Schema, Place Schema, PostalAddress Schema, Organization Schema, Person Schema, Offer Schema, SoftwareApplication Schema, AggregateRating Schema, Review Schema, Rating Schema, Privacy Shield, HubSpot CMS Hub, Hubspot Hosted, CrUX Top 50m, Envoy, Dutch - Inferred, Amazon Singapore Region, Google, Google Cloud, Google Cloud South Carolina, Google Cloud Singapore, WebAuthn, hCaptcha, ReadMe, Angular JS, Heroku Vegur Proxy, Cloudflare SSL, Render, CrUX Top 10m, Rate Limit, Rollbar, HTML5 History API, React on Rails, AWS Cloudfront Sydney Edge, React Virtualized, AWS Cloudfront Stockholm Edge, AWS Cloudfront Taipei TW Edge, AWS Cloudfront Los Angeles CA Edge, Polyfill IO, AWS Cloudfront Montréal QC Edge, AWS Cloudfront Frankfurt Edge, AWS Cloudfront Helsinki Edge, AWS Cloudfront Mumbai Edge, AWS Cloudfront Amsterdam Edge, AWS Cloudfront Marseille Edge, AWS Cloudfront Ashburn VA Edge, AWS Cloudfront New York NY Edge, AWS Cloudfront Tel Aviv Edge, AWS Cloudfront Madrid Edge, AWS Cloudfront London Edge, AWS Cloudfront Milan Edge, AWS Cloudfront Fujairah Edge, AWS Cloudfront Manama Edge, AWS Cloudfront Dallas Fort Worth Edge, AWS Cloudfront Hillsboro OR Edge, AWS Cloudfront Atlanta GA Edge, AWS Cloudfront Denver CO Edge, AWS Cloudfront Vancouver BC Edge, AWS Cloudfront Dubai Edge, AWS Cloudfront Boston MA Edge, AWS Cloudfront Muscat Edge, AWS Cloudfront Phoenix AZ Edge, AWS Cloudfront Cape Town Edge, Datadog RUM, StatusPage IO, reCAPTCHA v3, html5shiv, Mobile Non Scaleable Content, Mobile Optimized, reCAPTCHA v2, Atom, Babel, Tooltipster, jQuery Cookie, Typeahead.js, MobX, Bloodhound Typeahead, Google Code Prettify, Respond, reCAPTCHA Enterprise, AWS Cloudfront Paris Edge, Ruby on Rails Token, AWS Cloudfront Chicago IL Edge, AWS Cloudfront Seattle WA Edge, AWS Cloudfront Miami FL Edge, AWS Cloudfront San Francisco CA Edge, Java EE, Decagon, CrUX Top 5m, Zendesk Mail, English HREF"
+      },
+      "latencyMs": 13116,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizxy7RY5U82wcCRx",
+      "recordedAt": "2026-10-07T07:11:06.017Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "446 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "HubSpot",
+          "Qualified",
+          "6sense",
+          "LinkedIn Insight",
+          "Meta Pixel",
+          "Webflow",
+          "Cloudflare"
+        ],
+        "falsePositives": [
+          "Segment",
+          "Marketo",
+          "Intercom",
+          "Hotjar",
+          "Fastly",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "intercom",
+      "label": "Intercom",
+      "domain": "intercom.com",
+      "inputs": {
+        "Company Domain": "intercom.com"
+      },
+      "inputHash": "6bceee35da938535",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Apache 2.2, mod_ssl 2.2.9, OpenSSL 0.9.8, jQuery NoConflict, Joomla!, Google Apps for Business, RSS, Atom, MooTools, jQuery, Thickbox, Google Analytics, Apache, Debian, PHP, Suhosin, mod_ssl, OpenSSL, Google Analytics Classic, GoDaddy DNS, Google Conversion Tracking, Google Remarketing, LinkedIn Ads, DoubleClick.Net, Inspectlet, AppNexus, Wistia, nginx, Apple Mobile Web Clips Icon, Facebook Custom Audiences, Facebook Pixel, Facebook SDK, Bizo Insights, Facebook for Websites, FullStory, Ruby on Rails Token, Ruby on Rails, Google Universal Analytics, Bizo, Viewport Meta, Intercom, Amazon Virginia Region, Amazon, Amazon Route 53, SPF, SSL by Default, Heap, Workplace by Facebook, WebEx Panel, Adobe Connect, Spanish HREF LANG, German HREF LANG, French HREF LANG, Java EE, Mandrill, MailChimp SPF, Content Delivery Network, Raven JS, Tooltipster, Featherlight, es6 promise, Slick JS, Underscore.js, Validator.js, lodash, Sentry, Optimizely, Modernizr, Marketo, LinkedIn Insights, Clearbit, Bing Universal Event Tracking, Facebook Signal, Hotjar, Global Site Tag, React, html5shiv, yepnope, DoubleClick Bid Manager, Marketo Forms, IPhone / Mobile Compatible, Marketo Mail, Google Tag Manager, Twitter Ads, Twitter Website Universal Tag, Twitter Conversion Tracking, jQuery UI, Facebook Conversion Tracking, Marketo Real Time Personalization, Twitter Analytics, jQuery 1.8.3, Insightera, Babel, core-js, Webpack, Quora, Pingdom RUM, StatusPage IO, Pound Sterling, Japanese Yen, Careers, Plans and Pricing, Classnames, Amazon CloudFront, jQuery CDN, jQuery 1.11.0, Bizible, SnapEngage, Amazon SSL, The Trade Desk, Japanese HREF LANG, English HREF LANG, Greenhouse MX, Stripe, SoundCloud, Contentful, Next.js, Google AdWords Conversion, Google Conversion Linker, Smartling, CloudFront, Atlassian Cloud, Picturefill, Clearbit Forms, Detectify, COVID-19, reCAPTCHA, GStatic Google Static Content, DMARC, Russian HREF LANG, Google Floodlight Counter, Adobe Sign, SpyCloud, DoubleClick Floodlight, LiveChat, Organization Schema, Portuguese HREF LANG, Brazilian Portuguese HREF LANG, Sonatype, Microsoft Advertising, Zapier, Clearbit Reveal, Google Webmaster, SuperFish Menu, Okta, My Salesforce, Demandbase, Intersection Observer, Datadog, Emotion, 6sense, Facebook Domain Verification, Lorem Ipsum, Hubspot Developer Verification, Bug Bounty, Corporation Schema, Place Schema, PostalAddress Schema, Sitelinks Search Box, Mutiny, JSON 3, Amazon S3, Ahrefs Site Verification, SplashThat, US Privacy User Signal Mechanism, Facebook, LinkedIn, Twitter, AWS Cloudfront Chicago IL Edge, AWS Cloudfront Mumbai Edge, AWS Cloudfront Los Angeles CA Edge, Euro, Browse Happy, AWS Cloudfront Paris Edge, AWS Cloudfront Helsinki Edge, AWS Cloudfront Hong Kong Edge, AWS Cloudfront Stockholm Edge, AWS Cloudfront Miami FL Edge, AWS Cloudfront Sydney Edge, AWS Cloudfront Ashburn VA Edge, AWS Cloudfront Singapore Edge, AWS Cloudfront Seattle WA Edge, AWS Cloudfront Montréal QC Edge, AWS Cloudfront Amsterdam Edge, Instagram, AWS Cloudfront Boston MA Edge, AWS Cloudfront Dallas Fort Worth Edge, AWS Cloudfront San Francisco CA Edge, HSTS IncludeSubdomains PreLoad, HSTS, AWS Cloudfront Cape Town Edge, AWS Cloudfront Toronto ON Edge, AWS Cloudfront Philadelphia PA Edge, AWS Cloudfront Taipei TW Edge, Google Analytics 4, AWS Cloudfront Salt Lake City UT Edge, Yahoo Web Analytics, Rubicon Project, Slack, AWS Cloudfront Denver CO Edge, AWS Cloudfront Frankfurt Edge, AWS Cloudfront Atlanta GA Edge, AWS Cloudfront Hillsboro OR Edge, AWS Cloudfront Phoenix AZ Edge, CrUX Dataset, CrUX Top 100k, AWS Cloudfront Kuala Lumpur Edge, AWS Cloudfront New York NY Edge, Azure Active Directory, SaaS Pricing in Dollars, SaaS Pricing Above $50 Per Month, AWS Cloudfront Manila Edge, AWS Cloudfront Zurich Edge, The Trade Desk Universal Pixel, 6sense JS, AWS Cloudfront Melbourne Edge, GitHub, Do Not Sell, Cloudflare Radar, Cloudflare Radar Top 50k, AWS Cloudfront Marseille Edge, Multinational Company, React Redux, AWS Cloudfront Newark NJ Edge, API Developer, AWS Cloudfront Brussels Edge, U.S. Server Location, AWS Cloudfront London Edge, Perl, AWS Cloudfront Hyderabad Edge, Google Play Store Link, WebEx, YouTube Link, Salesforce, OneTrust, AWS Cloudfront Tel Aviv Edge, AWS Cloudfront Madrid Edge, Optanon, AWS Cloudfront Milan Edge, AWS Cloudfront Querétaro Edge, AWS Cloudfront Houston TX Edge, Affiliate Partner Reseller, AWS Cloudfront Fujairah Edge, AWS Cloudfront Muscat Edge, Events Page, UNPKG, AWS Cloudfront Kansas City MO Edge, Artificial Intelligence, Amazon SES, Adobe Enterprise Cloud, AWS Cloudfront Manama Edge, AWS Cloudfront Dubai Edge, SaaS Pricing Above $100 Per Month, CrUX Top 500k, SaaS Pricing Above $400 Per Month, English - Inferred, DMARC Quarantine, Reddit Ads, Radix UI, CommonCrawl Top 5k, 50 or more ccTLD Redirects, Copyright Year 2009, Claritas, AdDaptive Intelligence, AppNexus Segment Pixel, Recharts, Amazon WAF Blocked, 403 Error, Jetpack Site Accelerator, Yoast Plugins, Yoast WordPress SEO Plugin, Yoast SEO Premium, X, MSN/Bing Webmaster, WordPress, Really Simple Discovery, WordPress 6.8, JavaScript Modules, Wordpress Plugins, PDFjs Viewer for Wordpress, Jetpack, Pagely, Cloudflare Radar Top 100k, Gem, Greenhouse, YouTube, ART19, Person Schema, Gravatar Profiles, Spotify Link, TikTok, Skilljar, Loom, Brightcove, Intercom Help, LLMS Text, Multilingual, Amazon Registrar, CommonCrawl Top 1000, Common Crawl, Pre Year 2000, AWS Cloudfront Warsaw Edge, AWS Cloudfront Seoul Edge, B2B, Wikipedia, Global Privacy Control, AI Generated Copy, Base UI, AWS Cloudfront Oslo Edge, AI Agent, Vercel, Offer Schema, LocalBusiness Schema, Font Awesome, Sanity, AWS Cloudfront Tokyo Edge, Anthropic, Apache Airflow, CircleCI, Amazon DynamoDB, Elasticsearch, Google Gemini, GitHub Operations, Kotlin, Kubernetes Operations, Linux, Memcached, , MongoDB Operations, MySQL, Node.js, PostgreSQL, Microsoft Power BI Operations, Prompt Engineering, PyTorch, React Operations, Redis, Snowflake, Tableau Operations, Terraform, Vercel Operations, Zero Trust, Technical Job Listings, AWS Cloudfront Sofia Edge, AWS Cloudfront Chennai Edge, ContactPoint Schema, SoftwareApplication Schema, NPM Svelte, NPM React, NPM Next.js, NPM API, NPM Android, NPM iOS, NPM SDK, NPM Vue.js, NPM Publisher, Pre Year 2010, Copyright Year 2014, Cookie Policy, AWS Cloudfront Santiago Edge, Service Desc, Service Doc, API Catalog, Login or Signup, AWS Cloudfront Osaka Edge, AWS Cloudfront Buenos Aires Edge, AWS Cloudfront Sao Paulo Edge, AWS Cloudfront Jakarta Edge, AWS Cloudfront Johannesburg Edge, AWS Cloudfront New Delhi Edge, Amazon Web Services Operations, Anthropic Claude Code, Airtable, AWS Cloudfront Budapest Edge, Product Management Job Listings, Principal Engineering Job Listings, Data Analytics Job Listings, Data Engineering Job Listings, Data Quality Job Listings, Backend Development Job Listings, CI/CD Job Listings, Cloud Computing Job Listings, Cloud Infrastructure Job Listings, Continuous Delivery Job Listings, Continuous Integration Job Listings, Control Systems Job Listings, Security Job Listings, Data Modeling Job Listings, Data Science Job Listings, Design Engineering Job Listings, Distributed Systems Job Listings, Engineering Management Job Listings, ETL Pipeline Job Listings, Full Stack Development Job Listings, Incident Response Job Listings, Integration Engineering Job Listings, Large Language Model Job Listings, Observability Job Listings, Platform Engineering Job Listings, Product Engineering Job Listings, Project Management Job Listings, Relational Database Job Listings, Release Management Job Listings, Serverless Computing Job Listings, Software Engineering Job Listings, Solutions Engineering Job Listings, Systems Engineering Job Listings, Program Management Job Listings, Google Call Conversion Tracking, OpenTelemetry, Akamai, Facebook Sharer, FeedBurner, Pingback Support, AJAX Libraries API, Google Hosted Libraries, Google Hosted jQuery UI, Live Writer Support, Autoptimize, WP Engine, Parse.ly, Disqus Comment System for WordPress, New Relic, Mobile Non Scaleable Content, Google Font API, BootstrapCDN, Uberflip, Bombora, LinkedIn AutoFill, DocuSign,"
+      },
+      "latencyMs": 10926,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizyhX6oDudjfbzSy",
+      "recordedAt": "2026-10-07T07:11:23.582Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "429 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "Marketo",
+          "Intercom",
+          "6sense",
+          "LinkedIn Insight",
+          "Meta Pixel",
+          "Next.js",
+          "Vercel"
+        ],
+        "falsePositives": [
+          "Hotjar",
+          "Optimizely",
+          "WordPress",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "canva",
+      "label": "Canva",
+      "domain": "canva.com",
+      "inputs": {
+        "Company Domain": "canva.com"
+      },
+      "inputHash": "5de5edafd186ff17",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Rack Cache, Comodo PremiumSSL Wildcard, GoDaddy SSL, Sitelinks Search Box, JSON, jQuery UI, Google Optimize 360, Picturefill, WordPress Weekly Activity, Google Hosted Libraries, html5shiv, Google Hosted Web Font Loader, AJAX Libraries API, Wordpress Monthly Activity, WebFont Loader, Baidu Analytics, lazySizes, Gravity Forms, jQuery Migrate, Australian Server Location, Cloudflare JS, nginx 1.4, Zendesk Dropbox, Apache 2.2, jQuery 1.8.2, WordPress 3.5, Really Simple Discovery, Ubuntu, Live Writer Support, Twitter Platform, WPML Multilingual, mod_pagespeed, jQuery NoConflict, VideoJS, jQuery Form, Pingback Support, Wordpress 3.9, Rackspace, Domain Not Resolving, jQuery Masonry, Modernizr 2.7, FlexSlider, Twemoji, ZeroClipboard, Pubmatic, Rubicon Project, GetFeedBack, Fizzy UI Utils, AppNexus, OWL Carousel, imagesLoaded, Isotope, Facebook Graph API, Slick JS, Spanish, Korean, Wunderground, RightMessage, Varnish, Lightbox, Unsplash, Hotjar, JotForm, Vimeo CDN, Iframely, Social Warfare, Twitter CDN, jQuery prettyPhoto, CodePen, GoDaddy CDN, COVID-19, Copyright Year 2019, Visa, Acuity Scheduling, Adyen, Squarespace, OnceHub, Adobe ColdFusion, Akamai, PayPal, Appleseed Portal, Cloudinary, Google Maps, Google Maps API, involve.me, PayPal Button, Postimage.org, Moonclerk, Monetizze, Gravatar Profiles, WhatsApp, Issuu, MasterCard, MindBody, Getty Images, Venmo, Dubsado, Calendly, Adjust, Copyright Year 2020, HoneyBook, SinglePlatform, ConvertKit, Fiverr, aWeber, American Express, Setmore, Azure Edge, Anedot, ClickBank, iStockPhoto, Jetpack Site Accelerator, ClickUp, Monday, Publitas, Lorem Ipsum, Rackspace CDN, Kartra, Joomag, GetResponse, Typeform, GoCardLess, Homestead, JSON 3, Omnistar, Google Classroom, Flodesk, Better Impact, Gumroad, H2O Webserver, Tableau, Apple Pay, Google Pay, Naviance, Faire, Berkshire Hathaway HomeServices, ArcGIS, Undeveloped, es6 promise, lodash, Outbrain Pixel, Cloudflare Blocked, ResearchGate, Do Not Sell, Application Request Routing, K2F, DAV, Microsoft Personal Web Server, Google Front End, AppleBot Disallow, Apple AI Bot Disallow, Google Bard Disallow, GPTBot Disallow, ByteDance Bytespider Disallow, Common Crawl Bot Disallow, Anthropic Claude Bot Disallow, Diffbot Disallow, Facebook Bot Disallow, Webz Omgili Disallow, Cloudflare Turnstile, Subversion, Gandi, MailChimp, Reddit, Pexels, Pardot, Amazon Elastic Load Balancing Sticky Session, Amazon SSL, Fastly, Canva Websites, Apple Music Link, YouTube Privacy Enchanced, Buy Me A Coffee, Apple App Link, Google Play Store Link, Zoom Video Conferencing, Zoom, Matterport, Discover, Apple Podcast Link, Cognia, TalentLMS, Kiwify, Genially, WordPress Multisite, Nationwide Mortgage Licensing System and Registry, Redbubble, Corporation Schema, PostalAddress Schema, Person Schema, GitHub, Heyzine, Amazon Store Link, Smartsheet, Yelp Business Profile, HelloSign, Google Calendar, TherapyNotes, Hey Marvelous, Escape Hatch, LTK, Microsoft Power BI, HelloAsso, Teachable, Vanco Payment Solutions, iPaper, Zola, Zeffy, Loom, ProLayers LeadConnector, HighLevel, Wayward Kind, Pro Impressions Marketing, Digital Ocean Spaces, Imgur, Fillout, OnlyFans, Thing Schema, Hotmart Checkout, ActBlue, FLIP HTML5, ScoreApp, Flourish, FanBasis, Korea Fair Trade Commission, Australian English, Microsoft Office 365, JavaScript Modules, goQR, Spanish - Inferred, Zoho Survey, Amazon API Gateway, Hiro, YUI3, Envoy, ScreenPal, Google Gemini Image, 123FormBuilder, Paycom, jQuery 1.8.3, Mandrill, Mixpanel, Content Delivery Network, Amazon SES, CloudFront, jQuery Easing, New Relic, Modernizr, Jetty, GlobalSign, Cloudflare SSL, GoDaddy, Cloudflare DNS, Cloudflare, Google Font API, Google Analytics, Google Adsense, Google Conversion Tracking, DoubleClick.Net, nginx, Cloudflare Hosting, Google Apps for Business, jQuery, PHP, Apache, Optimizely, SSL by Default, Amazon, SPF, Zendesk, Mixpanel Email, Rollbar, DMARC, Google Universal Analytics, Mobile Non Scaleable Content, Apple Mobile Web Clips Icon, Apple Mobile Web App Capable, IPhone / Mobile Compatible, Viewport Meta, Facebook Custom Audiences, Heroku SSL, Amazon Virginia Region, MSN/Bing Webmaster, Facebook Tag API, Heroku Vegur Proxy, Heap, Mailgun, Comodo PositiveSSL, Comodo SSL, Amplitude, Moment JS, Backbone.js, German HREF LANG, French HREF LANG, Smart App Banner, Google Content Experiments, Visual Website Optimizer, CDN JS, Yahoo User Interface, Google Tag Manager, Angular JS, Twitter Tweet Button, Facebook Sharer, Ruby on Rails Token, Ruby on Rails, Typekit, Pinterest, Underscore.js, React-Intl, Hindi HREF LANG, Thai HREF LANG, Chinese HREF LANG, English HREF LANG, Spanish HREF LANG, Workplace by Facebook, Google Analytics Enhanced Link Attribution, Google Remarketing, Font Awesome, Braze, reCAPTCHA, Segment, Facebook SDK, Google API, Facebook for Websites, BootstrapCDN, GStatic Google Static Content, Appcues, Facebook Signal, IPv6, Facebook CDN, Have I Been Pwned, DoubleClick Bid Manager, AdRoll, Pound Sterling, Japanese Yen, Quora, Google Webmaster, StatusPage IO, reCAPTCHA v2, ProfitWell, Webpack, Classnames, Atlassian Cloud, Bugcrowd, Global Site Tag, Russian HREF LANG, Korean HREF LANG, Japanese HREF LANG, Arabic HREF LANG, Facebook Domain Insights, LinkedIn Insights, LinkedIn Ads, Bizo, Google AdWords Conversion, Google Conversion Linker, Bizo Insights, Detectify, Facebook Conversion Tracking, Facebook Pixel, Bing Universal Event Tracking, zepto.js, Polyglot.js, Raven JS, Sentry, Google Analytics Enhanced Ecommerce, DoubleClick Floodlight, Google Floodlight Counter, React, hCaptcha, Hammer JS, MobX, Ireland Domain Redirect, Sonatype, 30 to 49 ccTLD Redirects, Stripe, Mousetrap, DMARC Analyzer, Yandex Verification, Yotpo, Castle, jsTimezoneDetect, Afterpay, core-js, Yahoo Web Analytics, Yahoo Dot, Facebook Domain Verification, Afrikaans HREF LANG, Azerbaijani HREF LANG, Bulgarian HREF LANG, Bengali HREF LANG, Catalan HREF LANG, Czech HREF LANG, Welsh HREF LANG, Danish HREF LANG, Greek HREF LANG, Australian English HREF LANG, Argentinian Spanish HREF LANG, Colombian Spanish HREF LANG, Mexican Spanish HREF LANG, Estonian HREF LANG, Basque HREF LANG, Persian HREF LANG, Finnish HREF LANG, Belgium French HREF LANG, Canadian French HREF LANG, Galician HREF LANG, Hebrew HREF LANG, Croatian HREF LANG, Hungarian HREF LANG, Armenian HREF LANG, Indonesian HREF LANG, Italian HREF LANG, Javanese HREF LANG, Georgian HREF LANG, Kazakh HREF LANG, Lithuanian HREF LANG, Latvian HREF LANG, Malagasy HREF LANG, Macedonian HREF LANG, Malayalam HREF LANG, Marathi HREF LANG, Malaysian HREF LANG, Dutch HREF LANG, Polish HREF LANG, Portuguese HREF LANG, Brazilian Portuguese HREF LANG, Romanian HREF LANG, Slovak HREF LANG, Slovenian HREF LANG, Albanian HREF LANG, Serbian HREF LANG, Swedish HREF LANG, Swahili HREF LANG, Tamil HREF LANG, Telugu HREF LANG, Tagalog HREF LANG, Turkish HREF LANG, Ukrainian HREF LANG, Urdu HREF LANG, Vietnamese HREF LANG, Hong Kong Chinese HREF LANG, Taiwan Chinese HREF LANG, Microsoft Advertising, Drift, Egyptian Arabic HREF LANG, Saudi Arabia Arabic HREF LANG, Careers, Plans and Pricing, Cloudflare Bot Manager, Oversee.net, Bug Bounty, Google Analytics 4, Canva, Cloudflare Insights, Cloudflare Web Analytics, comScore Activation, comScore, Okta, My Salesforce, DocuSign, Vimeo, Reddit Conversion Tracking, Reddit Ads, Slack App, Cloudflare Network Error Logging, Apple Whitelist, MongoDB, DNSSEC, Ahrefs Site Verification, Facebook, Twitter, Google Analytics Classic, YouTube, Euro, Microsoft Azure DNS, Copyright Infringement, 3 to 9 ccTLD Redirects, Instagram, Apple iCloud Mail, OneTrust Domain Verification, Slack, CrUX Dataset, CrUX Top 50m, CrUX Top 1000, Organization Schema, ContactPoint Schema, Amazon S3, Cloudflare Challenge, US Privacy User Signal Mechanism, Google Identity Platform, Cloudflare CDN, HSTS IncludeSubdomains PreLoad, HSTS, LinkedIn, 50 or more ccTLD Redirects, Cloudflare Automatic Challenge, Cloudflare Radar, Cloudflare Radar Top 50k, Affiliate Partner Reseller, Events Page, Sustainability, Intersection Observer, WebAuthn, reCAPTCHA Enterprise, API Developer, Australian Corporate Tax Transparency, Microsoft Clarity, ClickCertain,"
+      },
+      "latencyMs": 7953,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizyzPxa7fHwoau58",
+      "recordedAt": "2026-10-07T07:11:39.903Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "508 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "LinkedIn Insight",
+          "Meta Pixel",
+          "Cloudflare"
+        ],
+        "falsePositives": [
+          "Google Analytics",
+          "Segment",
+          "Drift",
+          "Hotjar",
+          "Optimizely",
+          "Fastly",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "figma",
+      "label": "Figma",
+      "domain": "figma.com",
+      "inputs": {
+        "Company Domain": "figma.com"
+      },
+      "inputHash": "5afa77380d39ebce",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "jQuery, Google Analytics, AJAX Libraries API, Amazon Route 53, Google Apps for Business, Amazon, Google Universal Analytics, SPF, Google Hosted Libraries, Google Hosted jQuery, Zendesk, Comodo PositiveSSL, Comodo PositiveSSL Wildcard, Comodo SSL, Viewport Meta, Mobile Non Scaleable Content, Content Delivery Network, Sentry, nginx, SSL by Default, Bowser, Moment JS, Backbone.js, ZeroClipboard, DoubleClick.Net, Amazon CloudFront, Google Font API, Segment, Intercom Mail, Apple Mobile Web Clips Icon, Facebook Custom Audiences, Facebook SDK, Webpack, Facebook for Websites, matchMedia, Dedicated Hosting, CloudFront, Wootric, comScore, Amazon Oregon Region, Google Analytics Classic, Facebook Signal, Greenhouse MX, Vimeo, Vimeo CDN, Raven JS, React, Almond, Amplitude, Google Tag Manager, Gatsby JS, core-js, IPhone / Mobile Compatible, Microsoft Azure DNS, Google No Translate, Contentful, imagesLoaded, Help Scout, Careers, Plans and Pricing, GStatic Google Static Content, Drift, CDN JS, Global Site Tag, Amazon S3 CDN, Pound Sterling, Japanese Yen, Twitter Website Universal Tag, Twitter Ads, Twitter Conversion Tracking, Twitter Analytics, Facebook Conversion Tracking, Facebook Pixel, Amazon Frankfurt Region, Marketo Mail, Sendgrid, Sectigo SSL, Sectigo Domain SSL, DMARC, Google Remarketing, Google Conversion Tracking, Majestic Bot Disallow, Gatsby, Google Conversion Linker, Google AdWords Conversion, LinkedIn Insights, Cookie Consent by Osano, Consent Management Platform API v 2.0, reCAPTCHA, LinkedIn Ads, Clearbit Forms, Zoom Video Conferencing, Zoom, Dropbox Business, Events Page, Stripe, Emotion, Sanity, PHP, Quicktime, Lever, Twitter Platform, YouTube IFrame API, YouTube IFrame Upload, PHP Ads, Bug Bounty, Jetpack Site Accelerator, Okta, My Salesforce, Amazon SSL, Intersection Observer, Yandex Verification, Greenhouse, German HREF LANG, English HREF LANG, French HREF LANG, Envoy, Japanese HREF LANG, Facebook, Twitter, AWS Cloudfront Singapore Edge, AWS Cloudfront Sydney Edge, AWS Cloudfront Los Angeles CA Edge, jQuery 1.10.1, Euro, AWS Cloudfront Amsterdam Edge, AWS Cloudfront Paris Edge, AWS Cloudfront Stockholm Edge, Partytown, AWS Cloudfront Seattle WA Edge, AWS Cloudfront Chicago IL Edge, AWS Cloudfront Hong Kong Edge, AWS Cloudfront Ashburn VA Edge, AWS Cloudfront Mumbai Edge, AWS Cloudfront Helsinki Edge, Instagram, AWS Cloudfront Montréal QC Edge, HSTS IncludeSubdomains PreLoad, HSTS, AWS Cloudfront Minneapolis MN Edge, AWS Cloudfront Newark NJ Edge, AWS Cloudfront Miami FL Edge, AWS Cloudfront Boston MA Edge, AWS Cloudfront Taipei TW Edge, Apple iCloud Mail, Slack, AWS Cloudfront San Francisco CA Edge, AWS Cloudfront Hillsboro OR Edge, AWS Cloudfront Phoenix AZ Edge, CrUX Dataset, CrUX Top 5000, AWS Cloudfront Toronto ON Edge, AWS Cloudfront Salt Lake City UT Edge, AWS Cloudfront Kuala Lumpur Edge, Google Identity Platform, Global Privacy Control, JSON 3, Statsig, AWS Cloudfront Frankfurt Edge, AWS Cloudfront Manila Edge, Azure Active Directory, SaaS Pricing in Dollars, SaaS Pricing Below $50 Per Month, AT Protocol DID Placeholder, AWS Cloudfront Melbourne Edge, Modern Slavery Statement, Cloudflare Radar, Cloudflare Radar Top 50k, WebAuthn, US Privacy User Signal Mechanism, Toutiao, TikTok, TikTok Embed, TikTok Conversion Tracking Pixel, StackAdapt, StackAdapt Retageting, Clearbit, GPTBot Disallow, Affiliate Partner Reseller, LinkedIn, Next.js, API Developer, AWS Cloudfront Marseille Edge, AWS Cloudfront Denver CO Edge, AWS Cloudfront Dallas Fort Worth Edge, AWS Cloudfront London Edge, Day.js, Atlassian Cloud, YouTube Link, Salesforce, AWS Cloudfront Madrid Edge, GitHub, AWS Cloudfront Milan Edge, AWS Cloudfront Tel Aviv Edge, Spanish HREF LANG, Korean HREF LANG, Portuguese HREF LANG, Brazilian Portuguese HREF LANG, Common Crawl Bot Disallow, AWS Cloudfront Dubai Edge, AWS Cloudfront Fujairah Edge, AWS Cloudfront Atlanta GA Edge, Cohere AI Disallow, Google Bard Disallow, Anthropic Claude Bot Disallow, Facebook Bot Disallow, Webz Omgili Disallow, X, Artificial Intelligence, Pixabay, JavaScript Modules, AWS Cloudfront Vienna Edge, AWS Cloudfront Kansas City MO Edge, AWS Cloudfront Vancouver BC Edge, AWS Cloudfront Querétaro Edge, Verified Profile, 1Password, Box, Google Webmaster, Mirakl, AWS Cloudfront New York NY Edge, Argentinian Spanish HREF LANG, Bolivian Spanish HREF LANG, Chile Spanish HREF LANG, Colombian Spanish HREF LANG, Costa Rican Spanish HREF LANG, Dominican Republic Spanish HREF LANG, Ecuadorian Spanish HREF LANG, Guatemalan Spanish HREF LANG, Honduran Spanish HREF LANG, Mexican Spanish HREF LANG, Nicaraguan Spanish HREF LANG, Panama Spanish HREF LANG, Peruvian Spanish HREF LANG, Puerto Rican Spanish HREF LANG, Paraguay Spanish HREF LANG, El Salvadorian Spanish HREF LANG, Uruguay Spanish HREF LANG, Venezuelan Spanish HREF LANG, English - Inferred, Apple App Link, OpenAI, Zapier, AWS Cloudfront Düsseldorf Edge, DMARC Quarantine, CommonCrawl Top 1000, DocuSign, Figma, Dutch HREF LANG, Polish HREF LANG, AWS Cloudfront Muscat Edge, Font Awesome, AWS Cloudfront Chennai Edge, Adobe Enterprise Cloud, MongoDB, Italian HREF LANG, Lorem Ipsum, 10 to 14 ccTLD Redirects, Twilio, Slack App, Apple Mobile Web App Capable, Apple Mobile Web App Status Bar Style, Amazon Virginia Region, Express, 403 Error, American Express, Korean, Amazon WAF CAPTCHA, AWS WAF Challenge, Amazon AWS WAF Captcha, AWS Cloudfront Budapest Edge, Cloudflare Radar Top 100k, Perplexity, Anthropic Claude Search Bot Disallow, U.S. Server Location, Multilingual, Postman, Amazon Registrar, Common Crawl, Netlify Edge, Netlify, Pre Year 2000, AWS Cloudfront Seoul Edge, B2B, Wikipedia, Organization Schema, ContactPoint Schema, AI Generated Copy, Impressum, RSS, Germany VAT Registration, EU VAT Registration, Discover, AWS Cloudfront Zurich Edge, Google Analytics Opt-Out Privacy, Network Advertising Initiative, EDAA, AdChoices in Canada, Braintree, Hindi HREF LANG, Indonesian HREF LANG, Thai HREF LANG, AI Agent, Anthropic, LangChain, OpenAI Operations, Airbyte, Angular Operations, Google BigQuery, CockroachDB, Dagster, Amazon DynamoDB, Elasticsearch, Fivetran Operations, Google Gemini, GitHub Operations, Gradle, Grafana Operations, Istio Operations, Jetpack Compose, Kotlin, Kubeflow, Kubernetes Operations, Linux, MLflow, MLOps, MySQL, Node.js, OpenSearch Operations, OpenTelemetry Operations, Playwright, PostgreSQL, Prometheus, PyTorch, React Operations, Redis, Redux Operations, SCIKit Learn, Snowflake, Svelte Operations, SwiftUI, Tableau Operations, TensorFlow, Terraform, XGBoost, Technical Job Listings, AWS Cloudfront Sofia Edge, AWS Cloudfront Tokyo Edge, SEC EDGAR Ticker Index, SEC EDGAR 10-K, AI Unfriendly, Apache Nutch Disallow, Turnitin Disallow, OpenAI SearchBot Disallow, NPM Publisher, Pre Year 2010, NPM Tailwind CSS, NPM React, Login or Signup, AWS Cloudfront Manchester Edge, 3 to 9 ccTLD Redirects, AWS Cloudfront Warsaw Edge, AWS Cloudfront Buenos Aires Edge, Visa, Anthropic Claude User Bot Disallow, AWS Cloudfront Jakarta Edge, Decagon, United States Federal Government Contractor, US Department of Health and Human Services Contractor, AWS Cloudfront New Delhi Edge, US Department of Homeland Security Contractor, AWS Cloudfront Sao Paulo Edge, Amazon Web Services Operations, Microsoft Azure Operations, German Commercial Register Number, Data Pipeline Job Listings, Security Job Listings, AI and Machine Learning Job Listings, Automation Engineering Job Listings, Change Management Job Listings, CI/CD Job Listings, Cloud Native Job Listings, Computer Vision Job Listings, Continuous Integration Job Listings, Data Analytics Job Listings, Data Engineering Job Listings, Data Modeling Job Listings, Data Science Job Listings, Distributed Systems Job Listings, Technical Leadership Job Listings, Engineering Management Job Listings, ETL Pipeline Job Listings, Full Stack Development Job Listings, Generative AI Job Listings, Incident Response Job Listings, Integration Engineering Job Listings, Large Language Model Job Listings, Natural Language Processing Job Listings, NoSQL Database Job Listings, Observability Job Listings, Program Management Job Listings, Project Management Job"
+      },
+      "latencyMs": 5511,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizzfWj4azhMk97xu",
+      "recordedAt": "2026-10-07T07:11:51.627Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "402 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Next.js"
+        ],
+        "falsePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "Segment",
+          "Drift",
+          "LinkedIn Insight",
+          "Meta Pixel",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "reddit",
+      "label": "Reddit",
+      "domain": "reddit.com",
+      "inputs": {
+        "Company Domain": "reddit.com"
+      },
+      "inputHash": "67a9dadb017db42b",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "HSTS, Varnish, 403 Error, Akamai Hosted, Viewport Meta, Reddit Ads, Apple Mobile Web Clips Icon, RSS, AJAX Libraries API, Google Hosted Libraries, Google Hosted jQuery, jQuery, jQuery 1.7.2, Google Analytics Classic, Google Analytics, AdZerk, Imgur, YouTube Link, Twitter CDN, Members Page, Copyright Year 2014, Content Delivery Network, 500px, Amazon Route 53, Google Apps for Business, Postman, Atlassian Cloud, Box, Apple iCloud Mail, Stripe, Google Webmaster, SPF, Amazon SES, Salesforce SPF, Zendesk, OneTrust Domain Verification, Microsoft Azure DNS, DocuSign, Twilio, DMARC, DMARC Reject, Fastly, IPv6, Fastly Hosted, Fastly Load Balancer, Intersection Observer, SSL by Default, Blocked in China, Bug Bounty, Apple Whitelist, Blocked in Indonesia, API Developer, Euro, Instagram, Amazon S3, TurboBytes, Verizon Media, Associated Press Hosted Content, Edgio, Japanese Yen, IPhone / Mobile Compatible, Apple Mobile Web App Capable, Apple Mobile Web App Status Bar Style, Sentry, JavaScript Modules, reCAPTCHA Enterprise, Google Identity Platform, Sign In with Apple, Rapleaf, Embedly, TikTok, Artificial Intelligence, 10 to 14 ccTLD Redirects, Venmo, CrUX Dataset, CrUX Top 1000, Cloudflare Radar, Cloudflare Radar Top 100k, Java EE, YouTube, Apple App Link, DNSSEC, COVID-19, U.S. Server Location, Robots Disallow, DigiCert SSL, Google Analytics Opt-Out Privacy, Nielsen, Network Advertising Initiative, EDAA, Facebook, Twitter, YourAdChoices.com, Copyright Infringement, Google Tag Manager, Global Site Tag, Google AdWords Conversion, Google Conversion Tracking, Visa, PHP Ads, MarkMonitor Registrar, X, Common Crawl, CommonCrawl Top 1000, reCAPTCHA, Yahoo User Interface, Powster, DoubleClick.Net, Pound Sterling, Age Restricted in Australia, Rate Limit, American Express, Atom, Google Analytics Enhanced Link Attribution, Google Universal Analytics, reCAPTCHA v2, Google Publisher Tag, Google Play Store Link, Prebid, Amazon Ad System, Amazon Transparent Ad Marketplace, Careers, Copyright Year 2017, HSTS IncludeSubdomains PreLoad, Adult Content, Wikipedia, ProtonMail, LinkedIn, Gambling Content, AI Generated Copy, Discover, NetSuite Mail, Person Schema, Organization Schema, Copyright Year 2023, English - Inferred, Sitelinks Search Box, English HREF LANG, German HREF LANG, Spanish HREF LANG, French HREF LANG, Italian HREF LANG, Portuguese HREF LANG, PayPal, Code of Conduct, Copyright Year 2021, GNU Terry Pratchett, Copyright Year 2024, Google Fraud Defence, Affiliate Partner Reseller, Multilingual, Russell 1000, Russell 3000, SEC EDGAR Ticker Index, SEC EDGAR 10-K, Facebook CDN, AdBlock Acceptable Ads, Acceptable Ads, Brazilian Server Location, Accelerated Mobile Pages, ArcGIS, Cart Functionality, Financial Industry Regulatory Authority, Copyright Year 2018, NPM iOS, NPM MCP, NPM API, MCP Model Context Protocol, NPM Publisher, Pre Year 2010, Cloudflare Hosting, Copyright Year 2016, Cloudflare, nginx, Cloudflare CDN, Zendesk Link, Plans and Pricing, ResearchGate, Dutch Server Location, Copyright Year 2019, Indian Server Location, Spanish Server Location, Copyright Year 2022, Login or Signup, Yahoo Domain Keys, Copyright Year 2020, DataDome, InsightExpress, Reddit Conversion Tracking, Lightbox, Apple Music Link, Spotify Link, Human Rights Policy, Shipping, Whistle Blower Policy, Events Page, RawGit, Salesforce, Slack, Irish Server Location, Singaporean Server Location, Shopify CDN, CrUX Top 5m, Apple Mobile Web Clips Startup, Mobile Non Scaleable Content, German Server Location, CrUX Top 50k, core-js, Day.js, CrUX Top 50m, CrUX Top 500k, British Server Location, Intellimize, Google Analytics 4, Segment, jsDelivr, CDN JS, Cloudflare JS, GSAP, Wistia, CloudFront, Mutiny, OneTrust, Optanon, GeoJS, Facebook Sharer, AWS Lambda, jQuery 3.5.1, Webflow, Bing Universal Event Tracking, Quora, Google Conversion Linker, Hotjar, Twitter Conversion Tracking, TikTok Conversion Tracking Pixel, US Privacy User Signal Mechanism, LetsEncrypt, AWS Global Accelerator, UNPKG, Qualified, React, Amazon, Cloudflare DNS, Webflow Hosting, Raven JS, Moment JS, Styled Components, CrUX Top 1m, Lorem Ipsum, OpenAI Conversion Tracking, Google Call Conversion Tracking, Global Privacy Control, Authorize.net, Stripe v3, CrUX Top 10m, Nginx 1.15, OpenResty, Hong Kong Server Location, Portuguese Server Location, Italian Server Location, Emirati Server Location, Swedish Server Location, French Server Location, Japanese Server Location, Australian Server Location, Softlayer, Amazon ELB North Virginia, Amazon Elastic Load Balancing, Envoy, Amazon Virginia Region, ATT, Perl, Fruition, GitHub, Klarna, Maestro, Discord, Adjust, Cloudflare Blocked, Danish Server Location, Google Font API, Flickr Badge, Flickr PhotoStream, Next.js, Opensea"
+      },
+      "latencyMs": 9764,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmizzrc69gNkmoxzsq",
+      "recordedAt": "2026-10-07T07:12:07.963Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "285 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "unverifiable",
+        "reason": "only 3 network requests; the page didn't finish loading (likely a bot interstitial)"
+      }
+    },
+    {
+      "id": "airbnb",
+      "label": "Airbnb",
+      "domain": "airbnb.com",
+      "inputs": {
+        "Company Domain": "airbnb.com"
+      },
+      "inputHash": "5a5a06102deeaaab",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Comodo SSL, Russian, Yandex Metrika, CrUX Top 1m, DNSSEC, Cyrillic - Inferred, Robots Disallow, Akamai EdgeWorkers, Malaysian Server Location, Portuguese, OneTrust, Portuguese - Inferred, British Server Location, Google Analytics with Ad Tracking, Sift Science, nginx 1.5, Brightcove, Akamai, GStatic Google Static Content, Google Plus One Button, Google Maps, Lightbox, GoDaddy SSL, Google Web Server, Optimizely, YouTube, PHP, Amazon Route 53, Shockwave Flash Embed, Facebook Like Button, Twitter Tweet Button, Google Tag Manager, DoubleClick.Net, Twitter Platform, Pinterest, Rack Cache, Content Delivery Network, Mixpanel, TagMan, Google Maps API, Errorception, Visual Website Optimizer, Ruby on Rails Token, AJAX Libraries API, jQuery UI, New Relic, CloudFront, Quantcast Measurement, jQuery Cookie, Facebook SDK, Facebook Domain Insights, Facebook Like, Sendgrid, Google Apps for Business, Facebook for Websites, Google JS Api, jQuery, Lazy Load, jQuery Autocomplete, Google Analytics, Google Adsense, Google Conversion Tracking, Ruby on Rails, nginx, Phusion Passenger, Amazon, DoubleClick Floodlight, FastClick, SSL by Default, Akamai Hosted, SPF, Google Universal Analytics, Amplify JS, Facebook Custom Audiences, Amazon Virginia Region, Map Point, Bing Maps, DMARC, Viewport Meta, Akamai Edge, Zendesk, Handlebars, Mapbox, React, Inspectlet, Facebook Tag API, Apple Mobile Web Clips Icon, Euro, Pound Sterling, Japanese Yen, Microsoft Azure DNS, Dedicated Hosting, Criteo, Android Alternative, Facebook Pixel, Bing Universal Event Tracking, Twitter App Card, Twitter App Card iPhone, Twitter App Card iPad, Twitter App Card Android, Israeli New Shekel, Google Plus One Platform, Mobile Non Scaleable Content, South Korean Won, HTML5 History API, Google API, Microdata for Google Shopping, Facebook Sharer, WhatsApp, French HREF LANG, Webpack, Apple Mobile Web App Capable, IPhone / Mobile Compatible, Apple Mobile Web App Status Bar Style, VideoJS, DoubleClick Bid Manager, GlobalSign, Criteo OneTag, Varnish, Fastly, Atlas, Perl, Branch, NSONE, Pubmatic, Rubicon Project, Raven JS, localForage, Google Remarketing, ThreatMetrix, jQuery 2.1.0, Dyn DNS, AppNexus, IPv6, Ads.txt, Spanish HREF LANG, Thai HREF LANG, English HREF LANG, German HREF LANG, Chinese HREF LANG, Workplace by Facebook, Moment JS, WebEx Panel, DigiCert SSL, Twitter Ads, Airbnb, Twitter Analytics, Facebook CDN, Amazon S3 CDN, Sitelinks Search Box, Amazon Ad System, Amazon Associates, Openads/OpenX, Index Exchange, Yahoo Web Analytics, Yahoo Dot, Facebook Signal, Right Media, Improve Digital, Google Analytics Event Tracking, Facebook Conversion Tracking, Adobe Enterprise Cloud, Facebook Domain Verification, StatusPage IO, Sojern, ClearBrain, Envoy, Google Analytics IP Anonymization, Appier, Flashtalking, Global Site Tag, Google Analytics Enhanced Link Attribution, Russian HREF LANG, Korean HREF LANG, Japanese HREF LANG, Arabic HREF LANG, Google Floodlight Counter, Google Conversion Linker, Google Floodlight Sales, Google AdWords Conversion, Akamai EdgeConnect, Google No Translate, Akamai Bot Manager, Google Front End, H2O Webserver, WebEx, Snap Pixel, Stripe, Hindi HREF LANG, reCAPTCHA, Adobe ColdFusion, Organization Schema, COVID-19, Jumio Netverify, American Express, Apple Pay, Google Pay, Careers, core-js, Apollo GraphQL, DigiCert EV, matchMedia, Fastly Hosted, Salesforce Audience Studio, Atlassian Cloud, Maestro, MasterCard, PayPal, Visa, Apollo, CardinalCommerce, Google Ditu, 50 or more ccTLD Redirects, Google Analytics Classic, Amap, lodash, Amazon Elastic Load Balancing, Segment, ExactTarget, ExactTarget Email, Amazon ELB North Virginia, Catalan, Azerbaijani HREF LANG, Bulgarian HREF LANG, Bosnian HREF LANG, Catalan HREF LANG, Czech HREF LANG, Danish HREF LANG, Austrian German HREF LANG, Swiss German HREF LANG, Greek HREF LANG, Australian English HREF LANG, Irish English HREF LANG, New Zealand English HREF LANG, South African English HREF LANG, Argentinian Spanish HREF LANG, Bolivian Spanish HREF LANG, Chile Spanish HREF LANG, Colombian Spanish HREF LANG, Costa Rican Spanish HREF LANG, Ecuadorian Spanish HREF LANG, Guatemalan Spanish HREF LANG, Honduran Spanish HREF LANG, Mexican Spanish HREF LANG, Nicaraguan Spanish HREF LANG, Panama Spanish HREF LANG, Peruvian Spanish HREF LANG, Paraguay Spanish HREF LANG, El Salvadorian Spanish HREF LANG, Venezuelan Spanish HREF LANG, Estonian HREF LANG, Finnish HREF LANG, Belgium French HREF LANG, Canadian French HREF LANG, Swiss French HREF LANG, Hebrew HREF LANG, Croatian HREF LANG, Hungarian HREF LANG, Armenian HREF LANG, Indonesian HREF LANG, Icelandic HREF LANG, Italian HREF LANG, Swiss Italian HREF LANG, Georgian HREF LANG, Lithuanian HREF LANG, Latvian HREF LANG, Macedonian HREF LANG, Malaysian HREF LANG, Dutch HREF LANG, Norwegian Bokmål HREF LANG, Polish HREF LANG, Portuguese HREF LANG, Romanian HREF LANG, Slovak HREF LANG, Slovenian HREF LANG, Albanian HREF LANG, Serbian HREF LANG, Swedish HREF LANG, Swahili HREF LANG, Tagalog HREF LANG, Turkish HREF LANG, Ukrainian HREF LANG, Vietnamese HREF LANG, Hong Kong Chinese HREF LANG, Taiwan Chinese HREF LANG, Microsoft Advertising, Irish English, Google Hosted Libraries, Google Hosted Prototype, Prototype, Kampyle Analytics, Kampyle, Digg, Stumbleupon, ShareThis, AddThis, jQuery NoConflict, Google Hosted Scriptaculous, script.aculo.us, Bug Bounty, Application Request Routing, Java EE, Adobe Connect, Sift, Okta, My Salesforce, Google Places Library, DocuSign, RequireJS, TypeScript, Facebook Login, comScore Activation, comScore, Pinterest Conversion Tracking, Intersection Observer, Apple Whitelist, Bugsnag, Facebook, Twitter, Plaid, Geetest, HSTS, US Privacy User Signal Mechanism, Rapleaf, Roku, DataXu, Amazon S3, selectivizr, LinkedIn, Instagram, Apple iCloud Mail, Slack, CrUX Dataset, CrUX Top 5000, Arkose Labs, Cloudflare Radar, Cloudflare Radar Top 50k, Luxembourg German HREF LANG, Luxembourg French HREF LANG, Accessibility Statement, Workbox, GPTBot Disallow, Google Analytics 4, Bell Canada, GitHub, SEC EDGAR 10-K, U.S. Server Location, Apache Traffic Server, Salesforce, K2F, Microsoft Personal Web Server, Gambling Content, YouTube Link, Adyen, Telecom Argentina, Marathi HREF LANG, IIS, DAV, Bancontact, Canva, Google Webmaster, Miro, Subversion, Edge Network, English - Inferred, DMARC Reject, Fastly Load Balancer, CommonCrawl Top 1000, Googlebot Disallow, Microsoft BingBot Disallow, Yandex Bot Disallow, Baidu Bot Disallow, Perplexity, Anthropic Claude Bot Disallow, Cohere AI Disallow, AggregateRating Schema, Matterport, Contentstack, Klarna, Cloudflare Radar Top 100k, Venmo, Product Schema, Yahoo Domain Keys, Multilingual, Mexico Stock Exchange, Vienna Stock Exchange, Bovespa Soma, German Server Location, MarkMonitor Registrar, Common Crawl, Verified Profile, esprima, AWS Global Accelerator, OpenAI, Gatekeeping, Wikipedia, Japanese Server Location, French Server Location, Jetty, Antel, OpenTelemetry, LangChain, Docker, Anthropic, OpenAI Operations, Angular Operations, Ansible, Apache Airflow, Apache Kafka, Apache Spark, Argo CD, Google BigQuery, Apache Cassandra, CircleCI, ClickHouse, CockroachDB, Dagster, Django Operations, Amazon DynamoDB, Elasticsearch, GitHub Operations, Gradle, Grafana Operations, Hugging Face, Istio Operations, Jetpack Compose, Keras, Kotlin, Kubeflow, Kubernetes Operations, Linux, Apache Lucene, Mistral AI, MLflow, MLOps, , MongoDB Operations, MySQL, Node.js, NumPy, OpenSearch Operations, OpenTelemetry Operations, pandas, Pinecone, Playwright, PostgreSQL, Prefect, Prometheus, Prompt Engineering, Protocol Buffers, PyTorch, React Operations, Redis, SCIKit Learn, Spring Boot, Svelte Operations, SwiftUI, Tableau Operations, Temporal, TensorFlow, Terraform, Google Vertex AI, Weaviate, Zero Trust, Technical Job Listings, Amazon Elastic Load Balancing Sticky Session, SP 500, Russell 1000, SEC EDGAR Ticker Index, Russell 3000, Hong Kong Server Location, OpenAI SearchBot Disallow, Meta External Bot Disallow, ImagesiftBot Disallow, Brazilian Server Location, Australian Server Location, AI Unfriendly, Singaporean Server Location, Mexican Server Location, NPM Agent, NPM MCP, NPM Intern"
+      },
+      "latencyMs": 16420,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj0073PGsmZsBtKjR",
+      "recordedAt": "2026-10-07T07:12:30.621Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "481 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager"
+        ],
+        "falsePositives": [
+          "Google Analytics",
+          "Segment",
+          "Meta Pixel",
+          "Optimizely",
+          "Fastly",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "affirm",
+      "label": "Affirm",
+      "domain": "affirm.com",
+      "inputs": {
+        "Company Domain": "affirm.com"
+      },
+      "inputHash": "f88f49057b8df82c",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "UserVoice, ZeroClipboard, ECMAScript 5 Shim, Typeahead.js, Angular JS, jQuery 2.0.3, Lever, AdRoll, Marketo Forms, New Relic, iovation, Skrollr, YouTube, GStatic Google Static Content, Stocksy, Greenhouse, Shutterstock, Artsai, Openads/OpenX, AppNexus, Advertising.com, Lijit Widget, Sharethrough, French, AWS Cloudfront Hillsboro OR Edge, HTML5 History API, Freshpaint, vuex, Vue, Google Pay, Worldpay, AWS Cloudfront Philadelphia PA Edge, Australian Credit Licence, Google Call Conversion Tracking, Modernizr 2.6, nginx 1.1, jQuery 1.8.2, Typekit, Sendgrid, DigiCert EV, DigiCert SSL, CloudFront, Modernizr, AJAX Libraries API, jQuery, Google Analytics, Mixpanel, Content Delivery Network, nginx, Google Apps for Business, SSL by Default, Heap, DoubleClick.Net, SPF, Google Universal Analytics, Facebook Like, html5shiv, jQuery Cycle, jQuery UI, GSAP, jQuery Validate, Mobile Non Scaleable Content, Viewport Meta, Optimizely, Amazon Virginia Region, LinkedIn Ads, Pound Sterling, Marketo Mail, Affirm, FastClick, Webpack, CDN JS, Japanese Yen, Google Analytics Event Tracking, core-js, Babel, DoubleClick Bid Manager, Pubmatic, Rubicon Project, OpenResty, Amazon CloudFront, Google Conversion Tracking, Google Remarketing, Amazon, Marketo, Amazon Route 53, es6 promise, Slick JS, IPhone / Mobile Compatible, Careers, StatusPage IO, Lozad.js, Commission Junction, Google Analytics IP Anonymization, Contentful, Gatsby JS, Global Site Tag, Google DoubleClick Conversion, Facebook for Websites, Facebook SDK, Facebook Custom Audiences, Facebook Conversion Tracking, Facebook Signal, Google Tag Manager, Branch, DoubleClick Floodlight, 6sense, Facebook Pixel, GlobalSign Domain Verification, Google AdWords Conversion, React, Amazon SES, COVID-19, Drift, Google Font API, LinkedIn Insights, Amazon S3 CDN, Amazon Ireland Region, Amazon California Region, Gatsby, Google Conversion Linker, Cloudflare JS, Amazon Frankfurt Region, Amazon Singapore Region, Twitter Website Universal Tag, Hotjar, Unbounce, Envoy, Google Floodlight Counter, TikTok Conversion Tracking Pixel, ExactTarget, ExactTarget Email, Lotame Crowd Control, DemDex, Adobe Audience Manager Sync, eXelate, SiteScout, Tapad, Teads, Rapleaf, BlueKai DMP, Salesforce Audience Studio, SpotXchange, LiveRamp, BlueKai, Adobe Connect, Facebook Domain Verification, PHP, Microsoft Azure DNS, Bing Universal Event Tracking, Microsoft Advertising, Quora, Amazon SSL, Beeswax, Taboola, Pardot, Demandbase, G2 Conversion, SpotX, Okta, My Salesforce, Intersection Observer, DMARC, Ruby on Rails, Cloudflare, DMTracker, Demand Media Tracker, Google Analytics Classic, Google Adsense, Google Adsense for Domains, Euro, Marchex, Magnetic, Chango, Datonics, Dublin Core, Visa, English HREF LANG, Australian English HREF LANG, French HREF LANG, Canadian French HREF LANG, Claritas, DocuSign, Valimail, Events Page, Atlassian Cloud, Stripe, Smartsheet, Partytown, Segment, US Privacy User Signal Mechanism, Facebook, LinkedIn, Twitter, AWS Cloudfront Los Angeles CA Edge, AWS Cloudfront Paris Edge, AWS Cloudfront Milan Edge, AWS Cloudfront Marseille Edge, AWS Cloudfront Ashburn VA Edge, AWS Cloudfront Miami FL Edge, Kenshoo, Microsoft Clarity, Rollbar, Instagram, AWS Cloudfront Frankfurt Edge, AWS Cloudfront Stockholm Edge, AWS Cloudfront Seattle WA Edge, AWS Cloudfront Chicago IL Edge, HSTS, AWS Cloudfront Dallas Fort Worth Edge, AWS Cloudfront Amsterdam Edge, AWS Cloudfront San Francisco CA Edge, AWS Cloudfront Helsinki Edge, Google Analytics 4, OneTrust Domain Verification, Slack, CrUX Dataset, CrUX Top 50k, AWS Cloudfront Montréal QC Edge, MongoDB, Zoom Video Conferencing, Zoom, Istio, Azure Active Directory, AWS Cloudfront Prague Edge, Cloudflare Radar, Cloudflare Radar Top 50k, Google Direct, App-Ads.txt, Affiliate Partner Reseller, FLoC, API Developer, AWS Cloudfront Denver CO Edge, Bug Bounty, SEC EDGAR 10-K, U.S. Server Location, AWS Cloudfront Phoenix AZ Edge, Cloudflare Web Analytics, Cloudflare Insights, Cloudflare CDN, Cloudflare Hosting, Pinterest Conversion Tracking, Pinterest, JavaScript Modules, TVSquared, Salesforce, matchMedia, GitHub, 403 Error, Apple Pay, CrUX Top 10k, Verified Profile, Canva, Google Webmaster, OpenAI, Twitter Conversion Tracking, OneTrust, Optanon, English - Inferred, 3 to 9 ccTLD Redirects, Federal Deposit Insurance Corporation, Cloudflare Bot Manager, DMARC Quarantine, Do Not Sell, CommonCrawl Top 10k, Sentry, Copyright Year 2014, nginx 1.4, Index Exchange, Tremor Video, Financial Conduct Authority, Font Awesome, Nuxt.js, jQuery CDN, jQuery 3.5.1, MasterCard, Amazon Payments, Cloudflare Radar Top 100k, About Cookies, All About Cookies, Microsoft Policies, Google Analytics Opt-Out Privacy, Multilingual, Mexico Stock Exchange, Cookie Policy, CommonCrawl Top 1000, Common Crawl, CommonCrawl Top 5k, Quicktime, Plans and Pricing, AI Generated Copy, Discover, Statsig, Docker, Anthropic, Angular Operations, Ansible, Apache Iceberg, Apache Spark, Argo CD, Google BigQuery, Apache Cassandra, CatBoost, CircleCI, CockroachDB, Databricks, Delta Lake, Amazon DynamoDB, Elasticsearch, Fastlane, Fivetran Operations, GitHub Operations, GitLab Operations, Gradle, Grafana Operations, Istio Operations, Jetpack Compose, Kotlin, Kubeflow, Kubernetes Operations, LightGBM, Linux, Apache Maven, Memcached, MLflow, MLOps, , MongoDB Operations, MySQL, Node.js, NumPy, OpenSearch Operations, OpenTelemetry Operations, OWASP, pandas, Playwright, PostgreSQL, Microsoft Power BI Operations, Prefect, Prometheus, Protocol Buffers, Pulumi, PyTorch, React Operations, React Native, Redis, Redux Operations, SCIKit Learn, Snowflake, Svelte Operations, SwiftUI, Tableau Operations, Temporal, TensorFlow, Terraform, Turborepo, XGBoost, Technical Job Listings, CrUX Top 5000, Russell 1000, SEC EDGAR Ticker Index, Russell 3000, NPM Publisher, jQuery Cookie, 6sense JS, Bizo, Bizo Insights, NPM SDK, Login or Signup, Amazon Web Services Operations, Microsoft Azure Operations, Anthropic Claude Code, Continuous Integration Job Listings, Data Governance Job Listings, Incident Response Job Listings, Observability Job Listings, Project Management Job Listings, Release Management Job Listings, Data Analytics Job Listings, Product Management Job Listings, Application Architecture Job Listings, Backend Development Job Listings, Change Management Job Listings, CI/CD Job Listings, Cloud Computing Job Listings, Cloud Infrastructure Job Listings, Cloud Native Job Listings, Continuous Delivery Job Listings, Control Systems Job Listings, Data Engineering Job Listings, Data Modeling Job Listings, Data Pipeline Job Listings, Data Quality Job Listings, Database Administration Job Listings, Database Design Job Listings, DevOps Job Listings, DevOps Practices Job Listings, Distributed Systems Job Listings, Technical Leadership Job Listings, Engineering Management Job Listings, Full Stack Development Job Listings, Generative AI Job Listings, AI and Machine Learning Job Listings, Microservices Job Listings, NoSQL Database Job Listings, Platform Engineering Job Listings, Principal Engineering Job Listings, Product Engineering Job Listings, Program Management Job Listings, Relational Database Job Listings, Reliability Engineering Job Listings, Serverless Computing Job Listings, Site Reliability Engineering Job Listings, Software Development Engineering Job Listings, Software Engineering Job Listings, Solutions Architecture Job Listings, Solutions Engineering Job Listings, Statistical Analysis Job Listings, Technical Writing Job Listings, Companies House, ipapi, jsDelivr, rrweb, Mustache, Apple Mobile Web Clips Icon, Apache, Sitelinks Search Box, Typekit Async, WebFont Loader, WooCommerce, Cloudflare SSL, IPv6, CrUX Top 5m, ReadMe, Transifex, Zendesk Embeddables, Algolia, crypto browserify, lodash, Render, Day.js, DNSSEC, Vimeo, Organization Schema, RSS, Facebook Domain Insights, Twitter App Card, Twitter App Card iPhone, Android Alternative, Accelerated Mobile Pages, Parse.ly, Medium, Gist, Amazon S3, LightStep, Facebook CDN, Braintree, Pocket, Instapaper, reCAPTCHA, Embedly, Google Identity Platform, Fingerprint.js, Fingerprint2, PayPal, Unsplash, CrUX Top 50m, Sectigo SSL, Sectigo "
+      },
+      "latencyMs": 11625,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj00uCdbdKmJx22Wo",
+      "recordedAt": "2026-10-07T07:12:48.889Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "468 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "Meta Pixel",
+          "Hotjar",
+          "Cloudflare"
+        ],
+        "falsePositives": [
+          "Segment",
+          "Marketo",
+          "Drift",
+          "6sense",
+          "LinkedIn Insight",
+          "Optimizely",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "bill",
+      "label": "BILL",
+      "domain": "bill.com",
+      "inputs": {
+        "Company Domain": "bill.com"
+      },
+      "inputHash": "0d8749f286cd9b9d",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Prototype, script.aculo.us, Google API, Yahoo Small Business, Yield Manager, Index Exchange, IponWeb BidSwitch, Bodymovin, jQuery Validate, reCAPTCHA v2, Google Analytics Event Tracking, AddThis, Contentful, PayPal, Venmo, Lever, Hinge, YouTube, American Express, MasterCard, Algolia, Nuxt.js, Freshpaint, vuex, Vue, Impact, Java EE, AWS Cloudfront Kansas City MO Edge, LiveChat, SnapEngage, Shutterstock, AWS Cloudfront Zurich Edge, AWS Cloudfront Düsseldorf Edge, AWS Cloudfront Houston TX Edge, AWS Cloudfront Oslo Edge, Google Analytics Opt-Out Privacy, Amazon WAF Blocked, 403 Error, WebFont Loader, Google Hosted Web Font Loader, AWS Cloudfront Toronto ON Edge, Rackspace CDN, TypePad, Atom, Yahoo User Interface, Really Simple Discovery, Digg, Del.icio.us, Facebook Like, FeedBurner, Twitter for TypePad, Typepad Analytics, Quantcast Measurement, comScore, Amazon California Region, DNSSEC, Resin 4.0, Verisign EV, Symantec VeriSign, Resin, jQuery 1.12.4, jQuery 3.3.1, jQuery 3.4.1, Branch, ECMAScript 5 Shim, D3 JS, Flowplayer, Moment JS, Typeahead.js, Restangular, interact.js, ThreatMetrix, ng-file-upload, Polyfill IO, Glance, Robots Disallow, HSTS IncludeSubdomains PreLoad, CrUX Top 1m, Cloudflare SSL, Cloudflare Hosting, jQuery Migrate, Cloudflare Automatic Challenge, Cloudflare Challenge, FLoC Opt-Out, Google Places Library, JavaScript Modules, Stripe, Very Good Security, CardinalCommerce, Adyen, CyberSource, Dun and Brandstreet Visitor Intelligence, Highcharts, Amazon API Gateway, CrUX Top 5m, Amazon Ad System, Modernizr 2.5, jQuery 1.7.2, Google Remarketing, jQuery Once, Content Delivery Network, Optimizely, Amazon Associates, CrazyEgg, Dyn DNS, Twitter Platform, LinkedIn Platform API, Google Plus One Platform, Twitter Tweet Button, Facebook Like Button, Google Plus One Button, LinkedIn Share Plugin, Twitter Anywhere, jQuery CDN, Facebook Like Box, Facebook for Websites, Sendgrid, New Relic, Drupal, Modernizr, jQuery UI, JCarousel, jQuery Colorbox, jQuery Cookie, CloudFront, Varnish, nginx, Brightcove, ClickTale, Akamai, Chartbeat, Hubspot, jQuery Tools, TRUSTe, Reinvigorate, MSN/Bing Webmaster, Verisign Seal, LivePerson, Google Webmaster, AJAX Libraries API, jQuery, jQuery Cycle, Adobe Dreamweaver, Google Analytics, Marketo, Apache, PHP, Zayo, jQuery 1.8.2, Akamai Hosted, Mixpanel, SPF, NTT America, html5shiv, Drupal 7, matchMedia, Respond, RSS, CDN JS, Qualaroo, Viewport Meta, Akamai Edge, SSL by Default, Vimeo, Vimeo CDN, Facebook SDK, Facebook Custom Audiences, Facebook Tag API, Zendesk, Froogaloop, reCAPTCHA, Bizo, Yahoo Web Analytics, DoubleClick Floodlight, Bizo Insights, Smart App Banner, Google Hosted Libraries, Google Hosted jQuery, AppNexus, GStatic Google Static Content, Yahoo Dot, Drupal Version 7.3x, Zopim, Google Analytics Classic, Drupal Version 7.4x, Google Tag Manager, LinkedIn Ads, Facebook Exchange FBX, The Trade Desk, Tapad, Drawbridge, Facebook Pixel, Twitter Ads, Twitter Analytics, BlueKai DMP, BlueKai, Yahoo Image CDN, DemDex, Fastly, jQuery Form, LinkedIn Insights, Google Optimize 360, DoubleClick Bid Manager, Pubmatic, Rubicon Project, Twitter Conversion Tracking, Facebook Signal, AppNexus Segment Pixel, jQuery 1.10.2, RawGit, Lazy Load, Dyn Hosting, Google Conversion Tracking, DoubleClick.Net, CKEditor, Google Font API, Google Universal Analytics, Copyright Year 2017, IPhone / Mobile Compatible, Varnish 5.x, BootstrapCDN, Font Awesome, Facebook Conversion Tracking, Careers, Plans and Pricing, Taboola, WebEx Panel, Oracle Cloud, Bing Universal Event Tracking, Google Maps API, Google Maps, Google Maps for Work, Webpack, JSON 3, STOMP Over WebSocket, Quora, Capterra, Global Site Tag, Drift, Clearbit, Twitter Website Universal Tag, Google Floodlight Counter, Google Conversion Linker, Google AdWords Conversion, Clearbit Forms, AirPR, Imgix, Propel Media, LogRocket, Slick JS, Cloudflare, Ambassador, Intellimize, COVID-19, Drupal Version 7.x, es6 promise, GoDaddy SSL, DMARC, Fastly Hosted, Internap, Slick, Amazon, Acquia Cloud, StatusPage IO, Cloudflare JS, Bill.com, GrowSumo, core-js, Google Apps for Business, Iframely, Facebook Domain Insights, Bootstrap.js, Angular JS, Amazon S3, Amazon CloudFront, Segment, Angular, Sentry, Pusher, Microsoft Advertising, Amazon Route 53, Express, 6sense, Bug Bounty, Beeswax, Rapleaf, AdRoll, AdRoll CMP System, GDPR Consent Management Platform, Demandbase, Intersection Observer, TypeScript, OneTrust, Optanon, Advertising.com, Salesforce, Euro, Omniture SiteCatalyst, Visual Sciences, Japanese Yen, GoDaddy CDN, Google Adsense, SWFObject, Adobe Active Content, Shockwave Flash Embed, jQuery 1.3.2, Google Website Optimizer, WidgetBox, Genius, Apple Whitelist, Amazon SSL, US Privacy User Signal Mechanism, Google Analytics 4, Facebook, AWS Cloudfront Miami FL Edge, Twitter, LinkedIn, Velaro, AWS Cloudfront San Francisco CA Edge, AWS Cloudfront Los Angeles CA Edge, AWS Cloudfront Stockholm Edge, AWS Cloudfront Marseille Edge, AWS Cloudfront Chicago IL Edge, AWS Cloudfront Helsinki Edge, AWS Cloudfront Montréal QC Edge, AWS Cloudfront Seattle WA Edge, Claritas, AWS Cloudfront Ashburn VA Edge, AWS Cloudfront Paris Edge, AWS Cloudfront Milan Edge, AWS Cloudfront Frankfurt Edge, Instagram, Slack, AWS Cloudfront Phoenix AZ Edge, Podsights, AWS Cloudfront Hillsboro OR Edge, FullStory, CrUX Dataset, CrUX Top 500k, AWS Cloudfront Madrid Edge, AWS Cloudfront Salt Lake City UT Edge, Microsoft Clarity, HackerOne, AWS Cloudfront Amsterdam Edge, Azure Active Directory, AWS Cloudfront Prague Edge, Amazon Oregon Region, Google Floodlight Sales, 6sense JS, Apple Mobile Web Clips Icon, Embedly, Datadog, Lightbox, Events Page, Investor Relations, Underscore.js, Webflow, AWS Cloudfront New York NY Edge, Do Not Sell, Accessibility Statement, Cookie Policy, Cloudflare Radar, Cloudflare Radar Top 50k, AWS Cloudfront Minneapolis MN Edge, React, The Trade Desk Universal Pixel, Visual Website Optimizer, Google Cloud Functions, jQuery 3.5.1, Global Privacy Control, API Developer, G2 Conversion, AWS Cloudfront Denver CO Edge, Reddit Ads, Reddit Conversion Tracking, U.S. Server Location, OptinMonster, Marketo Forms, SEC EDGAR 10-K, CrUX Top 100k, Usercentrics, IntentIQ, Getty Images, Affiliate Partner Reseller, WebEx, AWS Cloudfront London Edge, YouTube Link, AWS Cloudfront Tel Aviv Edge, GitHub, AWS Cloudfront Dallas Fort Worth Edge, AWS Cloudfront Querétaro Edge, Artificial Intelligence, AWS Cloudfront Atlanta GA Edge, HSTS, Adobe Enterprise Cloud, AWS Cloudfront Vancouver BC Edge, Plaid, Cloudflare CDN, AWS Lambda, Cloudflare Bot Manager, Google Policies, Wistia, HTML5 History API, English - Inferred, DMARC Reject, Fastly Load Balancer, Copyright Year 2020, Apple Podcast Link, CommonCrawl Top 500k, Copyright Year 2013, Visa, GSAP, Copyright Year 2014, Apple App Link, Google Play Store Link, StackAdapt Retageting, StackAdapt, Bizible, Clearbit Reveal, Spotify Advertising, Everest Technologies, Postman, PartnerStack, jsDelivr, Cloudflare Radar Top 100k, LLMS Text, Datadog RUM, London Stock Exchange, Frankfurt Stock Exchange, New York Stock Exchange, GoDaddy Registrar, UNPKG, Lorem Ipsum, CommonCrawl Top 100k, Common Crawl, Schema App, Cloudflare Insights, Cloudflare Web Analytics, Pre Year 2000, Corporation Schema, X, B2B, Wikipedia, AI Generated Copy, Qualified, Splide, Cloudinary, Google Analytics Custom Variables, AWS Cloudfront Sofia Edge, Perl, AWS Cloudfront Vienna Edge, Anthropic, Docker, Angular Operations, Ansible, Apache Flink, Google BigQuery, Multilingual, Bitbucket, Confluence, Dagster, Databricks, Delta Lake, Amazon DynamoDB, Elasticsearch, Google Gemini, GitHub Operations, GitLab Operations, GitLab CI CD, Gradle, Jetpack Compose, Kotlin, Kubernetes Operations, Micronaut, MLOps, , MongoDB Operations, MySQL, Neo4j, Node.js, OpenSearch Operations, PagerDuty, Playwright, PostgreSQL, Prefect, Prisma Operations, Prompt Engineering, Protocol Buffers, PyTorch, React Operations, React Native, Redis, Amazon SageMaker, SCIKit Learn, Snowflake, Spring Boot, SwiftUI, Tableau Operations, TensorFlow, Terraform, Turborepo, Vitest, Weaviate, Zero Trust, Technical Job Listings, AWS Cloudfront Warsaw Edge, Russell 1000, "
+      },
+      "latencyMs": 10209,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj01cWc4GopVz2mcg",
+      "recordedAt": "2026-10-07T07:13:05.317Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "506 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "Qualified",
+          "Meta Pixel",
+          "Webflow",
+          "Cloudflare"
+        ],
+        "falsePositives": [
+          "Segment",
+          "HubSpot",
+          "Marketo",
+          "Drift",
+          "6sense",
+          "LinkedIn Insight",
+          "Optimizely",
+          "Fastly",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "lucid",
+      "label": "Lucid",
+      "domain": "lucid.co",
+      "inputs": {
+        "Company Domain": "lucid.co"
+      },
+      "inputHash": "dd8e950f7fe882c9",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Amazon, Amazon Route 53, Drupal, Vimeo, jQuery, Drupal 7, jQuery 2.1.1, Apple Mobile Web Clips Icon, YouTube, jQuery Once, Google Analytics, Facebook for Websites, Foundation, Google Universal Analytics, KISSmetrics, Amazon Virginia Region, Apache, CloudFront, Webpack, Viewport Meta, Gatsby JS, WebEx Panel, IPhone / Mobile Compatible, Amazon S3 CDN, SPF, Google Apps for Business, SSL by Default, Google Font API, Google Tag Manager, English HREF LANG, Careers, Global Site Tag, DoubleClick.Net, Stripe, Amazon SSL, React, core-js, reCAPTCHA, Zendesk Link, German HREF LANG, Spanish HREF LANG, French HREF LANG, Japanese HREF LANG, Russian HREF LANG, Marketo, Day.js, DMARC, Postmark, es6 promise, Hotjar, Optimizely, Content Delivery Network, Pound Sterling, Organization Schema, Gatsby, Amazon CloudFront, PHP, Italian HREF LANG, Dutch HREF LANG, Portuguese HREF LANG, Brazilian Portuguese HREF LANG, Google Webmaster, Google Analytics IP Anonymization, Emotion, Marketo Mail, Moment JS, Google Analytics Opt-Out Privacy, Zendesk, RSS, Facebook Domain Verification, Google Conversion Linker, Google AdWords Conversion, PartnerStack, Intersection Observer, Influitive, Bing Universal Event Tracking, LinkedIn Insights, Marin Software, Google Remarketing, Reddit Conversion Tracking, GSAP, Google Analytics 4, Reddit Ads, Facebook SDK, Taboola, Drift, Cookie Consent by Osano, Algolia, Digital Ocean Spaces, Partytown, Global Privacy Control, US Privacy User Signal Mechanism, Facebook, LinkedIn, Twitter, AWS Cloudfront Stockholm Edge, AWS Cloudfront Los Angeles CA Edge, AWS Cloudfront Paris Edge, AWS Cloudfront Hong Kong Edge, AWS Cloudfront Ashburn VA Edge, AWS Cloudfront Sydney Edge, AWS Cloudfront Seattle WA Edge, AWS Cloudfront Chicago IL Edge, AWS Cloudfront Helsinki Edge, AWS Cloudfront Miami FL Edge, AWS Cloudfront Newark NJ Edge, AWS Cloudfront Singapore Edge, Euro, Japanese Yen, Instagram, AWS Cloudfront Montréal QC Edge, AWS Cloudfront Amsterdam Edge, AWS Cloudfront Hillsboro OR Edge, AWS Cloudfront San Francisco CA Edge, AB Tasty, Didomi, HSTS, AWS Cloudfront Taipei TW Edge, AWS Cloudfront Frankfurt Edge, CrUX Dataset, CrUX Top 1m, AWS Cloudfront Vancouver BC Edge, AWS Cloudfront Mumbai Edge, AWS Cloudfront Phoenix AZ Edge, AWS Cloudfront Brussels Edge, AWS Cloudfront Melbourne Edge, AWS Cloudfront Salt Lake City UT Edge, Mimecast, USP API Live, Criteo, ZoomInfo, AWS Cloudfront Manila Edge, DMARC Analyzer, CrUX Top 500k, Amazon SES, Cloudflare Radar, Cloudflare Radar Top 100k, Affiliate Partner Reseller, Sentry, ZoomInfo Chat, Facebook Signal, Basis, Centro, Facebook Pixel, Facebook Custom Audiences, SiteScout, IntentIQ, AWS Cloudfront Denver CO Edge, AWS Cloudfront Marseille Edge, AWS Cloudfront London Edge, API Developer, Usercentrics, Rapleaf, LetsEncrypt, Akamai Hosted, IPv6, Akamai DNS, Amazon Elastic Load Balancing, Amazon ELB North Virginia, Wistia, LiveRamp, Bell Canada, Smartsheet, LinkedIn Ads, Qualified, Arelion, Azure Active Directory, TikTok, Directus, Cookie Policy, ClickCertain, RemarketStats, Akamai Edge, JavaScript Modules, YouTube Link, GitHub, Google Analytics Classic, Cloudflare Radar Top 50k, Cloudflare, Ipify, Telecom Argentina, Google Adsense, Cheq, Korean HREF LANG, Polish HREF LANG, Swedish HREF LANG, OpenAI, Artificial Intelligence, Plans and Pricing, DMARC Quarantine, Pinterest Domain Verify, Demandbase, Microsoft Clarity, Accessibility Statement, English - Inferred, CommonCrawl Top 100k, Greenhouse, GitBook, Yahoo Domain Keys, U.S. Server Location, German Server Location, Multilingual, Common Crawl, Indian Server Location, Babel, Preact JS, RudderStack, Swedish Server Location, Australian Server Location, B2B, X, AI Generated Copy, Events Page, Discover, Bizo, Segment, GStatic Google Static Content, TikTok Embed, G2 Conversion, Twitter Platform, iPROM, OneTrust, Drawbridge, Google API, Reddit, Hubspot, Intercom, HubSpot Meetings, jsDelivr, AI Agent, Apple Pay JS, Google Pay, Copyright Year 2023, Docker, Angular Operations, Ansible, Databricks, Fivetran Operations, GitHub Operations, Kubernetes Operations, Linux, Copyright Year 2021, MySQL, Node.js, PostgreSQL, React Operations, Redis, Snowflake, Tableau Operations, Terraform, Technical Job Listings, Copyright Year 2024, Spanish Server Location, Dutch Server Location, NPM Publisher, Copyright Year 2022, Japanese Server Location, Login or Signup, Chilean Server Location, Canadian Server Location, Italian Server Location, OpenAI Conversion Tracking, Hong Kong Server Location, Telx, Argentinian Server Location, TrustRadius, Brand Schema, Capterra, British Server Location, Google Call Conversion Tracking, CrUX Top 100k, Amazon Web Services Operations, Microsoft Azure Operations, Emirati Server Location, Operations Engineering Job Listings, Copyright Year 2020, Data Analytics Job Listings, Backend Development Job Listings, Product Management Job Listings, Security Job Listings, Technical Leadership Job Listings, Change Management Job Listings, Funding Announcement, OWASP, Product Engineering Job Listings, Software Engineering Job Listings, Lever, Getty Images, AWS Cloudfront Kuala Lumpur Edge, Spanish, Marketo Forms, Cloudflare Insights, Cloudflare Web Analytics, Network Advertising Initiative, EDAA, YourAdChoices.com, Offer Schema, Ruby on Rails Token, New Relic, Facebook Domain Insights, Help Scout, Rack Cache, Amazon S3, HSTS IncludeSubdomains PreLoad, Classnames, Styled Components, jQuery Placeholder, Clipboard.js, jQuery Cookie, Axios, Honeybadger, FastClick, Marked, lodash, Underscore.js, jQuery ScrollTo, crypto browserify, HubSpot Tether, Elliptic, URI.js, Backbone.js, Handlebars, Marionette.js, Sitelinks Search Box, Discourse, Google Calendar, OpenStreetMap, Google Maps, nginx, Magnific Popup, jQuery UI, jQuery UI Mouse, jQuery 3.7.1, jQuery Migrate, Get Stream, Modernizr, Skilljar, Heroku Vegur Proxy, PrismJS, jQuery Validate, html5shiv, CrUX Top 5m, JW Player, Service Worker, Brightcove, AWS Cloudfront Tel Aviv Edge, DNSSEC, AWS Cloudfront Dallas Fort Worth Edge, AWS Cloudfront Milan Edge, AWS Cloudfront Dubai Edge, AWS Cloudfront Atlanta GA Edge, AWS Cloudfront Madrid Edge, Twitter Tweet Button, Facebook Sharer, Cloudflare Hosting, Zendesk Mail, Cloudflare Automatic Challenge, Cloudflare Challenge, Cloudflare CDN, FLoC Opt-Out, Cloudflare Network Error Logging, GlobalSign Domain Verification, Cloudflare DNS, CrUX Top 50m, CrUX Top 10m, imagesLoaded, HTML5 History API, Zendesk Guide, Zendesk Dropbox, Smartling, Polyfill IO, Zendesk Embeddables, Google Identity Platform, ReadMe, Qualtrics, Render, StatusPage IO, Mobile Non Scaleable Content, Mobile Optimized, Atom, Amazon Sydney Region, Tooltipster, Typeahead.js, MobX, Bloodhound Typeahead, Google Code Prettify, Respond, Amazon Oregon Region, Amazon Ireland Region, jQuery 3.5.1, CDN JS, Cloudflare JS, reCAPTCHA Enterprise, AWS Cloudfront New York NY Edge, FullStory, Chakra UI, Report URI, Express, Fastly, Folloze, Amazon API Gateway, Selectize, Consensus, Visa, Yahoo User Interface, PayPal, Akamai, Mermaid, Apple Mobile Web App Capable, Gravatar Profiles, Placeholder, Facebook CDN, Fancybox, Yii Framework, Person Schema, Akamai Global Host, Sendgrid, Zipkin"
+      },
+      "latencyMs": 9824,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj01s8tkXMPqmMa3X",
+      "recordedAt": "2026-10-07T07:13:21.375Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "418 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "Marketo",
+          "Qualified",
+          "LinkedIn Insight",
+          "Meta Pixel"
+        ],
+        "falsePositives": [
+          "Segment",
+          "HubSpot",
+          "Intercom",
+          "Drift",
+          "Hotjar",
+          "Optimizely",
+          "Cloudflare",
+          "Fastly",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "sigma",
+      "label": "Sigma Computing",
+      "domain": "sigmacomputing.com",
+      "inputs": {
+        "Company Domain": "sigmacomputing.com"
+      },
+      "inputHash": "dcb5076c99a66469",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Google Cloud DNS, Google DNS, nginx, Apple Mobile Web Clips Icon, LetsEncrypt, Varnish, Express, Viewport Meta, Fastly, Google Font API, Fastly Hosted, Google Apps for Business, Slider Revolution, jQuery, Really Simple Discovery, Mobile Non Scaleable Content, WebFont Loader, ThemePunch, RSS, Live Writer Support, Wordpress Plugins, Apache, Jupiter, WordPress, Google Analytics, Visual Composer, Google Universal Analytics, Sendgrid, Google Cloud, SPF, Facebook Custom Audiences, Facebook Pixel, Facebook SDK, Facebook for Websites, Contact Form 7, Google, IPhone / Mobile Compatible, Content Delivery Network, SSL by Default, Facebook Signal, Fancybox, imagesLoaded, GStatic Google Static Content, FlexSlider, Modernizr, html5shiv, GSAP, SalesLoft, Facebook Conversion Tracking, Marketo Mail, Careers, Webflow, Marketo, Google Tag Manager, AJAX Libraries API, Google Hosted Libraries, Google Hosted Web Font Loader, CDN JS, Global Site Tag, Google Webmaster, Google AdWords Conversion, Google Conversion Tracking, DoubleClick.Net, Google Remarketing, Wistia, Embedly, Akamai, jQuery CDN, OpenResty, Webflow Hosting, Amazon, Amazon Virginia Region, DoubleClick Bid Manager, Intercom, LinkedIn Insights, LinkedIn Ads, Bizo, Pound Sterling, Japanese Yen, CloudFront, jQuery 3.3.1, Amazon S3 CDN, Google Conversion Linker, Capterra, Browser-Update, Hotjar, Hubspot, Beeswax, Hubspot Forms, Pingback Support, Bizo Insights, Hubspot Ads, Yoast Plugins, Yoast SEO Premium, Yoast WordPress SEO Plugin, Sitelinks Search Box, Essential Grid, jQuery UI, Max Mega Menu Pro, Font Awesome, Divi, DuracellTomi Google Tag Manager for WordPress, Unsplash, Hover Intent, MediaElement.js, Detect Mobile Browsers, FitVids.JS, jQuery Waypoints, Magnific Popup, Salvattore, matchMedia, Underscore.js, Twemoji, WP Engine, Drawbridge, Hubspot Messages, HubSpot Conversations, Bing Universal Event Tracking, Cloudflare, Cloudflare DNS, Cloudflare Hosting, Comodo SSL, Comodo PositiveSSL, Cloudflare SSL, Salesforce SPF, Twitter Website Universal Tag, Twitter Ads, Twitter Conversion Tracking, Twitter Analytics, AirPR, ShortPixel Image Optimizer, lazySizes, jQuery Migrate, Headroom.js, Backstretch, Simple Social Icons, BootstrapCDN, G2 Conversion, The Trade Desk, Terminus, IPv6, jsDelivr, COVID-19, lodash, reCAPTCHA, core-js, es6 promise, DMARC, Backbone.js, Matomo, PHP, Slick JS, Slick, GTM4WP, Advertising.com, Yahoo Web Analytics, DemDex, Adobe Audience Manager Sync, DMARC Analyzer, OneTrust, Optanon, Organization Schema, DMARCLY, Google Optimize 360, Microsoft Azure DNS, BlueKai DMP, BlueKai, Gravity Forms, BugHerd, jQuery 3.4.1, Mobile Optimized, Facebook Domain Verification, AOS, Stickyfill, Microsoft Advertising, Events Page, HubSpot Analytics, Zendesk, Mutiny, JSON 3, Adobe Active Content, Shockwave Flash Embed, LiveZilla, Code Amber Alert, Google Adsense, Google Analytics Classic, SWFObject, Google Analytics 4, TechTarget, Drift, Reddit Conversion Tracking, Okta, UNPKG, Intersection Observer, Ruby on Rails, DocuSign, Adobe Enterprise Cloud, Autoptimize, ProveSource, Smush Pro, Cloudflare Rocket Loader, Copyright Year 2018, Popper.js, Bizible, Digital Reach Agency, Rubicon Project, StackAdapt, LiveChat, SnapEngage, Lucky Orange, My Salesforce, AppNexus, StackAdapt Retageting, DNSSEC, Microsoft Clarity, US Privacy User Signal Mechanism, Facebook, LinkedIn, Twitter, Cloudflare CDN, Euro, Atlassian Cloud, Cloudflare Bot Manager, Tiny Slider, Zapier, HubSpot WordPress Plugin, Cloudflare JS, React, Webpack, AWS Global Accelerator, Amazon Ireland Region, Zeta Marketing Platform, Boomtrain, Heap, Rocket Fuel, Index Exchange, Everest Technologies, Rapleaf, Amazon Advertising Sizmek Ad Suite, Aggregate Knowledge, Neustar AdAdvisor, Salesforce Audience Studio, Media.net, Tremor Video, SpotX, SpotXchange, LiveRamp, AddThis, IponWeb BidSwitch, Corporation Schema, Apple iCloud Mail, HackerOne, OneTrust Domain Verification, 6sense, CrUX Dataset, CrUX Top 500k, Slack, Amazon Tokyo Region, Amazon Oregon Region, CrUX Top 5m, Googlebot Disallow, CrUX Top 1m, Azure Active Directory, Lessonly, HSTS IncludeSubdomains PreLoad, HSTS, 6sense JS, Cookie Policy, Supply Chain Policy, Cloudflare Radar, Cloudflare Radar Top 50k, Service Status, jQuery 3.5.1, Global Privacy Control, Reddit Ads, AppNexus Segment Pixel, U.S. Server Location, Classnames, API Developer, Styled Components, Fontello, GitHub, reCAPTCHA Enterprise, Amazon Sydney Region, PostHog, Marketo Forms, YouTube Link, Amazon Mumbai Region, Bug Bounty, Vidzflow, Artificial Intelligence, Salesforce, crypto browserify, Sentry, Amazon Paris Region, Amazon Stockholm Region, Offer Schema, AggregateRating Schema, SoftwareApplication Schema, AWS Lambda, VideoJS, Zencoder CDN, 1Password, About Cookies, EDAA, Sub Processors, English - Inferred, Australian Server Location, DMARC Quarantine, Edge Network, Moment JS, CommonCrawl Top 100k, MSN/Bing Webmaster, ContactPoint Schema, Review Schema, Plans and Pricing, Accessibility Statement, Raven JS, Day.js, MNTN, Instagram, Facebook Sharer, Cloudflare Radar Top 100k, HTML5 History API, Swedish Server Location, MarkMonitor Registrar, Common Crawl, LLMS Text, Fastly Load Balancer, B2B, Wikipedia, Discover, AI Generated Copy, Google Analytics Opt-Out Privacy, AI Agent, Four Year Expiry, Copyright Year 2023, Google BigQuery, Dagster, Databricks, Fivetran Operations, GitHub Operations, Multilingual, Kubernetes Operations, Node.js, React Operations, Copyright Year 2021, Snowflake, Tableau Operations, Terraform, Zero Trust, Technical Job Listings, Members Page, LucidWorks, Copyright Year 2024, Placeholders.js, Netlify, Netlify Edge, Next.js, Amazon California Region, Sanity, NPM API, NPM SDK, NPM React, NPM Publisher, Pre Year 2010, Google Cloud Oregon, WP Event Manager, WP Sticky Sidebar, Max Mega Menu, Copyright Year 2019, Login or Signup, Amazon Frankfurt Region, DataGrail, Copyright Year 2020, X, Copyright Year 2022, Google Call Conversion Tracking, Amazon Web Services Operations, Microsoft Azure Operations, Business Intelligence Job Listings, Product Management Job Listings, API Development Job Listings, Data Analytics Job Listings, Data Warehousing Job Listings, API Integration Job Listings, CI/CD Job Listings, Cloud Infrastructure Job Listings, Cloud Native Job Listings, Data Engineering Job Listings, Data Modeling Job Listings, Distributed Systems Job Listings, Engineering Management Job Listings, ETL Pipeline Job Listings, Incident Response Job Listings, Large Language Model Job Listings, AI and Machine Learning Job Listings, Natural Language Processing Job Listings, Observability Job Listings, Platform Engineering Job Listings, Project Management Job Listings, Security Job Listings, Serverless Computing Job Listings, Software Engineering Job Listings, Solutions Engineering Job Listings, Systems Integration Job Listings, Technical Writing Job Listings, Product Engineering Job Listings, Amazon Singapore Region, Funding Announcement, English HREF LANG, Zendesk Dropbox, Ruby on Rails Token, Vue, TinyMCE, Envoy, ReadMe, Render, Algolia, Rate Limit, Cogeco Peer 1, Zendesk Embeddables, Cloudflare Challenge, Cloudflare Network Error Logging, FLoC Opt-Out, Cloudflare Automatic Challenge, Zendesk Guide, Radix UI, API Catalog, Vercel, Accelerated Mobile Pages, Greenhouse, Gravatar Profiles, Person Schema, Typekit, Splide, Privacy Shield, Network Advertising Initiative, Demandbase, Pendo, Apollo GraphQL, Amazon CloudFront, Datadog, Emotion, AWS Cloudfront Düsseldorf Edge, Statsig, AWS Cloudfront Stockholm Edge, AWS Cloudfront San Francisco CA Edge, AWS Cloudfront Los Angeles CA Edge, AWS Cloudfront Chicago IL Edge, AWS Cloudfront Singapore Edge, AWS Cloudfront Vancouver BC Edge, AWS Cloudfront Frankfurt Edge, AWS Cloudfront Amsterdam Edge, AWS Cloudfront Mumbai Edge, AWS Cloudfront Hillsboro OR Edge, AWS Cloudfront Seattle WA Edge, AWS Cloudfront Milan Edge, AWS Cloudfront Phoenix AZ Edge, AWS Cloudfront Ashburn VA Edge, AWS Cloudfront Salt Lake City UT Edge, AWS Cloudfront Taipei TW Edge, AWS Cloudfront Denver CO Edge, AWS Cloudfront New York NY Edge, AWS Cloudfront Montréal QC Edge, AWS Cloudfront Toronto ON Edge, AWS Cloudfron"
+      },
+      "latencyMs": 8986,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj029sGT9h5UQi6tN",
+      "recordedAt": "2026-10-07T07:13:36.701Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "467 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "HubSpot",
+          "Next.js"
+        ],
+        "falsePositives": [
+          "Marketo",
+          "Intercom",
+          "Drift",
+          "6sense",
+          "LinkedIn Insight",
+          "Meta Pixel",
+          "Hotjar",
+          "Webflow",
+          "WordPress",
+          "Cloudflare",
+          "Vercel",
+          "Fastly"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "hubspot",
+      "label": "HubSpot",
+      "domain": "hubspot.com",
+      "inputs": {
+        "Company Domain": "hubspot.com"
+      },
+      "inputHash": "eb4a3ff10ae8bcc0",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "English HREF LANG, Spanish HREF LANG, French HREF LANG, German HREF LANG, Japanese HREF LANG, Portuguese HREF LANG, Brazilian Portuguese HREF LANG, Hubspot, Google Tag Manager, Viewport Meta, IPhone / Mobile Compatible, HubSpot COS, MSN/Bing Webmaster, Pinterest Domain Verify, Content Delivery Network, HubSpot CMS Hub, Facebook, Instagram, YouTube Link, X, LinkedIn, TikTok, Apple App Link, Google Play Store Link, JavaScript Modules, Hotjar, Highcharts, Reddit Ads, Artificial Intelligence, Cloudflare CDN, Cloudflare Network Error Logging, Cloudflare, HSTS, HSTS IncludeSubdomains PreLoad, Envoy, Cloudflare Bot Manager, Akamai Hosted, AJAX Libraries API, Google Hosted Libraries, Google Hosted jQuery, jQuery, jQuery 1.7.1, Google Webmaster, Stackoverflow CDN, Pictos, Typekit, Google Analytics, Google Universal Analytics, Pingdom RUM, css3-mediaqueries.js, Wistia, Twitter, HubSpot Analytics, CrazyEgg, CloudFront, Gaug.es, Perfect Audience, Modernizr, Modernizr 2.7, jQuery UI, jQuery Mousewheel, KineticJS, Optimizely, Plans and Pricing, API Developer, Copyright Year 2014, English - Inferred, Cloudflare DNS, Mimecast, Atlassian Cloud, Microsoft Azure DNS, Detectify, Facebook Domain Verification, OpenAI, Stripe, SPF, Apple iCloud Mail, OneTrust Domain Verification, Figma, Adobe Enterprise Cloud, HackerOne, Zoom Video Conferencing, Zoom, Smartsheet, Probely, StatusPage IO, Hubspot Developer Verification, Zapier, Canva, DMARC, DMARC Reject, Dmarcian, IPv6, Cloudflare Hosting, Fastly Hosted, Fastly Load Balancer, Careers, Affiliate Partner Reseller, Knowledge Base, Investor Relations, Accessibility Statement, Intersection Observer, Global Privacy Control, 6sense JS, 6sense, LinkedIn Insights, Google Conversion Linker, Google AdWords Conversion, Bing Universal Event Tracking, Google Floodlight Counter, Claritas, TikTok Conversion Tracking Pixel, Twitter Conversion Tracking, Reddit Conversion Tracking, DoubleClick.Net, Hubspot Messages, Cheq, US Privacy User Signal Mechanism, SSL by Default, Salesforce, WebEx, WebEx Panel, Slack, Many Subdomains, Bug Bounty, Apple Whitelist, Hubspot Lead Flows, HubSpot Customer Feedback, HubSpot Conversations, Hubspot Ads, Google Font API, HubSpot Call to Actions, Hubspot Forms, Global Site Tag, Google Analytics 4, HubSpot Cookie Policy Banner, Google No Translate, Apple Mobile Web Clips Icon, New Relic, Amazon CloudFront, AWS Cloudfront Sydney Edge, core-js, Imgur, COVID-19, Sagefrog Marketing Group, New Perspective, nginx, nginx 1.4, Product Schema, Brand Schema, AggregateRating Schema, Review Schema, Person Schema, Rating Schema, Mobile Non Scaleable Content, AWS Cloudfront Helsinki Edge, Apple Pay, Google Pay, AWS Cloudfront Ashburn VA Edge, YouTube, 3 to 9 ccTLD Redirects, Apple Podcast Link, Spotify Link, Megaphone, CrUX Dataset, CrUX Top 100k, Cloudflare Radar, Cloudflare Radar Top 100k, UNPKG, Vidyard, Thing Schema, Offer Schema, Organization Schema, AWS Cloudfront Hillsboro OR Edge, HTML5 History API, jsDelivr, Splide, AWS Cloudfront Dallas Fort Worth Edge, Libsyn, Podsights, Convert, SlideShare, Perl, Impact, Panopto, PayPal, Facebook Sharer, Multilingual, 30 to 49 ccTLD Redirects, Ireland Domain Redirect, Adswizz, Amazon Ad System, Twitter Website Universal Tag, Twitter Ads, Facebook for Websites, Facebook SDK, Facebook Pixel, Facebook Custom Audiences, Spotify Advertising, MNTN, TikTok Embed, LinkedIn Ads, DoubleClick Floodlight, Facebook Signal, Facebook Conversion Tracking, Frankfurt Stock Exchange, London Stock Exchange, New York Stock Exchange, Mexico Stock Exchange, MarkMonitor Registrar, SEC EDGAR 10-K, Yahoo Domain Keys, Sustainability, Common Crawl, CommonCrawl Top 1000, CrUX Top 50k, Java EE, Google Apps for Business, U.S. Server Location, Out Dated Browser, Events Page, Copyright Year 2017, HubSpot Web Interactives, B2B, Wikipedia, AI Generated Copy, AI Agent, Intellimize, reCAPTCHA Enterprise, reCAPTCHA, HubSpot Video, Copyright Year 2023, AWS Cloudfront Brussels Edge, DNSSEC, Mutiny, Copyright Year 2024, Polyfill IO, Copyright Year 2021, LangChain, Anthropic, Docker, OpenAI Operations, Hubspot Hosted, Angular Operations, Ansible, Google BigQuery, Apache Cassandra, CircleCI, ClickHouse, Confluence, CrewAI, Elasticsearch, Fivetran Operations, Google Gemini, GitHub Operations, Grafana Operations, Hugging Face, Keras, Kotlin, Kubernetes Operations, Linux, Memcached, Mistral AI, MLflow, MLOps, , MongoDB Operations, MySQL, Node.js, NumPy, OpenTelemetry Operations, PagerDuty, pandas, Microsoft Power BI Operations, Prometheus, Prompt Engineering, PyTorch, Qdrant, React Operations, Redis, Redux Operations, SCIKit Learn, Snowflake, SwiftUI, Tableau Operations, TensorFlow, Terraform, Zero Trust, Technical Job Listings, DocuSign, AWS Cloudfront San Francisco CA Edge, AWS Cloudfront Amsterdam Edge, Russell 1000, Russell 3000, SEC EDGAR Ticker Index, AWS Cloudfront Frankfurt Edge, Dstillery, Copyright Year 2018, Typekit Async, Google Chrome Webstore Application, Twitter Platform, Twitter Analytics, CDN JS, Cloudflare JS, Modernizr 2.8, Copyright Year 2016, NPM MCP, NPM Node.js, NPM API, NPM SDK, NPM CLI, MCP Model Context Protocol, NPM Publisher, Pre Year 2010, French Server Location, Copyright Year 2019, Amazon S3, Google Analytics Event Tracking, YouTube IFrame API, YouTube IFrame Upload, Copyright Year 2015, Canadian Server Location, Slick JS, Japanese Server Location, Australian Server Location, Swedish Server Location, Mexican Server Location, Brazilian Server Location, Peruvian Server Location, Malaysian Server Location, Copyright Year 2022, Login or Signup, Copyright Year 2020, Portuguese Server Location, PostalAddress Schema, LLMS Text, Cloudflare Insights, Cloudflare Web Analytics, Stuttgart Stock Exchange, Google Call Conversion Tracking, Amazon Web Services Operations, Microsoft Azure Operations, Storylane, Generative AI Job Listings, Large Language Model Job Listings, Principal Engineering Job Listings, Change Management Job Listings, Data Pipeline Job Listings, Product Management Job Listings, Software Engineering Job Listings, Systems Engineering Job Listings, Plaid, Network Advertising Initiative, EDAA, Google Policies, GitHub, YourAdChoices.com, AI and Machine Learning Job Listings, Data Analytics Job Listings, API Integration Job Listings, Application Architecture Job Listings, Product Engineering Job Listings, Backend Development Job Listings, Big Data Job Listings, CI/CD Job Listings, Cloud Architecture Job Listings, Cloud Computing Job Listings, Cloud Infrastructure Job Listings, Cloud Native Job Listings, Configuration Management Job Listings, Security Job Listings, Data Engineering Job Listings, Data Modeling Job Listings, Data Quality Job Listings, Data Science Job Listings, Data Visualization Job Listings, Data Warehousing Job Listings, DevOps Job Listings, DevOps Practices Job Listings, Distributed Systems Job Listings, Technical Leadership Job Listings, Engineering Management Job Listings, ETL Pipeline Job Listings, Full Stack Development Job Listings, Incident Response Job Listings, Integration Engineering Job Listings, Microservices Job Listings, Natural Language Processing Job Listings, NoSQL Database Job Listings, Observability Job Listings, Platform Engineering Job Listings, Predictive Analytics Job Listings, Project Management Job Listings, Relational Database Job Listings, Serverless Computing Job Listings, Software Architecture Job Listings, Solutions Engineering Job Listings, Statistical Analysis Job Listings, Technical Documentation Job Listings, AWS Cloudfront Seattle WA Edge, AWS Cloudfront Los Angeles CA Edge, Automation Engineering Job Listings, Smart App Banner, Twitter App Card, Twitter App Card iPhone, Twitter App Card iPad, Google API, Google Plus One Platform, LinkedIn Platform API, jQuery 1.9.1, Google Custom Search, Facebook Like Button, Twitter Tweet Button, Google Plus One Share Button, LinkedIn Share Plugin, RSS, AddThis, WhatsApp, CrUX Top 500k, Google Workspace Recovery, Getty Images, Discover, Accelerated Mobile Pages, Stocksy, Typography, Keywee, Google Analytics Enhanced Link Attribution, Cart Functionality, Zeta Marketing Platform, Boomtrain, jQuery 1"
+      },
+      "latencyMs": 5002,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj02o5sGgKD5f3htq",
+      "recordedAt": "2026-10-07T07:13:47.967Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "430 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "HubSpot",
+          "LinkedIn Insight",
+          "Meta Pixel",
+          "Cloudflare"
+        ],
+        "falsePositives": [
+          "6sense",
+          "Hotjar",
+          "Optimizely",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "nvidia",
+      "label": "NVIDIA",
+      "domain": "nvidia.com",
+      "inputs": {
+        "Company Domain": "nvidia.com"
+      },
+      "inputHash": "c7b32294dedb02f2",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "American Express, Coupa Pay, LexisNexis, VMware Tanzu, Datadog APM, Cohesity, Veeam, SAP Fiori, Advantech, UKG Pro, Web Font Loader, ChromeOS, Leaflet, Datadog Real User Monitoring, Gutenberg, Cookie Notice, DataTables, TablePress, YITH WooCommerce Wishlist, NEBOSH Diploma, CookieYes, X for Websites, jQuery Colorbox, Naver Analytics, Swiper, Twitter Universal Website Tag, Rollout.io, Demandbase, Salesforce Marketing Cloud, Neve, Nicepage, OneTrust Cookie Consent, TYPO3, Squarespace, Tailscale, WireGuard, Microsoft System Center Configuration Manager, Codex CLI, Unreal Engine 5, Prisma Access, Shape Security, vtt.js, Evergage, DoubleClick, Microsoft Clarity, GoDaddy, Google AdSense, Adobe Target, Adobe Experience Platform Launch, UserGuiding, Expo, Picturefill, Mustache.js, math.js, LazySizes, Wistia, GSAP, Microsoft Dynamics, NetSuite, RAY, Pipecat, IBM Spectrum Scale, Cloudian HyperStore, vLLM, Jax, Azure OpenAI, NVIDIA Collective Communications Library (NCCL), EtherCAT, CMMC, NVIDIA DeepStream, Quantum ESPRESSO, DENT, HAProxy, Cadence Jasper, Argo Workflows, Dassault SIMULIA, Extron, IBM Storage, VAST Data, CST Studio Suite, Simcenter STAR-CCM+, Ansys SIwave, Helix Core, Skillable, Zendesk, LLamasoft, o9 Solutions, Modelica, RecurDyn, ESRI, Esri ArcGIS, Project Chrono, Akamai CDN, Dell Services, Immuta, Zoom Rooms, Vyopta, Crestron, AlphaFold, Measure Map, SAP Build Process Automation, BitBake, Zuken, ThousandEyes, Cisco AI Defense, Karpenter, Meltwater, SAP Services, Aryaka, Infor, OpenMMLab, KiCad, FreeIPA, Lovable, Sidekiq, Lattice, Buildkite, Amazon Robotics, Sitelinks Search Box, Facebook Share Button, Really Simple Discovery, gstatic.com, Honeywell, AVEVA, Azure Key Vault, MetalLB, Windows API, Chaos Monkey, Socket.io, LeetCode, Benevity, Sonatype Nexus Repository, Boomi, Workato, Bloomberg, TÜV Rheinland, Applied Intuition, Asana, Northrop Grumman, Sustainalytics, MSCI, Nuvoton, CrowdStrike, Huawei, Cilium, HP iLO, Scale.ai, gVisor, NIST Special Publications, Nix, NixOS, DSPy, Amazon Simple Email Service, Informatica Intelligent Data Management Cloud, Frontier AI, Elixir, Java 21, SAP BW/4HANA, National Instruments, Lucene, Jinja2, SAP Service Parts Planning, Equinix, Unanet, NTT Data, Microsoft Copilot Studio, Copilot Studio, LinkedIn Ads, collectd, html5media, SAP Logistics Execution, TimeSync, Schwab EquiView, SAP Fieldglass, Labelbox, DuckDB, ThreadX, VxWorks, Silverfort, HubSpot Analytics, HubSpot, Rapid Global, Avalara, Fonoa, Java Platform, Enterprise Edition, Palantir, MPICH, Healthcare Information and Management Systems Society, Eventbase, Microsoft 365 Copilot, Android NDK, IHP, Amazon Advertising, NestJS, AgentOps, AppArmor, DoubleClick Floodlight, Ingram Micro, TD SYNNEX, iCIMS, Infoblox, Microsoft Azure ExpressRoute, Twilio, NSONE, SAP GRC, Tines, BitSight, Cortex XSOAR, n8n, Deepseek, Qwen, Pydantic, Apache Druid, Microsoft Defender, DMARC, AWS Step Functions, COLMAP, Aha!, NVIDIA HPC SDK, Bright Computing, DNS Made Easy, Mailigen, Docker Hub, Google Search Console, Yandex Webmaster, MongoDB Atlas, Simcenter, Cisco Silicon One, OpenFOAM, OpenAI Codex, CodeRabbit, Control-M, Azure Sentinel, Microsoft Sentinel, ThoughtSpot, One.com, Celonis, Thomson Reuters ONESOURCE, Thomson Reuters, Silvaco, LanceDB, Box, SPIFFE, Foretellix, X-Ways, Linear, Exterro, Claude Code, D-ID, SAP Digital Manufacturing, Recharts, Vuex, Storybook, Bing Ads, Microsoft Advertising, Pricefx, Vendavo, Zilliant, Google Cloud Pub/Sub, Dynamic Logic, AudioEye, Informatica Master Data Management, CodeBeamer, Godot, CoreWeave, Lightstep, ServiceNow HR Service Delivery, Grafana Cloud, OPC UA, IEC 61850, Vertiv, Oracle Utilities, Schneider, Kubeadm, Writesonic, Semgrep, Altium Designer, Altium, Amplitude, DaVinci Resolve, Mautic, Azure Cost Management, AWS Cost Explorer, SAP Transportation Management, Quickbase, Nagent.AI, StackAdapt, Objective-C, Apple iCloud Mail, Lucide, core-js, Tekton, LogicGate, Apache Spark SQL, SAP NetWeaver, Mastercard, VISA, Vertex AI, Amazon Bedrock, JFrog Artifactory, h5py, ASP.NET Core, Baxter Planning, Claude by Anthropic, NVIDIA DGX SuperPOD, CloudBees, Reprise License Manager (RLM), LangSmith, Arize, Arize Phoenix, Sourcegraph, Docker Compose, libvirt, Adobe Firefly, Weavy, Maxon Cinema 4D, Perplexity AI, Adobe Learning Manager, ETAP, PSCAD, Resilinc, UK GDPR, Tive, Neo4j, Zilliz, Google Cloud SQL, Weaviate, Amazon Simple Notification Service, Azure Service Bus, Google Cloud Run, Kata Containers, AgentIQ, Grok, OpenAI Sora, BMC Software, Nutanix AHV, HPE ProLiant, VMware vCenter, YouTube Live, Airtable, DataStax, Tableau Public, Chart.js, ECharts, MemSys, Terragrunt, OpenAI API, GGML, SAP Profitability Analysis, Credo AI, Zephyr Project, Fivetran, DBT, Workday Reporting, Security Innovation, dc.js, HashiCorp Packer, Creo Parametric, IEC 62443, Computacenter, Goober, Max Mega Menu, Video.js, Headless UI, Monaco Editor, shadcn/ui, Vercel Analytics, Vercel, Radix UI, Cursor Code Editor, Firebase, C3.js, MinIO, bxSlider, Magnific Popup, FitVids.js, Infinite Scroll, jQuery Waypoints, PyScript, Element UI, React Router, AuditBoard, oEmbed, JSON-LD, Adobe Captivate, Pulumi, yFiles, PayPal, Stripe, Siemens EDA, ElevenLabs, Azure Pipelines, TestRail, SAP Business Application Studio, ClickUp, Run:ai, Qlik, Adobe Photoshop, PathFactory, Atlassian Jira Service Management, Google Hosted Libraries, HTTP/3, Cisco CCNA, CompTIA Network+, Knative, Gluster, Pyxis, Alation, LiveIntent, Emotion, Bizible, Microsoft Entra ID, Stack Overflow, Salesforce Process Builder, ComfyUI, jQuery CDN, CrewAI, Azure DevOps, Peak AI, Strimzi, Archer IRM, Brightspot, Azure AI Studio, Azure AI Services, Google Cloud Storage, Chocolatey, Flux CD, Fluent Bit, SmartSpace, Steelwedge, Rockwell Automation, Telnet, F5, Marketing Automation Corp, LangGraph, Microsoft Azure Blob Storage, Pennylane, Slurm Workload Manager, HackerRank, Magic Leap, Nutanix, People.ai, Salesloft, OCaml, Erlang, Genetec, Netdisco, Wyebot, Cisco Wireless, Syslog, iPerf, Deloitte, Incident.io, SHRM-CP, Rootly, FireHydrant, Impala, Apache Impala, Apache Calcite, Pinecone, ArangoDB, Azure SQL, BlackBerry, BabyAGI, Salesforce Sales Cloud, Blockchain, Google AI, Microsoft Azure Machine Learning, MathWorks, SteelBrick, VRWorks, MLlib, Apache Spark MLlib, Jira Align, Horovod, Ansys Fluent, Workday Compensation, BlackBerry QNX, BentoML, E-Staff, Domo, Tailwind CSS, Azure Stack HCI, Workspace One, Omnissa, Azure Stack, Omnissa Horizon, IBM Watson, Blackmagic Design, VectorWorks, Vimeo, Ramp, ArtiosCAD, Sage, PRINCE2, Segment, Productiv, Nautobot, RainFocus, Salesforce Connect"
+      },
+      "latencyMs": 21542,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj02zsyKYN7bbuvZp",
+      "recordedAt": "2026-10-07T07:14:15.752Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "501 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [],
+        "falsePositives": [
+          "Segment",
+          "HubSpot",
+          "LinkedIn Insight",
+          "Vercel",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "reforge",
+      "label": "Reforge",
+      "domain": "reforge.com",
+      "inputs": {
+        "Company Domain": "reforge.com"
+      },
+      "inputHash": "068fca91db05b351",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Apache 2.2, Ubuntu, Apache, Linode, Zerigo DNS, Comodo PositiveSSL, Drift, Google Analytics Classic, Squarespace Add to Cart, Yahoo User Interface, nginx, Active Campaign, Comodo SSL, Cloudflare Hosting, Cloudflare, Google Analytics, Facebook for Websites, Typekit, CrazyEgg, Viewport Meta, Squarespace, Google Webmaster, Cloudflare SSL, Webpack, SumoMe, MailChimp, Hubspot, Hello Bar, jQuery, Google Apps for Business, Cloudflare DNS, RequireJS, Modernizr, core-js, jQuery Cookie, jQuery CDN, IPv6, Segment, Ortto, OptinMonster, SSL by Default, Google Universal Analytics, Facebook Pixel, Facebook SDK, Facebook Custom Audiences, Google Font API, Heap, Facebook Signal, jQuery 3.1.1, SPF, Google Tag Manager, reCAPTCHA, LinkedIn Ads, DoubleClick.Net, AppNexus, LinkedIn Insights, AppNexus Segment Pixel, Bizo Insights, Bizo, CDN JS, Backbone.js, Reddit, Facebook Graph API, Content Delivery Network, YUI3, Google Analytics Event Tracking, Buffer, Google Optimize 360, IPhone / Mobile Compatible, CloudFront, Amplitude, Facebook Conversion Tracking, Careers, Pinterest, Varnish, Global Site Tag, Sumo, Hotjar, Lightbox, DMARC, Pound Sterling, Japanese Yen, AJAX Libraries API, Google Hosted Libraries, Google Hosted jQuery, Moment JS, Google AdsBot Disallow, Google AdsBot Mobile Disallow, Google AdsBot Mobile Apps Disallow, YUI Library, Sentry, Font Awesome, Cloudflare JS, GStatic Google Static Content, React, PHP, HubSpot Analytics, Members Page, Intersection Observer, Atlassian Cloud, Cloudflare Network Error Logging, Google AdWords Conversion, Google Conversion Tracking, Namo WebEditor, Escrow.com, SEDO Parking, Google Adsense, Google Conversion Linker, Google Remarketing, DoubleClick Bid Manager, Amazon S3, AWIN, Digital Window, Reddit Ads, Reddit Conversion Tracking, Facebook, Twitter, Cloudflare CDN, Euro, LinkedIn, Microsoft Azure DNS, Instagram, HSTS, Azure Active Directory, Bing Universal Event Tracking, Quora, US Privacy User Signal Mechanism, Microsoft Clarity, Hubspot Messages, HubSpot Conversations, Apple iCloud Mail, reCAPTCHA Enterprise, Sprig, Slack, jQuery 3.2.1, jQuery 3.4.1, CrUX Dataset, CrUX Top 1m, Stripe, Google Analytics 4, Twitter Website Universal Tag, Twitter Conversion Tracking, Twitter Analytics, Hubspot Ads, Twitter Ads, lodash, CrUX Top 500k, Plans and Pricing, Classnames, Hubspot Lead Flows, HubSpot Call to Actions, Hubspot Forms, Cloudflare Radar, Cloudflare Radar Top 200k, Day.js, Organization Schema, Next.js, Sanity, HSTS IncludeSubdomains PreLoad, Heroku Vegur Proxy, GPTBot Disallow, LaunchDarkly, jsDelivr, Ruby on Rails Token, AddEvent, TurboLinks, Wistia, BootstrapCDN, Pingdom RUM, Help Scout, UIkit, Ruby on Rails, crypto browserify, Apollo GraphQL, Showdown, WebAuthn, Mulberry, Stripe v3, Bugsnag, Cloudflare Radar Top 100k, LetsEncrypt, GitHub, Common Crawl Bot Disallow, Rippling, DMARC Quarantine, CommonCrawl Top 500k, Zoom Video Conferencing, Zoom, NCSA HTTPd, Get Koala, YouTube Link, YouTube IFrame API, YouTube IFrame Upload, Datadog RUM, Framer Sites, Apple Mobile Web Clips Icon, JavaScript Modules, Artificial Intelligence, Amazon Route 53, Amazon CloudFront, U.S. Server Location, CommonCrawl Top 100k, Common Crawl, English - Inferred, Chakra UI, CKEditor, FileSaver.js, Hammer JS, JSON, LESS, LottieFiles, Mustache, p5 JS, PHP Ads, Vimeo, es-module-shims, OpenAI, Zapier, B2B, Discover, AI Agent, Slick JS, AI Generated Copy, AI Unfriendly, Login or Signup, Cloudflare Radar Top 500k, CrUX Top 5m, Google Call Conversion Tracking, Pre Year 2010, RSS, Shutterstock, Pocket, jQuery 2.2.0, Embedly, Loom, Person Schema, API Developer, Events Page, Embedly Player.js, Spotify Link, Apple Podcast Link, Fizzy UI Utils, jQuery Masonry, Wordpress Plugins, Twemoji, Materialize CSS, WordPress, Intercom, Genesis Framework, Copyright Year 2016, jQuery 2.2.2, Really Simple Discovery, Google Analytics Dashboard for WordPress, Popup Maker for Wordpress, imagesLoaded, Pingback Support, Ultimate Member, Analytics Insights for WordPress, jQuery UI, WP Engine, New Relic, Google Maps for Work, Google Maps API, Google Maps, At.js, Heroku, Google Plus One Platform, TypeScript, Apollo, Digital Ocean, pickadate.js, jsPDF, Google API, Elliptic, Google Places Library, Handlebars, Select2, Almond, WebFont Loader, Google Hosted Web Font Loader, jQuery 1.12.4, jQuery 1.11.2, Respond, HTML5 History API, OSS CDN, Amazon, Amazon Virginia Region, Rebrandly, AWS Cloudfront Ashburn VA Edge, Some Robots Disallow, Squarespace Hosted, CrUX Top 10m, Domain Not Resolving, Apple Mobile Web App Capable, Apple Mobile Web App Status Bar Style, OpenStreetMap, Mobile Non Scaleable Content, Leaflet JS, HubSpot Tether, Screenfull.js, D3 JS, Styled Components, React Redux, Gist, Trello, GitHub Hosting, jQuery 1.10.2, Keen IO, ASP.NET, Bynder, jQuery History, Lorem Ipsum, TinyMCE, AWS Cloudfront Sydney Edge, Amazon SSL, AWS Cloudfront Paris Edge, Parsley.js, Bootstrap.js, jQuery 3.7.0, TinySort, jQuery Validate, Chosen, Socket.IO, Plupload, Raven JS, Jade, mOxie, AWS Cloudfront Chicago IL Edge, COVID-19, Robots Disallow, AWS Cloudfront Seattle WA Edge, Fastly, AWS Cloudfront Milan Edge, AWS Cloudfront London Edge, Stripe Hosted Checkout, AWS Cloudfront Stockholm Edge, CrUX Top 50m, LocalBusiness Schema, Anthropic Claude Bot Disallow, AppleBot Disallow, Apple AI Bot Disallow, Cohere AI Disallow, Facebook Bot Disallow, Google Bard Disallow, Perplexity, DNSSEC, Google Cloud, Google, AWS Cloudfront Warsaw Edge, AWS Cloudfront Dallas Fort Worth Edge, AWS Cloudfront Mumbai Edge, AWS Cloudfront Chennai Edge, AWS Cloudfront Hong Kong Edge, AWS Cloudfront San Francisco CA Edge, Envoy, Dutch - Inferred, Hubspot Hosted, Google Cloud Global Multi-Region, ES Module, Google Cloud CDN, HubSpot Web Interactives, Vercel, Unsplash, Placeholder, Docusaurus, English HREF LANG, PostHog, Algolia, Fastly Hosted, Fastly Load Balancer"
+      },
+      "latencyMs": 8771,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj03rgSSMbASoTu7R",
+      "recordedAt": "2026-10-07T07:14:30.762Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "370 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "HubSpot",
+          "LinkedIn Insight",
+          "Cloudflare"
+        ],
+        "falsePositives": [
+          "Segment",
+          "Intercom",
+          "Drift",
+          "Meta Pixel",
+          "Hotjar",
+          "Next.js",
+          "WordPress",
+          "Vercel",
+          "Fastly",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "gonimbly",
+      "label": "Go Nimbly",
+      "domain": "gonimbly.com",
+      "inputs": {
+        "Company Domain": "gonimbly.com"
+      },
+      "inputHash": "7776e1715391fe92",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Simple Social Icons, RSS, Wordpress Plugins, jQuery Form, html5shiv, WordPress, Google Maps, PHP, Pingback Support, Comodo PositiveSSL, jQuery, Comodo PositiveSSL Wildcard, Modernizr, Google Font API, Comodo SSL, Apache, Olark, Google Maps API, AJAX Libraries API, Google Apps for Business, Site5, SingleHop, Google Analytics, Viewport Meta, Jetpack Site Accelerator, Jetpack, Gravatar Profiles, Facebook Like, Yoast Plugins, MSN/Bing Webmaster, Yoast WordPress SEO Plugin, Google API, Visual Composer, Sitelinks Search Box, Contact Form 7, GeoTrust SSL, Google Analytics Classic, Wordpress Monthly Activity, Linode, RapidSSL, Yoast SEO Premium, nginx, Leadin, Cloudflare, Cloudflare Hosting, jQuery Masonry, Packery, Classie, Twemoji, Cloudflare DNS, Pardot, Typography, Salient, Really Simple Discovery, Font Awesome, Mobile Non Scaleable Content, Live Writer Support, Cloudflare SSL, IPhone / Mobile Compatible, SuperFish Menu, jQuery prettyPhoto, DoubleClick.Net, Apple Mobile Web Clips Icon, yepnope, Google Universal Analytics, GSAP, MediaElement.js, Heap, Drift, iubenda, IPv6, BootstrapCDN, Express, Heroku Vegur Proxy, CDN JS, Vimeo, Lever, Ortto, Vimeo CDN, jQuery 3.1.1, jsDelivr, Prismic, jQuery 2.1.1, SPF, jQuery CDN, Content Delivery Network, lodash, React, SSL by Default, Copyright Year 2017, Imgix, Autopilot SPF, Sendgrid, Clearbit, Engagio, LinkedIn Insights, LinkedIn Ads, Bizo, GStatic Google Static Content, Beeswax, CloudFront, Mailgun, Monarch Social Sharing Plugin For WordPress, Divi, Global Site Tag, WP Engine, Microsoft Azure DNS, Pound Sterling, Japanese Yen, reCAPTCHA, G2 Conversion, Preact JS, FitVids.JS, jQuery Waypoints, Magnific Popup, Salvattore, matchMedia, Clearbit Forms, Google Tag Manager, Greenhouse, Careers, es6 promise, core-js, JSON 3, DMARC, Underscore.js, MonsterInsights, Copyright Year 2013, jQuery Migrate, Bloom Wordpress Plugin, Google Analytics Enhanced Link Attribution, Cloudflare JS, Organization Schema, Webpack, Sentry, Download Monitor, Clearbit Reveal, ListenLoop, Emotion, WP Rocket, My Salesforce, Fancybox, Lightbox, Copyright Year 2015, Intersection Observer, Qubely, Slick, Clipboard.js, Responsive Gallery Grid, Cloudflare Network Error Logging, Google AdWords Conversion, Google Conversion Tracking, Unbounce, Lit, Elegant Themes, Hubspot, UNPKG, LottieFiles, jQuery UI, Hubspot Forms, Complianz, WordPress Pro Event Calendar, Search and Filter, Search and Filter Pro, HubSpot Analytics, DNSSEC, Google Remarketing, Hubspot Ads, Hubspot Lead Flows, Intercom, RequireJS, US Privacy User Signal Mechanism, LinkedIn, Twitter, Cloudflare CDN, Modernizr 2.6, css3-mediaqueries.js, Facebook, Euro, Google Hosted Libraries, Google Hosted jQuery, jQuery 1.9.1, selectivizr, Google Identity Platform, Ahrefs Site Verification, WPForms, jQuery Validate, Mailcheck, punycode, HSTS, Person Schema, HubSpot WordPress Plugin, Site Kit, Apple iCloud Mail, CrUX Dataset, CrUX Top 10m, Slack, CrUX Top 50m, Sketch, Global Privacy Control, Google Analytics 4, HubSpot Call to Actions, Accessibility Statement, GitHub, Substack, jQuery 3.7.0, Chosen, reCAPTCHA Enterprise, ZoomInfo Chat, ZoomInfo, React Redux, Facebook Conversion Tracking, Facebook SDK, Facebook for Websites, Facebook Pixel, Facebook Custom Audiences, Facebook Signal, Hotjar, Hubspot Messages, Azure Active Directory, Events Page, jQuery 3.7.1, Layout Grid Block, LetsEncrypt, X, YouTube Link, Salesforce, Apollo IO, jQuery 3.6.0, jQuery 3.6.1, anime.js, Slick JS, Chili Piper, Elementor, Elementor Pro, JetEngine, Hello Elementor, Artificial Intelligence, Google Webmaster, RankMath, English - Inferred, CookieYes, CrUX Top 5m, DMARC Quarantine, Styled Components, Moment JS, CommonCrawl Top 5m, Retention.com, WP-Optimize, Place Schema, PostalAddress Schema, Raven JS, GoDaddy Registrar, CommonCrawl Top 500k, Common Crawl, Cloudflare Insights, Cloudflare Web Analytics, HubSpot Web Interactives, B2B, Four Year Expiry, AWS Lambda, Webflow, Webflow Hosting, U.S. Server Location, Fastly Hosted, Fastly Load Balancer, jQuery 3.5.1, Copyright Year 2023, Copyright Year 2024, Login or Signup, Copyright Year 2022, OFF BRAND, CommonCrawl Top 1m, Atlassian Cloud, Facebook Domain Insights, Twitter App Card, Android Alternative, Twitter App Card iPhone, Algolia, Polymorph, Accelerated Mobile Pages, OpenResty, Parse.ly, LABjs, Branch, Amazon, Amazon Virginia Region, Medium, Facebook Sharer, Pinterest, Bombora, BlueKai, BlueKai DMP, LiveRamp, Rapleaf, MediaMath, Lotame Crowd Control, Eyeota, Babel, HTML5 Mobile Boilerplate, Beanfield Technologies, DigiCert SSL, Uberflip, The Trade Desk, imagesLoaded, Socket.IO, Robots Disallow, Canadian Server Location, Cowboy, Heroku DNS, AWS Global Accelerator, Next.js, Amazon CloudFront, Amazon SSL, Amazon Route 53, Envoy, Report URI, Amazon S3, AWS Cloudfront Toronto ON Edge, AWS Cloudfront Paris Edge, AWS Cloudfront Stockholm Edge, AWS Cloudfront Sydney Edge, AWS Cloudfront Singapore Edge, AWS Cloudfront Taipei TW Edge, Istio, AWS Cloudfront Amsterdam Edge, AWS Cloudfront Helsinki Edge, AWS Cloudfront Los Angeles CA Edge, AWS Cloudfront Atlanta GA Edge, AWS Cloudfront San Francisco CA Edge, AWS Cloudfront Seattle WA Edge, AWS Cloudfront Mumbai Edge, Amazon S3 CDN, Typekit, OSS CDN, Respond, jQuery 1.11.2, HTML5 History API, Rebrandly, jQuery 3.2.1, AWS Cloudfront Ashburn VA Edge, AWS Cloudfront Philadelphia PA Edge, HubSpot Tether, Twitter Tweet Button, YouTube, script.aculo.us, AddThis, Spotify Link, Java EE, Vercel, Cogeco Peer 1, iScroll"
+      },
+      "latencyMs": 5604,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj046bF4BM4Zj5UDA",
+      "recordedAt": "2026-10-07T07:14:42.570Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "352 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "HubSpot",
+          "Webflow",
+          "Cloudflare"
+        ],
+        "falsePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "Intercom",
+          "Drift",
+          "LinkedIn Insight",
+          "Meta Pixel",
+          "Hotjar",
+          "Next.js",
+          "WordPress",
+          "Vercel"
+        ],
+        "falseNegatives": []
+      }
+    },
+    {
+      "id": "xai",
+      "label": "xAI",
+      "domain": "x.ai",
+      "inputs": {
+        "Company Domain": "x.ai"
+      },
+      "inputHash": "1e5fd9108c88953c",
+      "source": "live",
+      "judge": [],
+      "status": "complete",
+      "result": {
+        "Website Tech Stack": "Twitter Embedded Tweets, Google Content Experiments, Google Remarketing, Mandrill, Mailgun, Amazon Route 53, jsTimezoneDetect, Yoast Plugins, Google Conversion Tracking, GeoTrust SSL, jQuery, Yoast WordPress SEO Plugin, Really Simple Discovery, Font Awesome, DoubleClick.Net, Amazon Virginia Region, Amazon, Mobile Non Scaleable Content, Wordpress 4.2, RSS, SPF, nginx, Modernizr, RapidSSL, Live Writer Support, Wordpress Plugins, jQuery Form, Twitter Platform, WP Super Cache, Google Tag Manager, WordPress, Google Apps for Business, Google Analytics, Contact Form 7, BootstrapCDN, Google Universal Analytics, Typekit, PHP, jsDelivr, Viewport Meta, Sitelinks Search Box, Yoast SEO Premium, Content Delivery Network, OptinMonster, Wordpress Daily Activity, SSL by Default, Twitter Ads, jQuery Masonry, AdRoll, DMARC, Google Hosted Libraries, Classie, Facebook Custom Audiences, Optimizely, Twitter Analytics, Facebook SDK, html5shiv, Google Hosted jQuery, Facebook for Websites, AJAX Libraries API, Facebook Exchange FBX, AppNexus, Openads/OpenX, Yahoo Small Business, Rapleaf, Rubicon Project, AppNexus Segment Pixel, Index Exchange, IponWeb BidSwitch, Stripe, Google Font API, Google Hosted Web Font Loader, Loggly, Twitter CDN, Ve Interactive, Fizzy UI Utils, Pubmatic, WordPress Weekly Activity, DoubleClick Bid Manager, Wordpress Monthly Activity, TellApart, Workplace by Facebook, Ad Tech Japan AOL, AdTech Studio, LiveRamp, Taboola, Intercom, Adskom, adingo, CloudFront, Pardot Mail, Lijit Widget, Facebook Signal, Advertising.com, jQuery Waypoints, imagesLoaded, Flickity, scrollReveal.js, jquery.payment, Featherlight, Wordpress 4.8, OWL Carousel, jQuery Throttle Debounce, Typekit Async, Yet Another Related Posts Plugin, Pingback Support, Facebook Pixel, Twemoji, Amazon S3 CDN, IPv6, LinkedIn Insights, LinkedIn Ads, Bizo, Wordpress 4.9, Visual Website Optimizer, IPhone / Mobile Compatible, WebFont Loader, Cookie Notice, Facebook Conversion Tracking, Twitter Website Universal Tag, Twitter Conversion Tracking, Plans and Pricing, Slick JS, Amazon CloudFront, Google Webmaster, Amazon SSL, GStatic Google Static Content, Animate It, Global Site Tag, Pound Sterling, Japanese Yen, Careers, KickFactory, Fomo, WordPress 5.3, Apple Mobile Web Clips Icon, WordPress 5.4, reCAPTCHA, jQuery Migrate, core-js, WordPress 5.5, Refersion, Organization Schema, WordPress 5.7, lodash, x.ai, Babel, Cookiebot, Vimeo, Matomo, React, Hubspot, Unbounce, Hotjar, HubSpot Analytics, Apache, Energy Group Hosting, DynaDot, Drift, Cloudflare, UNPKG, jQuery 1.4.2, SEDO Parking, Google Adsense, Google Adsense for Domains, Magnetic, Jetpack Site Accelerator, IE Pinning, Euro, Quantcast Measurement, Gravatar Profiles, WordPress Stats, Apple Mobile Web App Capable, Amazon California Region, AdBlock Acceptable Ads, OpenResty, LetsEncrypt, Bodis DNS, Outbrain Pixel, CrUX Dataset, CrUX Top 10m, Cloudflare Network Error Logging, Cloudflare CDN, Cloudflare Hosting, Cloudflare DNS, CrUX Top 50m, Twitter, Airtable, Cloudflare Radar, Cloudflare Radar Top 500k, CrUX Top 500k, X, Greenhouse, Cloudflare Radar Top 50k, Bug Bounty, Cloudflare Radar Top 100k, CrUX Top 100k, Cloudflare Radar Top 200k, Microsoft Azure DNS, Next.js, API Developer, Intersection Observer, Material UI, Emotion, Cookie Policy, HSTS, Cloudflare Insights, Cloudflare Web Analytics, Facebook, LinkedIn, jQuery Cycle, YouTube Link, Artificial Intelligence, Slack, 1Password, HackerOne, English - Inferred, DMARC Quarantine, Apple App Link, Google Play Store Link, CrUX Top 50k, Cloudflare Bot Manager, AWS Cloudfront Ashburn VA Edge, Smart App Banner, KaTeX, CommonCrawl Top 500k, CrUX Top 10k, Blocked in China, TikTok Developers, MongoDB, GitHub, Recharts, U.S. Server Location, Irish Server Location, Zapier, CommonCrawl Top 5k, Common Crawl, CommonCrawl Top 10k, DocuSign, 403 Error, Cloudflare Blocked, Figma, Wikipedia, Hubspot Developer Verification, AI Generated Copy, Atlassian Cloud, Docker, Angular Operations, Ansible, Apache Kafka, Argo CD, Multilingual, Google BigQuery, ClickHouse, CockroachDB, Django Operations, Amazon DynamoDB, GitHub Operations, Gradle, Grafana Operations, InfluxDB, Istio Operations, Jetpack Compose, Kotlin, Kubernetes Operations, Linux, Memcached, , MongoDB Operations, MySQL, Node.js, OpenTelemetry Operations, OWASP, PagerDuty, pandas, Playwright, PostgreSQL, Microsoft Power BI Operations, Prometheus, Pulumi, PyTorch, React Operations, Redis, SCIKit Learn, Snowflake, SwiftUI, Tableau Operations, TensorFlow, TensorRT, Terraform, Trivy, Vitest, Zero Trust, Technical Job Listings, Sentry, Affiliate Partner Reseller, Beam, NPM Agent, NPM AI, NPM CLI, NPM MCP, NPM LLM, NPM API, NPM Anthropic, NPM OpenAI, MCP Model Context Protocol, NPM Publisher, B2B, Sub Processors, TikTok, Sticky Menu and Sticky Header, Slide Anything, MyFonts, Events Page, Service Status, Service Doc, Service Desc, Linode, Login or Signup, Twilio, JavaScript Modules, rrweb, CommonCrawl Top 1000, Autodesk, US Privacy User Signal Mechanism, Microsoft, OneTrust, Optanon, Google Conversion Linker, Google AdWords Conversion, Google Call Conversion Tracking, Reddit Ads, Amazon Web Services Operations, Microsoft Azure Operations, Singaporean Server Location, Software Engineering Job Listings, Configuration Management Job Listings, Control Systems Job Listings, Electrical Engineering Job Listings, Incident Response Job Listings, Infrastructure Engineering Job Listings, Security Job Listings, Site Reliability Engineering Job Listings, Systems Engineering Job Listings, Virtualization Job Listings, Backend Development Job Listings, Change Management Job Listings, CI/CD Job Listings, Cloud Computing Job Listings, Cloud Infrastructure Job Listings, Cloud Native Job Listings, Computer Vision Job Listings, Continuous Integration Job Listings, Data Analytics Job Listings, Data Engineering Job Listings, Data Modeling Job Listings, Data Pipeline Job Listings, Data Quality Job Listings, Data Science Job Listings, Deep Learning Job Listings, Design Engineering Job Listings, DevOps Practices Job Listings, Hybrid Cloud Job Listings, Large Language Model Job Listings, AI and Machine Learning Job Listings, Mechanical Engineering Job Listings, Microservices Job Listings, Natural Language Processing Job Listings, Network Engineering Job Listings, NoSQL Database Job Listings, Observability Job Listings, Operations Engineering Job Listings, Predictive Analytics Job Listings, Product Engineering Job Listings, Project Management Job Listings, Relational Database Job Listings, Reliability Engineering Job Listings, Serverless Computing Job Listings, Solutions Architecture Job Listings, Statistical Analysis Job Listings, Technical Leadership Job Listings, Telecommunications Job Listings, UX Design Job Listings, ContactPoint Schema, TikTok Conversion Tracking Pixel, Reddit Conversion Tracking, Braze, Funding Announcement, Data Visualization Job Listings, Brazilian Server Location, Hightouch, Domain Not Resolving, Ruxit, Angular JS, Express, Google Maps API, Google Maps, CDN JS, Moment JS, ZeroClipboard, Angulartics, Fastly CDN, Customer.io, Segment, Apple Pay JS, Google Analytics Classic, HTML5 History API, jQuery UI, Underscore.js, Slack App, Chart.js, Apple Mobile Web Clips Startup, Stocksy, Polyfill IO, Vimeo CDN, jQuery 3.4.1, COVID-19, Person Schema, AWS Global Accelerator, Java EE, Privacy Shield, Visa, Discover, Browse Happy, Stripe v2, Webflow, jQuery 3.3.1, jQuery CDN, Varnish, Fastly, English HREF LANG, Loom, Skilljar, Intercom Help, Customer.io Mail, New Relic, Mobile Optimized, StatusPage IO, Atom, jQuery 1.8.2, Twitter Follow Button, reCAPTCHA v2, reCAPTCHA v3, Tooltipster, Typeahead.js, Classnames, Styled Components, Webpack, Stripe Checkout, JSON 3, Prototype, Amazon Oregon Region, Amazon Ireland Region, Amazon Sydney Region, jQuery Cookie, Google Code Prettify, Respond, MobX, es6 promise, Bloodhound Typeahead, CrUX Top 5m, CrUX Top 1m, Stripe v3, Robots Disallow, Amazon Elastic Load Balancing Sticky Session, AWS Cloudfront Newark NJ Edge, AWS Cloudfront Philadelphia PA Edge, nginx 1.10, Ubuntu, DoubleClick Floodlight, Pardot, Salesforce, Chosen, Bootstrap.js, Clipboa"
+      },
+      "latencyMs": 12021,
+      "credits": 1,
+      "actions": 1,
+      "clayRunId": "run_0tmj04igaeyWbm9jTe6",
+      "recordedAt": "2026-10-07T07:15:00.936Z",
+      "checks": [
+        {
+          "check": "required(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "string"
+        },
+        {
+          "check": "at least 3 technologies",
+          "field": "Website Tech Stack",
+          "severity": "error",
+          "pass": true,
+          "message": "474 items (want 3–∞)"
+        },
+        {
+          "check": "list-unique(Website Tech Stack)",
+          "field": "Website Tech Stack",
+          "severity": "warn",
+          "pass": true,
+          "message": "no duplicates"
+        }
+      ],
+      "truth": {
+        "kind": "html-signatures",
+        "verdict": "verified",
+        "truePositives": [
+          "Google Tag Manager",
+          "Google Analytics",
+          "LinkedIn Insight",
+          "Meta Pixel",
+          "Next.js",
+          "Cloudflare"
+        ],
+        "falsePositives": [
+          "Segment",
+          "HubSpot",
+          "Intercom",
+          "Drift",
+          "Hotjar",
+          "Optimizely",
+          "Webflow",
+          "WordPress",
+          "Fastly",
+          "Stripe.js"
+        ],
+        "falseNegatives": []
+      }
+    }
+  ],
+  "metrics": {
+    "rows": 20,
+    "completed": 20,
+    "failed": 0,
+    "missing": 0,
+    "coverage": 1,
+    "failureRate": 0,
+    "checksEvaluated": 80,
+    "checksPassed": 80,
+    "assertionPassRate": 1,
+    "rowPassRate": 1,
+    "latencyP50Ms": 9012.5,
+    "latencyP95Ms": 16676.100000000002,
+    "creditsPerRow": 1,
+    "actionsPerRow": 1,
+    "truth": {
+      "kind": "html-signatures",
+      "overall": {
+        "tp": 90,
+        "fp": 136,
+        "fn": 1,
+        "precision": 0.39823008849557523,
+        "recall": 0.989010989010989,
+        "f1": 0.5678233438485805
+      },
+      "perTech": [
+        {
+          "tech": "Google Tag Manager",
+          "tp": 14,
+          "fp": 4,
+          "fn": 0,
+          "precision": 0.7777777777777778,
+          "recall": 1,
+          "f1": 0.8750000000000001
+        },
+        {
+          "tech": "Google Analytics",
+          "tp": 13,
+          "fp": 5,
+          "fn": 0,
+          "precision": 0.7222222222222222,
+          "recall": 1,
+          "f1": 0.8387096774193548
+        },
+        {
+          "tech": "Segment",
+          "tp": 0,
+          "fp": 13,
+          "fn": 0,
+          "precision": 0
+        },
+        {
+          "tech": "HubSpot",
+          "tp": 6,
+          "fp": 6,
+          "fn": 0,
+          "precision": 0.5,
+          "recall": 1,
+          "f1": 0.6666666666666666
+        },
+        {
+          "tech": "Marketo",
+          "tp": 2,
+          "fp": 4,
+          "fn": 0,
+          "precision": 0.3333333333333333,
+          "recall": 1,
+          "f1": 0.5
+        },
+        {
+          "tech": "Intercom",
+          "tp": 1,
+          "fp": 10,
+          "fn": 0,
+          "precision": 0.09090909090909091,
+          "recall": 1,
+          "f1": 0.16666666666666669
+        },
+        {
+          "tech": "Drift",
+          "tp": 0,
+          "fp": 9,
+          "fn": 0,
+          "precision": 0
+        },
+        {
+          "tech": "Qualified",
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        {
+          "tech": "6sense",
+          "tp": 2,
+          "fp": 4,
+          "fn": 0,
+          "precision": 0.3333333333333333,
+          "recall": 1,
+          "f1": 0.5
+        },
+        {
+          "tech": "LinkedIn Insight",
+          "tp": 10,
+          "fp": 8,
+          "fn": 0,
+          "precision": 0.5555555555555556,
+          "recall": 1,
+          "f1": 0.7142857142857143
+        },
+        {
+          "tech": "Meta Pixel",
+          "tp": 10,
+          "fp": 7,
+          "fn": 1,
+          "precision": 0.5882352941176471,
+          "recall": 0.9090909090909091,
+          "f1": 0.7142857142857143
+        },
+        {
+          "tech": "Hotjar",
+          "tp": 1,
+          "fp": 10,
+          "fn": 0,
+          "precision": 0.09090909090909091,
+          "recall": 1,
+          "f1": 0.16666666666666669
+        },
+        {
+          "tech": "Optimizely",
+          "tp": 0,
+          "fp": 9,
+          "fn": 0,
+          "precision": 0
+        },
+        {
+          "tech": "Next.js",
+          "tp": 7,
+          "fp": 4,
+          "fn": 0,
+          "precision": 0.6363636363636364,
+          "recall": 1,
+          "f1": 0.7777777777777778
+        },
+        {
+          "tech": "Webflow",
+          "tp": 5,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.7142857142857143,
+          "recall": 1,
+          "f1": 0.8333333333333333
+        },
+        {
+          "tech": "WordPress",
+          "tp": 0,
+          "fp": 5,
+          "fn": 0,
+          "precision": 0
+        },
+        {
+          "tech": "Cloudflare",
+          "tp": 12,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.8,
+          "recall": 1,
+          "f1": 0.888888888888889
+        },
+        {
+          "tech": "Vercel",
+          "tp": 4,
+          "fp": 5,
+          "fn": 0,
+          "precision": 0.4444444444444444,
+          "recall": 1,
+          "f1": 0.6153846153846153
+        },
+        {
+          "tech": "Fastly",
+          "tp": 0,
+          "fp": 11,
+          "fn": 0,
+          "precision": 0
+        },
+        {
+          "tech": "Stripe.js",
+          "tp": 0,
+          "fp": 17,
+          "fn": 0,
+          "precision": 0
+        }
+      ],
+      "scoredDomains": 19,
+      "unverifiable": [
+        {
+          "domain": "reddit.com",
+          "reason": "only 3 network requests; the page didn't finish loading (likely a bot interstitial)"
+        }
+      ],
+      "detectable": [
+        "Google Tag Manager",
+        "Google Analytics",
+        "Segment",
+        "HubSpot",
+        "Marketo",
+        "Intercom",
+        "Drift",
+        "Qualified",
+        "6sense",
+        "LinkedIn Insight",
+        "Meta Pixel",
+        "Hotjar",
+        "Optimizely",
+        "Next.js",
+        "Webflow",
+        "WordPress",
+        "Cloudflare",
+        "Vercel",
+        "Fastly",
+        "Stripe.js"
+      ]
+    },
+    "accuracy": {
+      "label": "precision",
+      "value": 0.39823008849557523
+    },
+    "status": "red"
+  },
+  "truthSource": {
+    "kind": "html-signatures",
+    "source": "Homepages rendered directly by Glaze (independent of Clay and BuiltWith)",
+    "generatedAt": "2026-10-07T07:24:04.529Z"
+  },
+  "rescoredAt": "2026-10-07T07:26:10.287Z"
+}
