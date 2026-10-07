@@ -1,0 +1,51 @@
+name: Glaze check
+
+# Re-scores recorded Clay outputs against this branch's suites and ground truth,
+# diffs against the committed baselines, and posts one sticky comment on the PR.
+# Replay only: no Clay key, no credits spent.
+on:
+  pull_request:
+    paths:
+      - "suites/**"
+      - "data/**"
+      - "src/lib/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Diff against baselines
+        id: diff
+        run: |
+          set +e
+          npx glaze diff --replay --fail-on regressions --format markdown --out glaze-report.md
+          echo "exit=$?" >> "$GITHUB_OUTPUT"
+      - name: Post or update the sticky comment
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          marker='<!-- glaze-report -->'
+          id=$(gh api "repos/$REPO/issues/$PR/comments" --paginate --jq ".[] | select(.body | startswith(\"$marker\")) | .id" | head -n1)
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/$REPO/issues/comments/$id" -F body=@glaze-report.md > /dev/null
+          else
+            gh api -X POST "repos/$REPO/issues/$PR/comments" -F body=@glaze-report.md > /dev/null
+          fi
+      - name: Fail on regressions
+        if: steps.diff.outputs.exit != '0'
+        run: |
+          cat glaze-report.md >> "$GITHUB_STEP_SUMMARY"
+          echo "::error::Glaze found regressions against the baseline (see the PR comment)."
+          exit 1

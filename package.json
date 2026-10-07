@@ -9,7 +9,7 @@
     "glaze": "bin/glaze.mjs"
   },
   "engines": {
-    "node": ">=22.12"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "next dev",

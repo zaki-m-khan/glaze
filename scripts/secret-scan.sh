@@ -7,7 +7,7 @@ patterns=('sk-ant-[A-Za-z0-9_-]{10,}' 'clay-api-key:[[:space:]]*[A-Za-z0-9_-]{8,
 if [[ -f .env.local ]]; then
   while IFS='=' read -r key value; do
     [[ -z "$key" || "$key" == \#* ]] && continue
-    [[ "$key" == *KEY* && ${#value} -ge 8 ]] && patterns+=("$value")
+    [[ ( "$key" == *KEY* || "$key" == *TOKEN* ) && ${#value} -ge 8 ]] && patterns+=("${value//\"/}")
   done < .env.local
 fi
 
