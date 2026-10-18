@@ -38,6 +38,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             </Link>
             <nav className="nav" aria-label="Main">
               <Link href="/#results">Results</Link>
+              <Link href="/compare/">Compare</Link>
               <Link href="/about/">Why</Link>
               <a href={REPO_URL} className="hide-sm">
                 GitHub

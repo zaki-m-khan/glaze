@@ -6,7 +6,14 @@ import { num, pct, time } from "../_components/format";
 
 export const metadata: Metadata = { title: "Compare" };
 
-function show(value: unknown): string {
+/** Claygent outputs arrive as an object ({One_Liner, reasoning, ...}); show the answer itself. */
+function answer(value: unknown): unknown {
+  if (value && typeof value === "object" && "One_Liner" in value) return (value as Record<string, unknown>).One_Liner;
+  return value;
+}
+
+function show(raw: unknown): string {
+  const value = answer(raw);
   if (value === undefined) return "—";
   const text = typeof value === "string" ? value : JSON.stringify(value);
   return text.length > 140 ? `${text.slice(0, 137)}…` : text;

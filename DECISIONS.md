@@ -66,6 +66,15 @@ Calls made during the unattended build, with the reason for each. Newest at the 
 - **Compare (M6) has no live demo.** `CLAY_FN_A` / `CLAY_FN_B` and `ANTHROPIC_API_KEY` weren't set. `glaze compare` and `compareRuns` are implemented and unit-tested with fixtures, `suites/one-liner.yaml` holds the rubric from the brief, and `/compare` shows an honest empty state rather than sample data.
 - **Workflows call `npm run glaze --`, not `npx glaze`.** An unrelated public npm package is named `glaze`. If local bin resolution ever failed (as it briefly did, because `bin/glaze.mjs` was committed from Windows without its executable bit), `npx` could fetch and run it. `npm run` never touches the registry. `npx glaze` still works locally and is documented for convenience.
 
+## Live compare (Oct 18)
+
+- **Two custom functions built in Clay:** "Company One-Liner A/B", each a single Claygent step (web research, Argon). B is a duplicate of A with only the prompt changed, so the prompt is the only variable. Each has a `Company Domain` input and a `One Liner` output.
+- **Functions need "API & CLI" enabled** (function settings → Integrations) before the Public API can run them. Until then, `POST /routines/function:t_…/run` returns 404 "Routine not found". The routine id is the published function's table id, not the draft's.
+- **Smoke test first** (`--limit 2`, 12 credits) to confirm ids, field names, and that the Claygent column runs when called through the API.
+- **The output is the whole Claygent object** (`One_Liner`, `reasoning`, `confidence`, `stepsTaken`), so the suite's `type: string` check fails on both sides. The compare page shows `One_Liner`. The judge was given the whole object, which is noted as a limitation instead of being re-run to look cleaner.
+- **Budgets raised to 450 / 250** because the ledger is cumulative. After this run it's at 330 / 108.
+- **Judge verdicts were audited by hand.** The Lucid "hallucination" verdict was checked and is wrong, since Lucid acquired airfocus in April 2025. That's reported in the README rather than hidden.
+
 ## Clay-themed redesign (Oct 7, morning)
 
 - **Follows the Clay on Campus design guide.** Inter only (Plex dropped). Colors come from the guide's palette: navy `#001433` / blue `#395AFA` / light blue `#F0F8FF` as the base, with yellow and pink only in the clay tiles and status chips. The logo sits on high-contrast backgrounds: black wordmark on light, white wordmark on navy (the white variant recolors only the wordmark, never the arch). Tiles are only scaled and placed, never rotated or overlapped.

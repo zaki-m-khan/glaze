@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "id": "20261018T053306Z-one-liner",
+  "suite": "one-liner",
+  "suiteTitle": "Company One-Liner",
+  "suiteFile": "suites/one-liner.yaml",
+  "function": {
+    "name": "Company One-Liner (set version ids with --a / --b)",
+    "routineId": "function:t_0tn32l9usDe6q7aD4RC"
+  },
+  "mode": "live",
+  "sample": false,
+  "startedAt": "2026-10-18T05:33:06.913Z",
+  "finishedAt": "2026-10-18T05:34:21.938Z",
+  "spend": {
+    "credits": 6,
+    "actions": 2,
+    "balanceBefore": {
+      "credits": 19581.2,
+      "actions": 374
+    },
+    "balanceAfter": {
+      "credits": 19575.2,
+      "actions": 372
+    }
+  },
+  "judge": {
+    "enabled": true,
+    "model": "claude-haiku-4-5-20251001"
+  },
+  "rows": [
+    {
+      "id": "clay",
+      "label": "Clay",
+      "domain": "clay.com",
+      "inputs": {
+        "Company Domain": "clay.com"
+      },
+      "inputHash": "afe1e9a68d859fef",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 5,
+          "pass": true,
+          "reason": "The one-liner accurately describes Clay's product (data-enrichment and automated growth-workflow software), correctly identifies the buyer (GTM teams), and contains no hallucinated products."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Clay sells data-enrichment and automated growth-workflow software to go-to-market (GTM) teams.",
+          "reasoning": "Clay describes its offering as a platform for data and AI research with automated growth workflows, and says it serves GTM teams.",
+          "confidence": "medium",
+          "stepsTaken": [
+            "Visited https://www.clay.com/?sa=X",
+            "Visited http://clay.com/faq/what-kinds-of-companies-use-clay"
+          ]
+        }
+      },
+      "latencyMs": 38823,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38r6PZA73282VUGe",
+      "recordedAt": "2026-10-18T05:33:51.940Z"
+    },
+    {
+      "id": "sierra",
+      "label": "Sierra",
+      "domain": "sierra.ai",
+      "inputs": {
+        "Company Domain": "sierra.ai"
+      },
+      "inputHash": "e4a9a07eedbe4437",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 5,
+          "pass": true,
+          "reason": "The one-liner accurately describes Sierra's core product (multichannel AI agent platform), identifies the buyer (businesses), and contains no hallucinated products."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Sierra sells a platform for building and managing multichannel AI agents to businesses.",
+          "reasoning": "The company website describes Sierra as helping businesses build and manage multichannel AI agents.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://sierra.ai/learn-more"
+          ]
+        }
+      },
+      "latencyMs": 21794,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38sfh9CcCdsoyDgU",
+      "recordedAt": "2026-10-18T05:34:19.941Z"
+    }
+  ],
+  "metrics": {
+    "rows": 2,
+    "completed": 2,
+    "failed": 0,
+    "missing": 0,
+    "coverage": 1,
+    "failureRate": 0,
+    "checksEvaluated": 6,
+    "checksPassed": 4,
+    "assertionPassRate": 0.6666666666666666,
+    "rowPassRate": 0,
+    "latencyP50Ms": 30308.5,
+    "latencyP95Ms": 37971.55,
+    "creditsPerRow": 3,
+    "actionsPerRow": 1,
+    "judge": {
+      "scored": 2,
+      "meanScore": 5,
+      "passRate": 1
+    },
+    "accuracy": {
+      "label": "assertion pass rate",
+      "value": 0.6666666666666666
+    },
+    "status": "amber"
+  }
+}

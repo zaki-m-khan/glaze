@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "id": "20261018T053421Z-one-liner",
+  "suite": "one-liner",
+  "suiteTitle": "Company One-Liner",
+  "sample": false,
+  "createdAt": "2026-10-18T05:34:21.938Z",
+  "decidedBy": "judge",
+  "a": {
+    "routineId": "function:t_0tn2vl7x3aCPHqzMzfA",
+    "runId": "20261018T053152Z-one-liner"
+  },
+  "b": {
+    "routineId": "function:t_0tn32l9usDe6q7aD4RC",
+    "runId": "20261018T053306Z-one-liner"
+  },
+  "rows": [
+    {
+      "id": "clay",
+      "label": "Clay",
+      "domain": "clay.com",
+      "a": {
+        "status": "complete",
+        "value": {
+          "One_Liner": "Clay is a customer-data platform that combines first-party, intent, and third-party enrichment data to help teams research and reach their best-fit customers.",
+          "reasoning": "Clay describes its purpose as helping teams build a strong data foundation to reach best-fit customers, and says it brings first-party, intent, and third-party data together for customer research.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://www.clay.com/about"
+          ]
+        },
+        "score": 4,
+        "reasons": [
+          "Accurately describes Clay's core offering (customer-data platform with data enrichment) and identifies the buyer (teams/sales and research teams), but the one-liner is somewhat complex and could be more concise; no hallucinated products detected."
+        ],
+        "checksFailed": 1
+      },
+      "b": {
+        "status": "complete",
+        "value": {
+          "One_Liner": "Clay sells data-enrichment and automated growth-workflow software to go-to-market (GTM) teams.",
+          "reasoning": "Clay describes its offering as a platform for data and AI research with automated growth workflows, and says it serves GTM teams.",
+          "confidence": "medium",
+          "stepsTaken": [
+            "Visited https://www.clay.com/?sa=X",
+            "Visited http://clay.com/faq/what-kinds-of-companies-use-clay"
+          ]
+        },
+        "score": 5,
+        "reasons": [
+          "The one-liner accurately describes Clay's product (data-enrichment and automated growth-workflow software), correctly identifies the buyer (GTM teams), and contains no hallucinated products."
+        ],
+        "checksFailed": 1
+      },
+      "winner": "b"
+    },
+    {
+      "id": "sierra",
+      "label": "Sierra",
+      "domain": "sierra.ai",
+      "a": {
+        "status": "complete",
+        "value": {
+          "One_Liner": "Sierra helps businesses create better, more human customer experiences with AI by enabling them to build powerful AI agents, with or without engineering support.",
+          "reasoning": "Sierra describes its work as helping businesses create better, more human customer experiences with AI and build AI agents with or without engineering support.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://sierra.ai/"
+          ]
+        },
+        "score": 4,
+        "reasons": [
+          "Accurately describes Sierra's core offering (AI agents for customer experiences) and identifies the buyer (businesses), but the one-liner is somewhat verbose and could be more concise; no hallucinated products detected."
+        ],
+        "checksFailed": 1
+      },
+      "b": {
+        "status": "complete",
+        "value": {
+          "One_Liner": "Sierra sells a platform for building and managing multichannel AI agents to businesses.",
+          "reasoning": "The company website describes Sierra as helping businesses build and manage multichannel AI agents.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://sierra.ai/learn-more"
+          ]
+        },
+        "score": 5,
+        "reasons": [
+          "The one-liner accurately describes Sierra's core product (multichannel AI agent platform), identifies the buyer (businesses), and contains no hallucinated products."
+        ],
+        "checksFailed": 1
+      },
+      "winner": "b"
+    }
+  ],
+  "summary": {
+    "a": {
+      "meanScore": 4,
+      "passRate": 1,
+      "coverage": 1,
+      "creditsPerRow": 3
+    },
+    "b": {
+      "meanScore": 5,
+      "passRate": 1,
+      "coverage": 1,
+      "creditsPerRow": 3
+    },
+    "winsA": 0,
+    "winsB": 2,
+    "ties": 0
+  }
+}

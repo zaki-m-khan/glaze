@@ -1,0 +1,1201 @@
+{
+  "version": 1,
+  "id": "20261018T053438Z-one-liner",
+  "suite": "one-liner",
+  "suiteTitle": "Company One-Liner",
+  "suiteFile": "suites/one-liner.yaml",
+  "function": {
+    "name": "Company One-Liner (set version ids with --a / --b)",
+    "routineId": "function:t_0tn2vl7x3aCPHqzMzfA"
+  },
+  "mode": "live",
+  "sample": false,
+  "startedAt": "2026-10-18T05:34:38.704Z",
+  "finishedAt": "2026-10-18T05:43:58.331Z",
+  "spend": {
+    "credits": 54,
+    "actions": 18,
+    "balanceBefore": {
+      "credits": 19575.2,
+      "actions": 372
+    },
+    "balanceAfter": {
+      "credits": 19521.2,
+      "actions": 354
+    }
+  },
+  "judge": {
+    "enabled": true,
+    "model": "claude-haiku-4-5-20251001"
+  },
+  "rows": [
+    {
+      "id": "clay",
+      "label": "Clay",
+      "domain": "clay.com",
+      "inputs": {
+        "Company Domain": "clay.com"
+      },
+      "inputHash": "64b9fda557a7ab2b",
+      "source": "cache",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes Clay's core offering (customer-data platform with data enrichment) and identifies the buyer (teams/sales and research teams), but the one-liner is somewhat complex and could be more concise; no hallucinated products detected."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Clay is a customer-data platform that combines first-party, intent, and third-party enrichment data to help teams research and reach their best-fit customers.",
+          "reasoning": "Clay describes its purpose as helping teams build a strong data foundation to reach best-fit customers, and says it brings first-party, intent, and third-party data together for customer research.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://www.clay.com/about"
+          ]
+        }
+      },
+      "latencyMs": 37692,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38p4bNZEHASa3bzC",
+      "recordedAt": "2026-10-18T05:32:36.484Z"
+    },
+    {
+      "id": "sierra",
+      "label": "Sierra",
+      "domain": "sierra.ai",
+      "inputs": {
+        "Company Domain": "sierra.ai"
+      },
+      "inputHash": "5c91fe971d7adf3c",
+      "source": "cache",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes Sierra's core offering (AI agents for customer experiences) and identifies the buyer (businesses), but the one-liner is somewhat verbose and could be more concise; no hallucinated products detected."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Sierra helps businesses create better, more human customer experiences with AI by enabling them to build powerful AI agents, with or without engineering support.",
+          "reasoning": "Sierra describes its work as helping businesses create better, more human customer experiences with AI and build AI agents with or without engineering support.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://sierra.ai/"
+          ]
+        }
+      },
+      "latencyMs": 21576,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38qct75yeVWf3w3W",
+      "recordedAt": "2026-10-18T05:33:04.246Z"
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "domain": "anthropic.com",
+      "inputs": {
+        "Company Domain": "anthropic.com"
+      },
+      "inputHash": "a2dba789f95ff0ba",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 2,
+          "pass": false,
+          "reason": "The output accurately describes Anthropic's focus but fails to name what the company actually sells (Claude, an AI assistant product) and does not identify the buyer, making it incomplete against the rubric requirements."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Anthropic is an AI safety and research company that builds reliable, interpretable, and steerable AI systems.",
+          "reasoning": "Anthropic’s company page describes it as an AI safety and research company and says it builds reliable, interpretable, and steerable AI systems; those points support the one-sentence description.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://www.anthropic.com/company"
+          ]
+        }
+      },
+      "latencyMs": 52900,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38tqeWjESheuTj2b",
+      "recordedAt": "2026-10-18T05:35:38.106Z"
+    },
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "domain": "openai.com",
+      "inputs": {
+        "Company Domain": "openai.com"
+      },
+      "inputHash": "e716d9a87f46ef5b",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 2,
+          "pass": false,
+          "reason": "The output describes OpenAI's mission and research focus but fails to clearly state what it actually sells (e.g., API access, ChatGPT subscriptions, enterprise services) and does not name any buyer, making it incomplete against the rubric requirements."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "OpenAI is an AI research and deployment company working to ensure that artificial general intelligence benefits all of humanity.",
+          "reasoning": "OpenAI’s official About page describes it as an AI research and deployment company and states its mission is to ensure that artificial general intelligence benefits all of humanity.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://openai.com/about"
+          ]
+        }
+      },
+      "latencyMs": 9751,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38vdFJxCJH5UDXEB",
+      "recordedAt": "2026-10-18T05:35:54.158Z"
+    },
+    {
+      "id": "cursor",
+      "label": "Cursor",
+      "domain": "cursor.com",
+      "inputs": {
+        "Company Domain": "cursor.com"
+      },
+      "inputHash": "2972ca6979407240",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes what Cursor sells (AI-powered coding agent/development environment) in one sentence with no hallucinated products, but fails to name the specific buyer (developers are mentioned generically rather than identified as the buyer)."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Cursor is an AI-powered coding agent and software development environment that helps developers build software.",
+          "reasoning": "The description combines Cursor’s own characterization of its product as a coding agent with the company description identifying it as an AI coding agent and software development environment.",
+          "confidence": "medium",
+          "stepsTaken": [
+            "Visited http://cursor.com/",
+            "Visited http://en.wikipedia.org/wiki/Cursor_%28company%29"
+          ]
+        }
+      },
+      "latencyMs": 20655,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38vtbVFMnhsP9nEt",
+      "recordedAt": "2026-10-18T05:36:21.023Z"
+    },
+    {
+      "id": "vanta",
+      "label": "Vanta",
+      "domain": "vanta.com",
+      "inputs": {
+        "Company Domain": "vanta.com"
+      },
+      "inputHash": "7051b39b2acd3002",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 2,
+          "pass": false,
+          "reason": "The output accurately describes what Vanta sells but fails to name the buyer (organizations/enterprises are implied but not explicitly stated), and the sentence is overly complex rather than concise."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Vanta is an AI-powered trust platform that brings compliance, risk, and proof together in one automated system, helping organizations manage trust work continuously.",
+          "reasoning": "Vanta’s company description identifies it as an AI-powered platform, while its platform overview says it brings compliance, risk, and proof together in an automated system.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://linkedin.com/company/vanta-security",
+            "Visited https://www.vanta.com/resources/what-is-vanta"
+          ]
+        }
+      },
+      "latencyMs": 21538,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38wkVNBMh3gBDrm8",
+      "recordedAt": "2026-10-18T05:36:48.781Z"
+    },
+    {
+      "id": "intercom",
+      "label": "Intercom",
+      "domain": "intercom.com",
+      "inputs": {
+        "Company Domain": "intercom.com"
+      },
+      "inputHash": "ce23fa5eb23a5aad",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes what Intercom sells (AI customer service platform combining Fin AI Agent and Helpdesk) and identifies the buyer (businesses), but the one-liner is somewhat complex and could be more concise; no hallucinated products detected."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Intercom is an AI customer service company that combines its Fin AI Agent with its next-generation Helpdesk to help businesses deliver customer experiences at scale.",
+          "reasoning": "Intercom describes itself as an AI customer service company and says its platform combines Fin with its next-generation Helpdesk.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://linkedin.com/company/intercom"
+          ]
+        }
+      },
+      "latencyMs": 20840,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38xcmPur76yWfywY",
+      "recordedAt": "2026-10-18T05:37:15.842Z"
+    },
+    {
+      "id": "canva",
+      "label": "Canva",
+      "domain": "canva.com",
+      "inputs": {
+        "Company Domain": "canva.com"
+      },
+      "inputHash": "136ce05c27f0806d",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 3,
+          "pass": false,
+          "reason": "Accurately describes what Canva sells (design and publishing tool) but fails to name the buyer and doesn't clearly specify who the customer is."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Canva is an online design and publishing tool with a mission to empower everyone in the world to design anything and publish anywhere.",
+          "reasoning": "The description identifies Canva as an online design and publishing tool and reflects its stated mission to help people design and publish.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://www.canva.com/about"
+          ]
+        }
+      },
+      "latencyMs": 18499,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38y3gae86Pq6yvGP",
+      "recordedAt": "2026-10-18T05:37:40.534Z"
+    },
+    {
+      "id": "figma",
+      "label": "Figma",
+      "domain": "figma.com",
+      "inputs": {
+        "Company Domain": "figma.com"
+      },
+      "inputHash": "42379b05fe97c33d",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes what Figma sells (collaborative design platform for digital products) with high confidence from official source, but fails to explicitly name the buyer (teams/designers) as a distinct element in the one-liner itself."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Figma is a collaborative product-development canvas that helps teams design digital products and move them toward production together.",
+          "reasoning": "Figma describes itself as a collaborative product-development workspace that helps teams move from design toward shipping, supporting this concise description.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited http://figma.com/"
+          ]
+        }
+      },
+      "latencyMs": 18394,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38ys6hTtJUGCU24N",
+      "recordedAt": "2026-10-18T05:38:05.190Z"
+    },
+    {
+      "id": "reddit",
+      "label": "Reddit",
+      "domain": "reddit.com",
+      "inputs": {
+        "Company Domain": "reddit.com"
+      },
+      "inputHash": "6244fc07f0c07628",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 2,
+          "pass": false,
+          "reason": "The output accurately describes Reddit's platform nature but fails to name the buyer/customer and doesn't clearly state what Reddit sells (advertising services, data access, premium subscriptions)."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Reddit is a platform where millions of people gather in more than 100,000 subreddit communities for conversations about things they care about.",
+          "reasoning": "The description reflects Reddit’s stated role as a place where millions gather for conversations, and its scale of more than 100,000 subreddit communities.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited http://reddit.com/"
+          ]
+        }
+      },
+      "latencyMs": 20524,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38zgwHZPijrsYhCC",
+      "recordedAt": "2026-10-18T05:38:31.918Z"
+    },
+    {
+      "id": "airbnb",
+      "label": "Airbnb",
+      "domain": "airbnb.com",
+      "inputs": {
+        "Company Domain": "airbnb.com"
+      },
+      "inputHash": "88974c048eff1c63",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 3,
+          "pass": false,
+          "reason": "Accurately describes what Airbnb sells but fails to name the specific buyer (should identify 'hosts' or 'property owners' as the other party in the marketplace transaction)."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Airbnb is a global marketplace connecting guests with stays, experiences, and services.",
+          "reasoning": "Airbnb describes its business as a global marketplace connecting guests with stays, experiences, and services.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited http://sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm"
+          ]
+        }
+      },
+      "latencyMs": 21720,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn3907kr9uFk2hkKku",
+      "recordedAt": "2026-10-18T05:39:00.093Z"
+    },
+    {
+      "id": "affirm",
+      "label": "Affirm",
+      "domain": "affirm.com",
+      "inputs": {
+        "Company Domain": "affirm.com"
+      },
+      "inputHash": "5fddc85f794407cd",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes Affirm's BNPL services and identifies both consumers and businesses as buyers, though the output could be more concise and the 'reasoning' field suggests medium confidence rather than high certainty."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Affirm is a financial technology company that provides buy now, pay later (BNPL) services to consumers and businesses.",
+          "reasoning": "The cited profile describes Affirm as a financial technology company and identifies its buy now, pay later services for consumers and businesses.",
+          "confidence": "medium",
+          "stepsTaken": [
+            "Visited https://linkedin.com/company/affirm"
+          ]
+        }
+      },
+      "latencyMs": 16199,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn390z55X2T9QCjjZD",
+      "recordedAt": "2026-10-18T05:39:22.500Z"
+    },
+    {
+      "id": "bill",
+      "label": "BILL",
+      "domain": "bill.com",
+      "inputs": {
+        "Company Domain": "bill.com"
+      },
+      "inputHash": "215ca52f808730bd",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes what BILL sells (financial operations platform for payables, receivables, spend/expense management) in one sentence and identifies the buyer (small and midsize businesses), but does not explicitly name a specific buyer type or use case that would fully satisfy the rubric's requirement to 'name the buyer.'"
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "BILL is a financial operations platform that helps small and midsize businesses manage payables, receivables, and spend and expenses.",
+          "reasoning": "BILL describes itself as a financial operations platform for small and midsize businesses and identifies payables, receivables, and spend and expense management as key functions of its platform.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://www.sec.gov/Archives/edgar/data/1786352/000178635225000037/bill-20250630.htm"
+          ]
+        }
+      },
+      "latencyMs": 19403,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn391mQhHYZoMzCeU2",
+      "recordedAt": "2026-10-18T05:39:48.113Z"
+    },
+    {
+      "id": "lucid",
+      "label": "Lucid",
+      "domain": "lucid.co",
+      "inputs": {
+        "Company Domain": "lucid.co"
+      },
+      "inputHash": "f335e09c4e0c851a",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes Lucid's core offering (visual collaboration platform) in one sentence, but fails to name the specific buyer (teams/enterprises) with sufficient clarity and doesn't explicitly confirm no hallucinated products, though the description appears accurate."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Lucid is a visual collaboration and work acceleration platform that helps teams turn ideas into reality.",
+          "reasoning": "Lucid is described as a visual collaboration and work acceleration platform that helps teams turn ideas into reality.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://lucid.co/platform"
+          ]
+        }
+      },
+      "latencyMs": 20589,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn392bRyj6kgNjQStA",
+      "recordedAt": "2026-10-18T05:40:14.918Z"
+    },
+    {
+      "id": "sigma",
+      "label": "Sigma Computing",
+      "domain": "sigmacomputing.com",
+      "inputs": {
+        "Company Domain": "sigmacomputing.com"
+      },
+      "inputHash": "916c0c660ac5e1ee",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 2,
+          "pass": false,
+          "reason": "The output describes what Sigma Computing sells (platform for AI apps, dashboards, agents on warehouse data) but fails to name the buyer and includes 'AI apps' and 'agents' which appear to be hallucinated or overstated features not clearly supported by standard descriptions of Sigma Computing as a BI/analytics platform."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Sigma Computing is a platform for building AI apps, dashboards, and agents on governed warehouse data.",
+          "reasoning": "Sigma’s company description presents it as a platform for building AI applications, dashboards, and agents on governed warehouse data.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited http://sigmacomputing.com/"
+          ]
+        }
+      },
+      "latencyMs": 19483,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn3932mdsdsbdfrMwS",
+      "recordedAt": "2026-10-18T05:40:40.625Z"
+    },
+    {
+      "id": "hubspot",
+      "label": "HubSpot",
+      "domain": "hubspot.com",
+      "inputs": {
+        "Company Domain": "hubspot.com"
+      },
+      "inputHash": "9a108a6e53ac26b6",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes HubSpot's core offerings (marketing, sales, customer service software) in one sentence, but does not name the specific buyer/customer type (e.g., 'small to mid-market businesses' or 'enterprises'), which is a minor omission from the rubric requirements."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "HubSpot is an AI-powered customer platform that connects marketing, sales, and customer service software to help businesses grow.",
+          "reasoning": "The company homepage describes HubSpot as an AI-powered customer platform connecting marketing, sales, and customer service, and says its connected platform helps businesses grow.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited http://hubspot.com/"
+          ]
+        }
+      },
+      "latencyMs": 21153,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn393tXztzj2TBuXwo",
+      "recordedAt": "2026-10-18T05:41:08.805Z"
+    },
+    {
+      "id": "nvidia",
+      "label": "NVIDIA",
+      "domain": "nvidia.com",
+      "inputs": {
+        "Company Domain": "nvidia.com"
+      },
+      "inputHash": "f9d08cce109ac824",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes NVIDIA's products (chips, systems, software for AI), but fails to name the buyer/customer as required by the rubric."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "NVIDIA builds advanced chips, systems, and software that power AI factories.",
+          "reasoning": "The company’s official description identifies its core work as engineering advanced chips, systems, and software for AI factories.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited http://nvidia.com/en-us/about-nvidia"
+          ]
+        }
+      },
+      "latencyMs": 13376,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn394kmT5AYWvFQNPF",
+      "recordedAt": "2026-10-18T05:41:28.364Z"
+    },
+    {
+      "id": "reforge",
+      "label": "Reforge",
+      "domain": "reforge.com",
+      "inputs": {
+        "Company Domain": "reforge.com"
+      },
+      "inputHash": "28fa8e5931f008cb",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 2,
+          "pass": false,
+          "reason": "The output describes Reforge's value proposition but fails to clearly state what it actually sells (online courses/educational programs), does not name the buyer (product managers, product teams, etc.), and uses vague language ('guidance in practical formats') that obscures the actual product."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Reforge gives product teams a single source of guidance from experienced operators in practical formats they can use and apply.",
+          "reasoning": "Reforge describes its offering as a single source of guidance from experienced operators, delivered in formats teams can use and apply.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://www.reforge.com/"
+          ]
+        }
+      },
+      "latencyMs": 64490,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn3954EzeAe4G39KGd",
+      "recordedAt": "2026-10-18T05:42:39.066Z"
+    },
+    {
+      "id": "gonimbly",
+      "label": "Go Nimbly",
+      "domain": "gonimbly.com",
+      "inputs": {
+        "Company Domain": "gonimbly.com"
+      },
+      "inputHash": "e7674de146ba4632",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes what Go Nimbly sells (RevOps consultancy services) in one sentence and correctly identifies the buyer (mid-market and enterprise SaaS companies) with no hallucinated products, though it could be more concise about the specific services offered."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Go Nimbly is a Revenue Operations (RevOps) consultancy that helps mid-market and enterprise SaaS companies solve obstacles to growth and revenue goals.",
+          "reasoning": "The company description identifies Go Nimbly as a Revenue Operations consultancy and says it helps mid-market and enterprise SaaS companies address challenges to growth and revenue goals.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://linkedin.com/company/go-nimbly"
+          ]
+        }
+      },
+      "latencyMs": 24876,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn3972Dsp9w58GKk6Z",
+      "recordedAt": "2026-10-18T05:43:10.149Z"
+    },
+    {
+      "id": "xai",
+      "label": "xAI",
+      "domain": "x.ai",
+      "inputs": {
+        "Company Domain": "x.ai"
+      },
+      "inputHash": "dcc30d663e1f1ee5",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 2,
+          "pass": false,
+          "reason": "The output describes xAI's mission but fails to clearly state what it sells, does not name a specific buyer, and lacks concrete product information needed to verify against hallucination."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "xAI is a U.S.-based company building artificial intelligence tools to accelerate human scientific discovery.",
+          "reasoning": "The company’s FAQ describes xAI as a U.S.-based company building artificial intelligence tools to accelerate human scientific discovery.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited http://x.ai/legal/faq"
+          ]
+        }
+      },
+      "latencyMs": 19405,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn397xmdewRnAs7rGH",
+      "recordedAt": "2026-10-18T05:43:35.759Z"
+    }
+  ],
+  "metrics": {
+    "rows": 20,
+    "completed": 20,
+    "failed": 0,
+    "missing": 0,
+    "coverage": 1,
+    "failureRate": 0,
+    "checksEvaluated": 60,
+    "checksPassed": 40,
+    "assertionPassRate": 0.6666666666666666,
+    "rowPassRate": 0,
+    "latencyP50Ms": 20622,
+    "latencyP95Ms": 53479.50000000001,
+    "creditsPerRow": 3,
+    "actionsPerRow": 1,
+    "judge": {
+      "scored": 20,
+      "meanScore": 3.2,
+      "passRate": 0.55
+    },
+    "accuracy": {
+      "label": "assertion pass rate",
+      "value": 0.6666666666666666
+    },
+    "status": "amber"
+  }
+}

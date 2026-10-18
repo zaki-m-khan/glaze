@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "id": "20261018T053152Z-one-liner",
+  "suite": "one-liner",
+  "suiteTitle": "Company One-Liner",
+  "suiteFile": "suites/one-liner.yaml",
+  "function": {
+    "name": "Company One-Liner (set version ids with --a / --b)",
+    "routineId": "function:t_0tn2vl7x3aCPHqzMzfA"
+  },
+  "mode": "live",
+  "sample": false,
+  "startedAt": "2026-10-18T05:31:52.470Z",
+  "finishedAt": "2026-10-18T05:33:06.912Z",
+  "spend": {
+    "credits": 6,
+    "actions": 2,
+    "balanceBefore": {
+      "credits": 19587.2,
+      "actions": 376
+    },
+    "balanceAfter": {
+      "credits": 19581.2,
+      "actions": 374
+    }
+  },
+  "judge": {
+    "enabled": true,
+    "model": "claude-haiku-4-5-20251001"
+  },
+  "rows": [
+    {
+      "id": "clay",
+      "label": "Clay",
+      "domain": "clay.com",
+      "inputs": {
+        "Company Domain": "clay.com"
+      },
+      "inputHash": "64b9fda557a7ab2b",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes Clay's core offering (customer-data platform with data enrichment) and identifies the buyer (teams/sales and research teams), but the one-liner is somewhat complex and could be more concise; no hallucinated products detected."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Clay is a customer-data platform that combines first-party, intent, and third-party enrichment data to help teams research and reach their best-fit customers.",
+          "reasoning": "Clay describes its purpose as helping teams build a strong data foundation to reach best-fit customers, and says it brings first-party, intent, and third-party data together for customer research.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://www.clay.com/about"
+          ]
+        }
+      },
+      "latencyMs": 37692,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38p4bNZEHASa3bzC",
+      "recordedAt": "2026-10-18T05:32:36.484Z"
+    },
+    {
+      "id": "sierra",
+      "label": "Sierra",
+      "domain": "sierra.ai",
+      "inputs": {
+        "Company Domain": "sierra.ai"
+      },
+      "inputHash": "5c91fe971d7adf3c",
+      "source": "live",
+      "checks": [
+        {
+          "check": "required(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": true,
+          "message": "present"
+        },
+        {
+          "check": "type(One Liner)",
+          "field": "One Liner",
+          "severity": "error",
+          "pass": false,
+          "message": "expected string, got object"
+        },
+        {
+          "check": "one sentence",
+          "field": "One Liner",
+          "severity": "warn",
+          "pass": true,
+          "message": "matches"
+        }
+      ],
+      "judge": [
+        {
+          "field": "One Liner",
+          "score": 4,
+          "pass": true,
+          "reason": "Accurately describes Sierra's core offering (AI agents for customer experiences) and identifies the buyer (businesses), but the one-liner is somewhat verbose and could be more concise; no hallucinated products detected."
+        }
+      ],
+      "status": "complete",
+      "result": {
+        "One Liner": {
+          "One_Liner": "Sierra helps businesses create better, more human customer experiences with AI by enabling them to build powerful AI agents, with or without engineering support.",
+          "reasoning": "Sierra describes its work as helping businesses create better, more human customer experiences with AI and build AI agents with or without engineering support.",
+          "confidence": "high",
+          "stepsTaken": [
+            "Visited https://sierra.ai/"
+          ]
+        }
+      },
+      "latencyMs": 21576,
+      "credits": 3,
+      "actions": 1,
+      "clayRunId": "run_0tn38qct75yeVWf3w3W",
+      "recordedAt": "2026-10-18T05:33:04.246Z"
+    }
+  ],
+  "metrics": {
+    "rows": 2,
+    "completed": 2,
+    "failed": 0,
+    "missing": 0,
+    "coverage": 1,
+    "failureRate": 0,
+    "checksEvaluated": 6,
+    "checksPassed": 4,
+    "assertionPassRate": 0.6666666666666666,
+    "rowPassRate": 0,
+    "latencyP50Ms": 29634,
+    "latencyP95Ms": 36886.2,
+    "creditsPerRow": 3,
+    "actionsPerRow": 1,
+    "judge": {
+      "scored": 2,
+      "meanScore": 4,
+      "passRate": 1
+    },
+    "accuracy": {
+      "label": "assertion pass rate",
+      "value": 0.6666666666666666
+    },
+    "status": "amber"
+  }
+}

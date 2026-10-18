@@ -32,6 +32,26 @@ What the runs show:
 - **Traffic:** ordering agrees strongly with Tranco. The biggest disagreement is anthropic.com, #11 by Clay's traffic and #6 by Tranco among these 19.
 - **Funding:** clay.com and vanta.com return `"0"`. The three most expensive rows (intercom 22 credits, bill.com 26, hubspot 26) return `0.25`, `2.1` and `5`, numbers that lost their unit. The baseline suite misses those; [the demo PR](https://github.com/zaki-m-khan/glaze/pull/1) adds a check, and the bot flags them.
 
+### Prompt A/B with the LLM judge (live, Oct 18 2026)
+
+Two versions of a custom Claygent function (web research, Clay's Argon model) wrote a one-sentence description of each of the 20 companies. The only difference was the prompt. A said "Write a one-sentence description of the company at {domain}." B said "Visit {domain}. In exactly one sentence, state what the company sells and who buys it, 'X sells Y to Z.' Use only facts from the company's own website."
+
+Claude Haiku 4.5 judged every answer against the rubric *"Accurately states what the company sells in one sentence; names the buyer; no hallucinated products"*, scoring 1–5 with a pass at 4 or higher.
+
+| | A (plain) | B (specific) |
+|---|---|---|
+| Judge mean | 3.20 | **4.10** |
+| Pass rate | 55% | **80%** |
+| Head-to-head | 2 wins | **14 wins** (4 ties) |
+| Credits / row | 3 | 3 |
+
+- **What A got wrong:** A mostly returned mission statements. For OpenAI it returned "…working to ensure that artificial general intelligence benefits all of humanity" (score 2), where B said "OpenAI sells AI tools to individuals, businesses, and educational institutions" (score 4).
+- **Judge audit:** I checked the judge's verdicts by hand, and it was wrong on at least one answer. It scored B's Lucid answer 2 for "conflating Lucid with airfocus," but [Lucid acquired airfocus in April 2025](https://www.spectrumequity.com/news/lucid-software-acquires-airfocus-to-deepen-support-for-product-teams-with-enhanced-product-management-and-roadmapping-capabilities/). The Claygent read the live site, while the judge relied on what it already knew.
+- **Ambiguous rubric:** Affirm (merchants vs. consumers as "the buyer") showed the rubric doesn't define who the buyer is.
+- **What the judge could see:** Clay returns the whole Claygent object (answer, reasoning, confidence, pages visited), and the judge saw all of it. One of its reasons cites the reasoning field.
+
+The lesson: an LLM judge is a signal, not ground truth. The next steps are to judge only the answer, give the judge the same evidence the agent used, and calibrate it against hand labels before it gates a merge. Results are in [`data/compare/`](data/compare) and on the [compare page](https://glaze-xi.vercel.app/compare/).
+
 Building the benchmark cost **210 data credits and 68 actions** (budgets: 250 and 150), measured from balance deltas that match Clay's balance exactly. Every number above comes from [`data/runs/`](data/runs) and [`data/truth/`](data/truth).
 
 ## Quickstart
@@ -122,7 +142,8 @@ flowchart LR
 - Tech truth sees one homepage, once, as a US visitor who hasn't answered a cookie banner. Tags on other pages, subdomains or behind consent are invisible, so precision is a lower bound, and recall covers only the 20 detectable technologies.
 - Tranco ranks popularity, not visits, so only ordering is compared. gonimbly.com isn't in the top 1M.
 - Balance-delta metering assumes nothing else in the workspace spends during a run.
-- The LLM judge and the live compare demo weren't run: no Anthropic key or second function version was configured. Both are implemented and unit-tested with fixtures.
+- The judge was run live once: 40 answers in the Oct 18 A/B. It isn't calibrated against human labels yet, it sees the whole Claygent object rather than only the answer, and it relies on what it already knows rather than the evidence the agent used. The audit above found at least one wrong verdict.
+- The A/B cost 120 data credits and 40 actions in total, 3 credits and 1 action per answer. The 2-company smoke test's rows were replayed in the full run, not paid for twice.
 - Provider data drifts. A live re-run can differ from the baseline without anything being broken, which is why CI replays instead.
 
 ## Development
