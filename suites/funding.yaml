@@ -16,6 +16,8 @@ checks:
   - { type: custom, fn: no-placeholder, field: Latest Funding, name: not a placeholder }
   - { type: range, parse: money, field: Latest Funding, min: 0, exclusiveMin: true, name: positive money amount }
   - { type: range, parse: money, field: Latest Funding, max: 50000000000, name: under $50B per round }
+  # A latest round under $10K is not a venture round; a value like "2.1" has lost its unit.
+  - { type: range, parse: money, field: Latest Funding, min: 10000, name: plausible round size (at least $10K) }
 judge:
   - field: Latest Funding
     rubric: >
